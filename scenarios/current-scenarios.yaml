@@ -1,0 +1,12 @@
+as_of: 2026-07-24
+initialized_fresh: true
+base:
+  band: "50-65%"
+  name: energy-shock-squeeze-without-recession
+upside:
+  band: "10-20%"
+  name: de-escalation-relief
+downside:
+  band: "20-30%"
+  name: stagflationary-policy-shock
+# Full narratives/signals in briefs/2026/07/2026-07-24-morning-brief.md section 11

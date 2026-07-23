@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-07-24T07:25:00+08:00",
+  "initialized_fresh": true,
+  "note": "Degraded no-history run; states initialized from 2026-07-23 session evidence, not carried from prior state.",
+  "growth": "resilient (US claims 187k vs ~210k cons.)",
+  "inflation": "energy-led upside risk re-accelerating; cores still contained (EZ core 2.4%, MY 1.9%)",
+  "liquidity": "tightening bias returning",
+  "monetary_policy": "hawkish repricing: Fed 2026 hike ~71% (Polymarket via Yahoo), ECB Sept option, BOJ faster-hike reports",
+  "fiscal_impulse": "insufficient data this run",
+  "risk_appetite": "deteriorating (VIX >19, +15% d/d)",
+  "credit": "insufficient data this run",
+  "overall": "risk-off / stagflationary-stress characteristics",
+  "confidence": "medium",
+  "evidence": "S&P -1.0%, Nasdaq -1.9%, Brent ~97-100, UST10Y ~4.70% (high since Jan 2025), gold -1.9%, USDJPY ~163"
+}
