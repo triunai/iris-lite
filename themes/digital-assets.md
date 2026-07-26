@@ -1,11 +1,11 @@
 ---
 theme: digital-assets
-status: dormant
-confidence: low
+status: stable
+confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: dormant
+status_change_reason: "First full dataset: BTC ~$64.3k trading as rates/liquidity proxy"
 sensitive_assets: ["BTC", "ETH", "spot BTC/ETH ETFs"]
 sensitive_sectors: ["crypto-exposed equities (miners, exchanges)"]
 next_catalysts: ["any material regulatory development", "notable spot ETF flow data", "a large risk-appetite move worth cross-checking against BTC/ETH as a liquidity proxy"]
@@ -29,3 +29,7 @@ None logged yet.
 ## Sources
 
 Methodology only — see OPERATING-INSTRUCTIONS.md §7.5.
+
+## Observation 2026-07-27
+
+BTC ~$64,304 (09:13 ET Fri snapshot, Yahoo), -1.6% d/d, +2% w/w; ETH ~$1,861. US spot BTC ETFs: -$225m Thu, -$240m Fri (IBIT -$212m), week still net +$33.8m; ETH ETFs +$103m week (Farside via Crypto Times). Behaviour: held up early in the risk-off week, rolled over when yields spiked — rates-proxy, not haven. One source (FXLeaders) citing BTC >$150k judged irreconcilable/unreliable and discarded.

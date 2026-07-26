@@ -3,7 +3,7 @@ theme: europe
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["STOXX 600", "DAX", "EURUSD", "Bund 10Y"]
@@ -29,3 +29,7 @@ Wednesday's STOXX 600 close (647.07) was a two-week high before the Thursday rev
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §3, §8.
+
+## Observation 2026-07-27
+
+Europe rallied INTO the energy shock: STOXX 600 644.67 +0.6%, DAX 25,099 +1.36% (SAP +10% on cloud/AI beat), FTSE 10,736 +0.91%. EZ composite PMI 51.9 (beat), UK 52.1, UK retail +1.0% m/m. Bund 3.20% Thu = 15-yr high with ~2 ECB hikes priced. Market treating it as reflation, not stagflation — the gas-inventory winter question remains the tail.

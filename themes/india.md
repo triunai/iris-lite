@@ -1,11 +1,11 @@
 ---
 theme: india
-status: stable
-confidence: low
+status: cooling
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: stable
+status_change_reason: "Fifth straight equity decline, INR near record lows, 10% US tariff (with large exemptions)"
 sensitive_assets: ["Nifty 50", "Sensex", "USDINR", "India 10Y G-Sec"]
 sensitive_sectors: ["Indian IT services", "Indian financials", "energy importers (India is a large net oil importer)"]
 next_catalysts: ["RBI policy commentary", "India CPI/growth data", "any India-China border development"]
@@ -29,3 +29,7 @@ None logged yet — needs a cleaner Tier 1/2 source next run given the sourcing 
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §3 (Asia).
+
+## Observation 2026-07-27
+
+Sensex 76,059.77 -0.43% Fri, fifth consecutive decline; Nifty 23,767.45; intraday lows deeper (HDFC Sky). INR ~96.4-96.6/USD near record lows (TE, snapshots conflict); 10Y G-Sec ~6.82%. US 10% tariff effective, but exemptions (generic pharma, smartphones, steel/aluminium, auto parts) shelter ~45% of India's US exports; commerce ministry continuing BTA engagement (Reuters 25 Jul). Oil near $100 is India's classic macro headwind (import bill, CAD, INR) — Analyst inference. Counterevidence: IT +0.8%, media +1.8% Fri.

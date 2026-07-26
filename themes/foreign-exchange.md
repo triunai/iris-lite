@@ -3,7 +3,7 @@ theme: foreign-exchange
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
@@ -29,3 +29,7 @@ A classic risk-off session would typically see broad dollar strength; that did n
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §3, §4.
+
+## Observation 2026-07-27
+
+USDJPY ~163.8 (40-yr yen lows); FinMin Katayama verbal intervention only ('will respond appropriately at any time'); record actual interventions occurred Apr-May 2026 after 160 broke; HSBC expects renewed intervention soon (Reuters/KFGO). INR near record lows ~96.4-96.6. MYR the regional exception: 4.0885/0935, firmer on the week; seen 4.08-4.10 (Bernama). DXY flat ~101.5 — dollar calm, stress idiosyncratic.

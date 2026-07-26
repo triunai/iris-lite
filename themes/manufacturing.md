@@ -1,11 +1,11 @@
 ---
 theme: manufacturing
-status: dormant
-confidence: low
+status: stable
+confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: dormant
+status_change_reason: "First real dataset: global flash mfg PMIs expansionary"
 sensitive_assets: ["industrial equities", "copper"]
 sensitive_sectors: ["industrials", "materials"]
 next_catalysts: ["Eurozone flash PMIs (24 Jul, 16:00 MYT)", "US flash PMIs (24 Jul, 21:45 MYT)"]
@@ -29,3 +29,7 @@ None logged yet.
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §12 (Watchpoints).
+
+## Observation 2026-07-27
+
+US flash mfg 53.8, EZ 52.0 (surprise beat), UK 53.6 (22-mo high, one source 52.8), Germany output 54.7 (53-month high) — all 24 Jul flash prints. Manufacturing is expanding INTO the oil shock; supplier-delivery/price sub-indices not sourced this run (gap).

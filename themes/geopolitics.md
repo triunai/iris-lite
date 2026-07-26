@@ -1,11 +1,11 @@
 ---
 theme: geopolitics
-status: heating
-confidence: high
+status: mixed
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: heating
+status_change_reason: "First two-sided evidence: US-Iran mutual strike pause + Oman talks (de-escalating) vs Jizan refinery ablaze (escalating)"
 sensitive_assets: ["Brent/WTI", "gold", "defense equities", "shipping/freight"]
 sensitive_sectors: ["energy", "defense/aerospace", "shipping/logistics"]
 next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "Russia-Ukraine ceasefire/escalation news", "Taiwan Strait developments", "India-China or India-Pakistan border news"]
@@ -29,3 +29,7 @@ No confirmed Hormuz closure — OVX (oil vol) elevated (~65) but VIX stayed belo
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §5, §6.
+
+## Observation 2026-07-27
+
+Weekend 25-26 Jul: US paused strikes on Iran two straight days, Iran matched, Oman-mediated talks 'made progress' (Confirmed fact — AP via NPR 26 Jul). Counterpoint: Houthi attack set Jizan Aramco refinery (400k b/d) ablaze, Yanbu targeted (TechTimes/Reuters-sourced 25 Jul); Saudi coalition struck back then declared response 'over' (ToI). US Navy enforcing Iran blockade (2 tankers disabled). Russia-Ukraine: grinding attrition, mutual energy-infrastructure strikes, no negotiation progress (ISW/Kyiv Post, Kyiv Independent). US-China: Rubio-Wang met 22 Jul, stable-tense (AEI). India-China, India-Pakistan: no material development found. Next: does the pause survive the week; Netanyahu-Trump meeting Tue 28 Jul.

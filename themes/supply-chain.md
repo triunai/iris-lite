@@ -3,7 +3,7 @@ theme: supply-chain
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
@@ -29,3 +29,7 @@ No freight-rate or confirmed-rerouting data yet to validate the shipping-disrupt
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §5.
+
+## Observation 2026-07-27
+
+Jizan refinery (400k b/d) ablaze, Yanbu (handled ~92% of Saudi seaborne crude exports in June) targeted 25 Jul; Saudi Red Sea crude exports -41% since March peak (OilPrice); Hormuz transits ~3/day, Bab el-Mandeb 32/day (23 Jul). Freight rates/rerouting data still unsourced — recurring gap. De-escalation branch (US-Iran talks) would unwind the risk-premium link first (inference). Secondary thread: Ukraine strikes on Russian energy/logistics; Russia's biggest Black Sea oil port reported quiet.

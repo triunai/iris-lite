@@ -3,7 +3,7 @@ theme: labour
 status: stable
 confidence: low
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y", "USD"]

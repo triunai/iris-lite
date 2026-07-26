@@ -1,1 +1,5 @@
 reference_date,publication_date,market,trader_category,net_position,weekly_change,historical_percentile,source,notes
+2026-07-21,2026-07-24,Gold (COMEX),managed money,"net long ~124,831 (141,487 L / 16,656 S)",unavailable,unavailable,IndexBox COT summary of CFTC report,crowded long into a falling-price Friday
+2026-07-21,2026-07-24,Silver (COMEX),managed money,"net long ~11,282 (18,204 L / 6,922 S)",unavailable,unavailable,IndexBox COT summary,
+2026-07-21,2026-07-24,Copper (COMEX),managed money,"net long ~71,515 (88,235 L / 16,720 S)",unavailable,unavailable,IndexBox COT summary,growth/China conviction long
+2026-07-21,2026-07-24,WTI crude,producers/merchants,"net long ~58,888 (403,188 L / 344,300 S)",unavailable,unavailable,IndexBox COT summary,"managed money reported net short, size not stated - oil rally not spec-driven per this source"

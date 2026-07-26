@@ -3,7 +3,7 @@ theme: earnings
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
@@ -29,3 +29,7 @@ Super Micro Computer +19.8% and Kospi +~3% (semis-led) on the same day — a cle
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §3, §6.
+
+## Observation 2026-07-27
+
+SAP +10% (cloud backlog/AI demand beat) is the first major counterexample to the AI-capex-fear narrative; Asia semis (Samsung -7.6%, SK Hynix -8.3%, TSMC -2.3%, Tokyo Electron) took the brunt of it instead. Verdict week: MSFT/META Wed, AAPL/AMZN Thu (cons: MSFT EPS ~$4.21-4.24; META ~$7.13-7.23; AAPL $1.88; AMZN ~$1.81), XOM/CVX Fri, BA/KO Tue. ~1/3 of S&P 500 reports.

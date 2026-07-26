@@ -1,1 +1,33 @@
-{"mode":"degraded-no-history","reason":"REPO_URL not configured; no prior state available","run_started_myt":"2026-07-24T07:10:06+08:00"}
+{
+  "runs": [
+    {
+      "date": "2026-07-24",
+      "mode": "degraded-no-history",
+      "reason": "REPO_URL not configured; no prior state available",
+      "run_started_myt": "2026-07-24T07:10:06+08:00"
+    },
+    {
+      "date": "2026-07-27",
+      "mode": "normal",
+      "reason": null,
+      "run_started_myt": "2026-07-27T07:10:51+08:00",
+      "unavailable_this_run": [
+        "UST 30Y Friday close",
+        "Bund 10Y and Gilt 10Y Friday closes (Bund 3.20% Thu is last verified)",
+        "institutional-grade EURUSD/GBPUSD closes (only low-tier source)",
+        "USDKRW",
+        "USDCNH (onshore CNY used)",
+        "Tier-1 MGS 10Y print (Investing.com 3.600% caveated)",
+        "Reuters/Bloomberg-grade commodity settlements (paywalled)",
+        "gold Friday settlement (internally conflicting sources)",
+        "early-Monday Asia oil/BTC quotes",
+        "CFTC S&P 500 e-mini / 10Y Treasury / JPY legs",
+        "3m/6m regional sector relative-performance dataset (strategic rotation map, 2nd consecutive run)",
+        "freight rates / rerouting data (supply-chain, 2nd consecutive run)",
+        "PMI price sub-indices",
+        "JOLTS date for this week (BLS schedule page fetch failed)"
+      ],
+      "notes": "CNBC/US News/Bloomberg fetches blocked or paywalled; FXLeaders BTC >$150k figure judged irreconcilable with multi-source $64k series and discarded; TipRanks weekly-vs-daily mislabel detected and corrected against AP."
+    }
+  ]
+}

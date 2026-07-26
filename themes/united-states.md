@@ -3,7 +3,7 @@ theme: united-states
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["S&P 500", "Nasdaq 100", "UST 2Y/10Y", "DXY"]
@@ -29,3 +29,7 @@ Defensive/idiosyncratic strength persisted alongside the selloff — Lockheed Ma
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §3, §8.
+
+## Observation 2026-07-27
+
+Tape stabilized ex-AI-complex: S&P +0.05%, Dow +0.46%, Nasdaq -0.64% Fri; week S&P -0.6%, Nasdaq -2.1%. Services PMI 53.6 beat, new home sales beat, claims 187k — economy not asking for help. Tariffs now implemented. The FOMC + GDP + PCE + ECI + megacap-earnings week decides whether 'resilient growth + energy shock' resolves hawkish or benign.

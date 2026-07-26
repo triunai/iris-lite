@@ -1,1 +1,5 @@
 date,asset,metric,value,unit,venue_source,notes
+2026-07-24,BTC,"spot price (09:13 ET snapshot, not close)",64304.50,USD,Yahoo Finance,"-1.6% d/d, +2% w/w; Fri close unavailable from a sufficiently reliable source"
+2026-07-24,ETH,spot price (09:14 ET snapshot),1860.78,USD,Yahoo Finance,"-2.9% d/d, +0.7% w/w"
+2026-07-24,BTC,"US spot ETF net flow, week ended 24 Jul",+33.79,USD millions,Farside via The Crypto Times,despite -225.1M Thu and -240.08M Fri (IBIT -212.2M Fri); 7-day inflow streak broken Thu
+2026-07-24,ETH,"US spot ETF net flow, week ended 24 Jul",+103,USD millions,Farside via The Crypto Times,Fri -70.7M

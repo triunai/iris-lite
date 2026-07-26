@@ -1,11 +1,11 @@
 ---
 theme: trade-policy
-status: dormant
-confidence: low
+status: heating
+confidence: high
 first_opened: 2026-07-26
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: dormant
+status_change_reason: "US tariffs implemented 24-25 Jul: 10%/12.5% on ~60 partners covering ~99% of US imports"
 sensitive_assets: ["sector-specific equities of directly targeted industries", "affected countries' FX"]
 sensitive_sectors: ["varies by action — historically autos, steel/aluminum, semiconductors, agriculture"]
 next_catalysts: ["any new tariff threat, deadline, exemption, or enforcement action from the US or another major economy"]
@@ -29,3 +29,7 @@ None logged yet.
 ## Sources
 
 Methodology only — see OPERATING-INSTRUCTIONS.md §7.4.
+
+## Observation 2026-07-27
+
+Section 301 'forced-labor' tariffs took effect Fri: 10% on 17 economies (incl. Malaysia, India, UK, Canada, Mexico) + EU + Taiwan; 12.5% on 41 others; China at 12.5% with stated intent to rebuild toward 20% (Reuters via Mining Weekly, ABC News). Follows SCOTUS striking down prior measures. TACO-pattern note: this is an IMPLEMENTATION, not a threat — the walk-back stage has NOT occurred; do not assume it will. EU gave a 'guarded welcome'. Watch: retaliation; USTR excess-capacity determination (16 economies incl. Malaysia). Malaysia's 10% band tied to ART forced-labor commitments, 2-year legislative window (Malay Mail 25 Jul).

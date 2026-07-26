@@ -3,7 +3,7 @@ theme: commodities
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]
@@ -29,3 +29,7 @@ Gold falling during a geopolitical escalation is itself a contradiction of the s
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §4, §5.
+
+## Observation 2026-07-27
+
+Brent settled ~$97.39 Fri (-3.3%; +~9-12% w/w, 3rd weekly gain; snapshots $96.78-98.38 — conflict flagged) after Thursday's >$100 close; WTI ~$89.78. Gold conflicting: spot $4,047.91 -2.1% (GoldPrice.org) vs 'futures little changed' wraps (ADM, Yahoo) — unresolved. LME copper $13,615 +0.2%; iron ore $98.42; Henry Hub ~$2.88; CPO Oct RM4,723, 15-week high, +2.7% w/w (Reuters via Business Recorder). COT (ref 21 Jul): managed money long gold/copper, net SHORT WTI per IndexBox — rally not spec-driven if accurate. OPEC+ meets Sun 2 Aug.

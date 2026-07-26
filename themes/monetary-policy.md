@@ -1,9 +1,9 @@
 ---
 theme: monetary-policy
 status: heating
-confidence: medium-high
+confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y", "DXY", "gold", "EURUSD", "USDJPY"]
@@ -29,3 +29,7 @@ No new core-inflation print has yet validated a hike anywhere — the hawkish re
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §6, §8.
+
+## Observation 2026-07-27
+
+The resolution week: FOMC 28-29 Jul (hold 3.50-3.75% base case; ~30-35% hike odds, up from ~13% a week earlier — TradingKey/IG/Newsquawk; Chair Warsh; dissent count is the signal), BoE 30 Jul (hold 3.75%, Nov+Dec hikes priced), BOJ 30-31 Jul (hold 1.00% ~96%; Outlook Report; next hike seen Oct-Dec per Barclays/BofA/Daiwa). Japan June core CPI 1.6% in line — no forcing print. ~2 further ECB hikes priced by end-2026 (TE, via Bund 3.20% = 15-yr high).

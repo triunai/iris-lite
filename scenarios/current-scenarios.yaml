@@ -1,4 +1,4 @@
-as_of: 2026-07-24
+as_of: 2026-07-27
 last_reviewed: 2026-07-26
 initialized_fresh: true
 note: >
@@ -36,15 +36,17 @@ base:
 
 upside:
   name: de-escalation-relief
-  band: "10-20%"
+  band: "15-25%"
   narrative: >
     Middle East strikes and Red Sea attacks subside; Brent retraces toward the
     low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
     gets reframed by the market as a growth story again rather than a margin risk.
   supporting_evidence:
     - "No confirmed Hormuz closure to date — the shock so far is a risk premium, which can unwind quickly on a diplomatic headline."
+    - "2026-07-25/26: US paused strikes on Iran two consecutive days, Iran matched, Oman-mediated direct talks 'made progress' (AP via NPR 26 Jul); Saudi coalition declared its Houthi response 'over' (ToI 25 Jul). Band raised 10-20% -> 15-25% on these confirmation signals firing."
   contradicting_evidence:
-    - "Strikes have been escalating, not de-escalating, as of the 23 Jul evidence (US strikes on Iran, Houthi tanker attacks) — no de-escalation signal present yet."
+    - "2026-07-25: Houthi attack set the Jizan Aramco refinery (400k b/d) ablaze and targeted Yanbu — physical supply damage is now real, not just risk premium."
+    - "US Navy blockade enforcement continues (2 tankers disabled)."
   confirmation_signals:
     - "Diplomatic/ceasefire headlines from the Middle East."
     - "OVX (oil volatility) collapsing from its elevated ~65 level."
@@ -57,7 +59,7 @@ upside:
 
 downside:
   name: stagflationary-policy-shock
-  band: "20-30%"
+  band: "15-25%"
   narrative: >
     Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
     rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates
@@ -69,6 +71,7 @@ downside:
     - "Fed 2026 hike odds already ~71% per Polymarket (via Yahoo Finance)."
   contradicting_evidence:
     - "No central bank has actually hiked yet — this scenario requires a step beyond the current pricing, not just a continuation of it."
+    - "2026-07-25/26: US-Iran mutual strike pause and progressing talks lean against this scenario; band trimmed 20-30% -> 15-25%. It re-arms fast on a July FOMC hike, a talks collapse, or a hot PCE/ECI/Australia-CPI run."
   confirmation_signals:
     - "A new chokepoint disruption (e.g. a confirmed Hormuz incident)."
     - "A hot Japan or US inflation print."

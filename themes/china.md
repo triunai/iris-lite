@@ -1,11 +1,11 @@
 ---
 theme: china
-status: stable
-confidence: low
+status: mixed
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: stable
+status_change_reason: "Largest PBoC medium-term injection in 5 months vs equities down ~7.4% in 4 weeks and no broad stimulus"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
 sensitive_sectors: ["Chinese property", "Chinese tech/ADRs", "commodity exporters to China"]
 next_catalysts: ["any PBoC policy move", "Chinese activity/trade data", "US-China trade or export-control headlines"]
@@ -29,3 +29,7 @@ None logged yet — needs deeper, China-specific sourcing next run (PBoC policy,
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §3.
+
+## Observation 2026-07-27
+
+PBoC net CNY 500bn 1-yr MLF (plus CNY 700bn earlier in July via outright reverse repos) — largest since Feb (Bloomberg 24 Jul). CSI 300 4,649 -1.67% Fri, 4-week loss ~7.4% (TE); HSI -0.98%. Reuters: Beijing avoiding broad stimulus; July Politburo meeting is the near catalyst (SCMP). USDCNY 6.7716; CGB 10Y 1.72% (-3bp) — bond market pricing weak growth while equities await stimulus. US put China at the 12.5% tariff band with intent to rebuild to 20%.

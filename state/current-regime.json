@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-07-24T07:25:00+08:00",
-  "initialized_fresh": true,
-  "note": "Degraded no-history run; states initialized from 2026-07-23 session evidence, not carried from prior state.",
-  "growth": "resilient (US claims 187k vs ~210k cons.)",
-  "inflation": "energy-led upside risk re-accelerating; cores still contained (EZ core 2.4%, MY 1.9%)",
-  "liquidity": "tightening bias returning",
-  "monetary_policy": "hawkish repricing: Fed 2026 hike ~71% (Polymarket via Yahoo), ECB Sept option, BOJ faster-hike reports",
-  "fiscal_impulse": "insufficient data this run",
-  "risk_appetite": "deteriorating (VIX >19, +15% d/d)",
-  "credit": "insufficient data this run",
-  "overall": "risk-off / stagflationary-stress characteristics",
+  "as_of": "2026-07-27T07:50:00+08:00",
+  "initialized_fresh": false,
+  "note": "First normal (non-degraded) run; prior state restored from repo. Overall label held \u2014 a regime flip requires corroboration across >=2 asset classes, and the de-escalation evidence is one weekend old.",
+  "growth": "resilient and strengthening (flash PMI beats US services/EZ/UK; new home sales beat; claims 187k)",
+  "inflation": "energy-led upside risk, partially defused Fri (Brent -3.3% to ~$97.4; still +~9-12% w/w)",
+  "liquidity": "diverging: PBoC largest MT injection in 5 months vs G10 hawkish repricing",
+  "monetary_policy": "hawkish-hold week: FOMC ~30-35% hike odds for 29 Jul; BOJ/BoE holds expected; ~2 ECB hikes priced by YE",
+  "fiscal_impulse": "insufficient data (Malaysia subsidy-cost datapoint logged: RM40-50bn/yr fuel)",
+  "risk_appetite": "stabilizing but fragile (VIX 18.58 from >19; Asia -2% to -5.7% Friday catch-up; Europe rallied)",
+  "credit": "insufficient data - no reliable spread source yet (recurring gap)",
+  "overall": "risk-off / stagflationary-stress (unchanged; watch for downgrade to neutral if US-Iran pause holds through FOMC and Brent keeps retracing)",
   "confidence": "medium",
-  "evidence": "S&P -1.0%, Nasdaq -1.9%, Brent ~97-100, UST10Y ~4.70% (high since Jan 2025), gold -1.9%, USDJPY ~163"
+  "evidence": "Fri 24 Jul: S&P +0.05% w/ Nasdaq -0.64%, Kospi -5.72%, STOXX +0.6%; Brent $97.39 -3.3%; 10Y ~4.68-4.69%; VIX 18.58; weekend US-Iran mutual pause + Jizan refinery ablaze"
 }

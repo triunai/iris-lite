@@ -1,1 +1,16 @@
 date_myt,time_myt,original_date,original_time,original_tz,country,event,ref_period,previous,consensus,importance,expected_vol,why_it_matters,sensitive_assets,sensitive_sectors,source,status
+2026-07-27,16:30,2026-07-27,10:30,CEST,Germany,ifo Business Climate,Jul 2026,,not sourced,M,M,Confirms/denies flash PMI beat,"Bund, DAX, EUR",industrials,ifo Institute official,scheduled
+2026-07-27,20:30,2026-07-27,08:30,ET,US,Durable goods orders,Jun 2026,,+1.6% (TradingEconomics),M,L,Capex read amid AI-capex scare,"UST, USD",industrials,IG/TradingEconomics,scheduled
+2026-07-28,22:00,2026-07-28,10:00,ET,US,Conference Board consumer confidence,Jul 2026,,92.1 (TE),M,L,Consumer health into tariffs/oil,"UST, USD",consumer,IG/TradingEconomics,scheduled
+2026-07-29,09:30,2026-07-29,11:30,AEST,Australia,Q2 CPI,Q2 2026,,headline ~4.0-4.1% y/y; trimmed 3.7-3.8%,H,M,Global hawkish-CB data input,"AUD, global rates",,Newsquawk/IG,scheduled
+2026-07-30,02:00,2026-07-29,14:00,ET,US,"FOMC decision (presser 02:30 MYT, Chair Warsh)",Jul 2026,3.50-3.75%,hold; ~30-35% hike odds priced,H,H,Live-ish meeting; dissent count key,everything,rate-sensitives,Fed calendar (official); TradingKey/IG/Newsquawk odds,scheduled
+2026-07-30,17:00,2026-07-30,11:00,CEST,Eurozone,Q2 flash GDP (time inferred),Q2 2026,,+0.2% q/q (TE),M,M,Stagnation vs PMI beat tension,"EUR, Bund",,Newsquawk/TE,scheduled
+2026-07-30,19:00,2026-07-30,12:00,BST,UK,BoE decision,Jul 2026,3.75%,hold; Nov+Dec hikes priced,H,M,Hike-path guidance,"GBP, gilts",,IG/Newsquawk,scheduled
+2026-07-30,20:30,2026-07-30,08:30,ET,US,"Q2 GDP advance + June PCE (same slot, BEA official)",Q2/Jun 2026,Q1 GDP 2.1%,GDP 2.3% ann. (TE; GDPNow 1.7%); core PCE ~3.3% y/y,H,H,Growth+inflation double print pre-BOJ,"UST, USD, equities",,BEA schedule (official),scheduled
+2026-07-30,20:30,2026-07-30,08:30,ET,US,Initial jobless claims,wk 25 Jul,187k,206k (TE),M,M,187k was lowest since 1969,UST,,TE/Yardeni,scheduled
+2026-07-31,07:30,2026-07-31,08:30,JST,Japan,Tokyo CPI (time inferred),Jul 2026,headline 1.7%,headline 2.0%; core 1.8% (Newsquawk),H,M,Hours before BOJ decision,"JPY, JGB",,Newsquawk,scheduled
+2026-07-31,09:30,2026-07-31,09:30,CST,China,NBS PMIs,Jul 2026,,mfg 49.9 (IG/TE) vs 50.3 (Newsquawk) - conflict,H,M,Politburo-adjacent growth read,"CNH, copper, China equities",industrials,IG/TE/Newsquawk,scheduled
+2026-07-31,11:00,2026-07-31,~12:00,JST,Japan,BOJ decision + Outlook Report (no fixed time); Ueda presser ~14:30 MYT,Jul 2026,1.00%,hold (~96%); FY26 GDP f'cast up to ~0.8%,H,H,USDJPY ~163.8; intervention rhetoric watch,"JPY, JGB, Nikkei",banks,BOJ calendar (official); Nikkei via Yahoo,scheduled
+2026-07-31,20:30,2026-07-31,08:30,ET,US,Employment Cost Index Q2,Q2 2026,,+0.8% q/q (TE),H,M,Fed's preferred wage gauge day after FOMC,UST,,BLS schedule (official),scheduled
+2026-08-01,all day,2026-08-01,,MYT,Malaysia,Negeri Sembilan state election polling,,,,M,L,Domestic political sentiment / MYR,"MYR, KLCI",,Bernama via Malay Mail/Star,scheduled
+2026-08-02,all day,2026-08-02,,,OPEC+,OPEC+ meeting,Aug 2026,Jul: +180k b/d agreed,,H,M,Supply response to $97-100 Brent,Brent/WTI,energy,Gate News/Rigzone,scheduled

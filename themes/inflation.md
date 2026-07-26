@@ -3,7 +3,7 @@ theme: inflation
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-26
+last_reviewed: 2026-07-27
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 10Y/30Y", "gold", "breakevens"]
@@ -29,3 +29,7 @@ Eurozone June HICP core at 2.4% (down from 2.6%); Malaysia June CPI at 1.9% (tra
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §1, §6, §8.
+
+## Observation 2026-07-27
+
+Energy impulse partially defused Fri (Brent -3.3%) but weekly +~9-12% still feeding pipeline. Japan core 1.6% (in line, sub-target). PMI price sub-indices not sourced — the key transmission gauge is missing this run (gap). This week's verdicts: June PCE + ECI (US), EZ flash CPI Jul (cons 2.9%), Tokyo CPI, Australia Q2 CPI ~4%.

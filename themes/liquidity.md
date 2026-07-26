@@ -1,11 +1,11 @@
 ---
 theme: liquidity
-status: dormant
+status: mixed
 confidence: low
 first_opened: 2026-07-26
-last_reviewed: 2026-07-26
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-27
+previous_status: dormant
+status_change_reason: "First evidence logged: PBoC easing while G10 pricing hikes"
 sensitive_assets: ["risk assets broadly", "credit spreads"]
 sensitive_sectors: ["all — systemic"]
 next_catalysts: ["Fed meeting (next week, per Saxo 'potentially live')", "BOJ meeting 30-31 Jul"]
@@ -29,3 +29,7 @@ None logged yet.
 ## Sources
 
 See themes/monetary-policy.md; state/current-regime.json.
+
+## Observation 2026-07-27
+
+Diverging: PBoC's largest medium-term injection in 5 months (net CNY 500bn MLF) vs hawkish repricing in the US/EU (FOMC hike odds ~30-35% for July; ~2 ECB hikes priced by year-end). US/EU money-market and QT data not sourced — gap.
