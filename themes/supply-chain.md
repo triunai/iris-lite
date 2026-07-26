@@ -1,0 +1,31 @@
+---
+theme: supply-chain
+status: heating
+confidence: high
+first_opened: 2026-07-24
+last_reviewed: 2026-07-26
+previous_status: null
+status_change_reason: null
+sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
+sensitive_sectors: ["shipping/logistics", "energy", "chemicals", "manufacturing"]
+next_catalysts: ["freight-rate data (not yet sourced)", "any confirmed rerouting away from the Red Sea"]
+invalidation_conditions: ["confirmed de-escalation at either chokepoint", "freight rates failing to move despite the price shock (would weaken the transmission story)"]
+---
+
+# Supply Chain
+
+## Thesis
+
+A textbook energy-shock transmission chain is underway: Red Sea/Bab el-Mandeb tanker attacks plus US-Iran strikes → a 'two-chokepoint' supply-risk premium (adding Hormuz risk) → crude +~30% m/m → rising producer/consumer energy costs → revived central-bank tightening expectations (Fed/ECB/BOJ) → higher discount rates → equity de-rating. Every link past the confirmed oil-price move is an inference, not yet a confirmed fact — freight-rate and shipping-reroute data has not been sourced yet, which is a genuine gap.
+
+## Supporting Evidence
+
+Brent ~$97-100/bbl (+~30% m/m); low EU gas inventories heading into winter noted in ECB commentary (23 Jul) as a second energy-transmission channel.
+
+## Contradicting Evidence
+
+No freight-rate or confirmed-rerouting data yet to validate the shipping-disruption link specifically (as opposed to the price-risk-premium link, which is well evidenced).
+
+## Sources
+
+See briefs/2026/07/2026-07-24-morning-brief.md §5.

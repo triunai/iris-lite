@@ -1,0 +1,81 @@
+# Global Macro Morning Desk — Instrument Dashboard
+# Source of truth for which tickers/series this desk tracks.
+# This file does not fix a data vendor — each run sources values fresh per
+# OPERATING-INSTRUCTIONS.md's source hierarchy (Tier 1 > 2 > 3 > 4).
+# version: 1.0.0  last_updated: 2026-07-26
+
+equity_indices:
+  americas:
+    - { name: "S&P 500", region: US, currency: USD, note: "cash index" }
+    - { name: "Nasdaq 100", region: US, currency: USD }
+    - { name: "Russell 2000", region: US, currency: USD, note: "small-cap breadth proxy" }
+  europe:
+    - { name: "STOXX 600", region: Europe, currency: EUR }
+    - { name: "DAX", region: Germany, currency: EUR }
+    - { name: "FTSE 100", region: UK, currency: GBP }
+  asia_developed:
+    - { name: "Nikkei 225", region: Japan, currency: JPY }
+    - { name: "TOPIX", region: Japan, currency: JPY }
+    - { name: "Kospi", region: "South Korea", currency: KRW }
+    - { name: "TAIEX", region: Taiwan, currency: TWD }
+    - { name: "STI", region: Singapore, currency: SGD }
+  china:
+    - { name: "Hang Seng", region: "Hong Kong", currency: HKD }
+    - { name: "CSI 300", region: China, currency: CNY }
+    - { name: "Hang Seng Tech", region: "Hong Kong", currency: HKD, note: "China tech proxy" }
+  india:
+    - { name: "Nifty 50", region: India, currency: INR }
+    - { name: "BSE Sensex", region: India, currency: INR }
+  malaysia:
+    - { name: "FBM KLCI", region: Malaysia, currency: MYR }
+
+rates_and_curves:
+  - { name: "UST 2Y", region: US }
+  - { name: "UST 10Y", region: US }
+  - { name: "US 2s10s", region: US, note: "curve slope, derived" }
+  - { name: "US 30Y", region: US }
+  - { name: "Bund 10Y", region: Germany }
+  - { name: "Gilt 10Y", region: UK }
+  - { name: "JGB 10Y", region: Japan }
+  - { name: "MGS 10Y", region: Malaysia, note: "Malaysian Government Securities" }
+  - { name: "India 10Y G-Sec", region: India }
+  - { name: "China 10Y CGB", region: China, note: "China Government Bond" }
+
+fx:
+  - { name: "DXY", note: "US Dollar Index" }
+  - { name: "EURUSD" }
+  - { name: "GBPUSD" }
+  - { name: "USDJPY" }
+  - { name: "USDCNH", note: "offshore yuan, primary China FX proxy" }
+  - { name: "USDCNY", note: "onshore fix, when material vs. CNH" }
+  - { name: "USDINR" }
+  - { name: "USDSGD" }
+  - { name: "USDMYR" }
+
+commodities:
+  energy:
+    - { name: "Brent crude" }
+    - { name: "WTI crude" }
+    - { name: "Natural gas", note: "Henry Hub / TTF as relevant per region" }
+  precious_metals:
+    - { name: "Gold" }
+    - { name: "Silver" }
+  base_metals:
+    - { name: "Copper" }
+    - { name: "Iron ore" }
+  agriculturals:
+    - { name: "Palm oil", note: "Malaysia-relevant export commodity" }
+
+risk_and_breadth:
+  - { name: "VIX" }
+  - { name: "IG credit spread", note: "investment-grade proxy" }
+  - { name: "HY credit spread", note: "high-yield proxy" }
+  - { name: "Sovereign spreads", note: "EM/peripheral vs. core, when material" }
+  - { name: "Market breadth", note: "advance/decline, per region where sourced" }
+
+digital_assets:
+  # Large-cap only; positioning/macro-proxy framing, never trading signals.
+  - { name: "Bitcoin (BTC)", note: "spot + regulated futures reference price" }
+  - { name: "Ethereum (ETH)", note: "spot + regulated futures reference price" }
+  - { name: "Spot BTC ETF flows", note: "Tier 1/2 sourced only, e.g. issuer or exchange data" }
+  - { name: "Spot ETH ETF flows", note: "Tier 1/2 sourced only" }

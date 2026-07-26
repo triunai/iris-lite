@@ -1,12 +1,83 @@
 as_of: 2026-07-24
+last_reviewed: 2026-07-26
 initialized_fresh: true
+note: >
+  Initialized in the 2026-07-24 first run (degraded no-history mode) from that
+  day's evidence only. Enriched to the full schema on 2026-07-26 during doc-spine
+  setup, using only content already present in briefs/2026/07/2026-07-24-morning-brief.md
+  §11 — no new evidence added. Change bands only on genuinely new evidence.
+
 base:
-  band: "50-65%"
   name: energy-shock-squeeze-without-recession
+  band: "50-65%"
+  narrative: >
+    Oil trades in a wide $85-105/bbl range on ongoing Red Sea/Middle East risk;
+    one hawkish central-bank adjustment (Fed and/or ECB) gets priced without a
+    confirmed hike yet; equities chop lower rather than crash; core inflation
+    stays contained even as headline/energy prints run hot.
+  supporting_evidence:
+    - "Brent ~$97-100/bbl intraday on 23 Jul 2026, a confirmed supply-shock catalyst, but no confirmed Hormuz closure."
+    - "Eurozone core CPI 2.4% and Malaysia CPI 1.9% (both pre-shock) show cores were contained going in."
+  contradicting_evidence:
+    - "VIX >19 and a synchronised hawkish repricing across Fed/ECB/BOJ on a single session is a faster move than a calm 'base case' would suggest."
+  confirmation_signals:
+    - "Flash PMIs (24 Jul) hold up without falling into contraction."
+    - "Oil stalls below $100/bbl rather than pushing through."
+  invalidation_signals:
+    - "A confirmed ceasefire or de-escalation (pushes toward the upside scenario)."
+    - "A new chokepoint disruption, e.g. a confirmed Hormuz incident (pushes toward the downside scenario)."
+  next_catalysts:
+    - "Eurozone and US flash PMIs, 24 Jul"
+    - "Japan CPI, 24 Jul"
+    - "Fed meeting, next week"
+    - "BOJ meeting, 30-31 Jul"
+  sensitive_assets: ["energy equities vs. long-duration tech", "USDJPY", "USDMYR"]
+  sensitive_sectors: ["energy", "long-duration/AI-capex tech"]
+
 upside:
-  band: "10-20%"
   name: de-escalation-relief
+  band: "10-20%"
+  narrative: >
+    Middle East strikes and Red Sea attacks subside; Brent retraces toward the
+    low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
+    gets reframed by the market as a growth story again rather than a margin risk.
+  supporting_evidence:
+    - "No confirmed Hormuz closure to date — the shock so far is a risk premium, which can unwind quickly on a diplomatic headline."
+  contradicting_evidence:
+    - "Strikes have been escalating, not de-escalating, as of the 23 Jul evidence (US strikes on Iran, Houthi tanker attacks) — no de-escalation signal present yet."
+  confirmation_signals:
+    - "Diplomatic/ceasefire headlines from the Middle East."
+    - "OVX (oil volatility) collapsing from its elevated ~65 level."
+  invalidation_signals:
+    - "Any further chokepoint incident."
+  next_catalysts:
+    - "Any Middle East diplomatic development"
+  sensitive_assets: ["Brent/WTI", "gold", "Nasdaq 100"]
+  sensitive_sectors: ["energy (downside for exporters)", "long-duration tech (upside)"]
+
 downside:
-  band: "20-30%"
   name: stagflationary-policy-shock
-# Full narratives/signals in briefs/2026/07/2026-07-24-morning-brief.md section 11
+  band: "20-30%"
+  narrative: >
+    Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
+    rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates
+    sharply lower; yen disorder (USDJPY already at 40-year lows) forces a
+    BOJ or MOF response.
+  supporting_evidence:
+    - "UST 10Y already at ~4.70%, highest since Jan 2025, with a CNBC piece explicitly flagging a test of 5% as plausible (23 Jul)."
+    - "USDJPY at ~163, weakest yen since 1986, ahead of the 30-31 Jul BOJ meeting."
+    - "Fed 2026 hike odds already ~71% per Polymarket (via Yahoo Finance)."
+  contradicting_evidence:
+    - "No central bank has actually hiked yet — this scenario requires a step beyond the current pricing, not just a continuation of it."
+  confirmation_signals:
+    - "A new chokepoint disruption (e.g. a confirmed Hormuz incident)."
+    - "A hot Japan or US inflation print."
+    - "PMI price sub-indices rising while output/new-orders components fall (a classic stagflation signature)."
+  invalidation_signals:
+    - "A confirmed de-escalation or a dovish central-bank surprise."
+  next_catalysts:
+    - "Fed meeting, next week"
+    - "BOJ meeting, 30-31 Jul"
+    - "Any further Red Sea/Hormuz incident"
+  sensitive_assets: ["UST 10Y/30Y", "USDJPY", "Nasdaq 100", "gold"]
+  sensitive_sectors: ["long-duration tech", "rate-sensitive financials", "housing"]
