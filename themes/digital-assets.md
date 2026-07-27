@@ -3,7 +3,7 @@ theme: digital-assets
 status: stable
 confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: dormant
 status_change_reason: "First full dataset: BTC ~$64.3k trading as rates/liquidity proxy"
 sensitive_assets: ["BTC", "ETH", "spot BTC/ETH ETFs"]

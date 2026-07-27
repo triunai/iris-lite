@@ -28,6 +28,35 @@
         "JOLTS date for this week (BLS schedule page fetch failed)"
       ],
       "notes": "CNBC/US News/Bloomberg fetches blocked or paywalled; FXLeaders BTC >$150k figure judged irreconcilable with multi-source $64k series and discarded; TipRanks weekly-vs-daily mislabel detected and corrected against AP."
+    },
+    {
+      "date": "2026-07-28",
+      "mode": "normal",
+      "reason": null,
+      "run_started_myt": "2026-07-28T07:11:34+08:00",
+      "unavailable_this_run": [
+        "VIX Monday close (intraday conflict 17.74 vs 19.42)",
+        "Nasdaq 100 close",
+        "UST 30Y close",
+        "official DXY/EURUSD/GBPUSD NY closes",
+        "Bund/Gilt official Monday closing prints (late levels used; Bund Friday close 3.1845% recovered)",
+        "CSI 300 Monday close",
+        "STI Monday close",
+        "USDSGD",
+        "CGB 10Y",
+        "CPO Bursa Monday settlement (early-trade RM4,683 only)",
+        "MGS 10Y (2nd consecutive run)",
+        "COMEX gold official settlement",
+        "LME copper official close",
+        "OVX",
+        "durable goods internals (ex-transport/core capex; Census PDF returned stale April cache)",
+        "PBoC Monday daily OMO amount",
+        "BTC ETF Monday flows (Farside row pending at cutoff)",
+        "CFTC 10Y Treasury leg ref 21 Jul (Tradingster still on 14 Jul)",
+        "3m/6m regional sector relative-performance dataset (strategic rotation map, 3rd consecutive run)",
+        "freight/insurance rates (supply-chain, 3rd consecutive run)"
+      ],
+      "notes": "CNBC/WaPo/treasury.gov/Cboe/FRED fetches blocked (403). CoinMarketCap ETH print ~5% below all other sources - judged stale cache, discarded. HNGN Brent -4%/$92.74 judged stale vs Rigzone-Bloomberg settlement $88.36. Nikkei +0.50% vs +0.66% conflict resolved by internal consistency with Friday close. TE continuous commodity quotes flagged as possibly including early-Asia trade."
     }
   ]
 }

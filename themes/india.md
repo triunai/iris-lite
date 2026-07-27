@@ -3,7 +3,7 @@ theme: india
 status: cooling
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: stable
 status_change_reason: "Fifth straight equity decline, INR near record lows, 10% US tariff (with large exemptions)"
 sensitive_assets: ["Nifty 50", "Sensex", "USDINR", "India 10Y G-Sec"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §3 (Asia).
 ## Observation 2026-07-27
 
 Sensex 76,059.77 -0.43% Fri, fifth consecutive decline; Nifty 23,767.45; intraday lows deeper (HDFC Sky). INR ~96.4-96.6/USD near record lows (TE, snapshots conflict); 10Y G-Sec ~6.82%. US 10% tariff effective, but exemptions (generic pharma, smartphones, steel/aluminium, auto parts) shelter ~45% of India's US exports; commerce ministry continuing BTA engagement (Reuters 25 Jul). Oil near $100 is India's classic macro headwind (import bill, CAD, INR) — Analyst inference. Counterevidence: IT +0.8%, media +1.8% Fri.
+
+## Observation 2026-07-28
+
+Counterevidence day: 5-day losing streak SNAPPED (Sensex +1.02% to 76,835.78, Nifty +0.96%); INR best session in 6+ weeks (95.90 close vs 96.53 Fri, intraday best 95.79); India VIX -9.76% to 12.66. Confirmed catalyst: crude -9%. FII outflows continue (5paisa). One day — status stays cooling per QC rule; two more constructive sessions + INR holding sub-96 would justify a move back to stable.

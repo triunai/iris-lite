@@ -1,5 +1,5 @@
-as_of: 2026-07-27
-last_reviewed: 2026-07-26
+as_of: 2026-07-28
+last_reviewed: 2026-07-28
 initialized_fresh: true
 note: >
   Initialized in the 2026-07-24 first run (degraded no-history mode) from that
@@ -9,7 +9,7 @@ note: >
 
 base:
   name: energy-shock-squeeze-without-recession
-  band: "50-65%"
+  band: "50-60%"  # trimmed 2026-07-28: probability leaked to upside, not new base-case doubt
   narrative: >
     Oil trades in a wide $85-105/bbl range on ongoing Red Sea/Middle East risk;
     one hawkish central-bank adjustment (Fed and/or ECB) gets priced without a
@@ -36,7 +36,7 @@ base:
 
 upside:
   name: de-escalation-relief
-  band: "15-25%"
+  band: "20-30%"  # raised 2026-07-28: BOTH confirmation signals fired (diplomacy + Brent <$90)
   narrative: >
     Middle East strikes and Red Sea attacks subside; Brent retraces toward the
     low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
@@ -44,6 +44,7 @@ upside:
   supporting_evidence:
     - "No confirmed Hormuz closure to date — the shock so far is a risk premium, which can unwind quickly on a diplomatic headline."
     - "2026-07-25/26: US paused strikes on Iran two consecutive days, Iran matched, Oman-mediated direct talks 'made progress' (AP via NPR 26 Jul); Saudi coalition declared its Houthi response 'over' (ToI 25 Jul). Band raised 10-20% -> 15-25% on these confirmation signals firing."
+    - "2026-07-27: pause held a SECOND night; Oman-mediated Hormuz-reopening talks 'making progress'; Brent settled $88.36 (-8.7%, below $90) - the 'Brent <$90' confirmation signal fired; Fed hike odds eased 38% -> ~33-34%; CPC terminal resumed loading. Band raised 15-25% -> 20-30%."
   contradicting_evidence:
     - "2026-07-25: Houthi attack set the Jizan Aramco refinery (400k b/d) ablaze and targeted Yanbu — physical supply damage is now real, not just risk premium."
     - "US Navy blockade enforcement continues (2 tankers disabled)."
@@ -59,7 +60,7 @@ upside:
 
 downside:
   name: stagflationary-policy-shock
-  band: "15-25%"
+  band: "15-20%"  # trimmed 2026-07-28 on second consecutive de-escalation day
   narrative: >
     Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
     rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates

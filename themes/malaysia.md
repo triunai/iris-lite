@@ -3,7 +3,7 @@ theme: malaysia
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["FBM KLCI", "USDMYR", "MGS"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §1, §3.
 ## Observation 2026-07-27
 
 KLCI 1,701.02 -0.79% Fri, week -1.76%; breadth 723D/339G; support 1,695-1,700 (IPPFA via Bernama). Plantation +0.7% best sector; CPO Oct RM4,723 15-week high. Ringgit 4.0885/0935, firmer w/w; seen 4.08-4.10 this week. US tariff: Malaysia in the LOWER 10% band (17 economies), tied to ART forced-labor commitments (2-yr window, Johari); Section 301 excess-capacity probe pending. Anwar: RM40-50bn/yr fuel subsidy at RON95 RM1.99 — oil rally cuts both ways. June trade (20 Jul): exports +45.4% y/y, surplus RM14.89bn. Negeri Sembilan poll Sat 1 Aug. MGS 10Y ~3.60% (single caveated source).
+
+## Observation 2026-07-28
+
+KLCI 1,713.09 +0.71% Mon — bank-led bargain-hunting (Maybank/CIMB/PBB; Financial Services +0.9%) but breadth NEGATIVE (531 up / 547 down): big-cap rally, not broad. Plantation index fell 16.5 despite "plantation bargain hunting" headline (discrepancy flagged; Batu Kawan up, mid-cap planters down). Ringgit 4.0835/0875 (+~50 pips), strong end of RM4.08-4.10 survey range. CPO early trade RM4,683 -0.8%; Interband sees RM4,400-4,500 on profit-taking. NEW RISK: Economy Minister warns super El Nino (Oct 2026-Jan 2027, >40C possible) could lift electricity demand (peak already +~2.5GW) and threaten food supply (The Edge 27 Jul). Corporate: Khazanah placed 100m TNB @RM13.90 (RM1.4bn), TNB still closed +10 sen — absorbed; CIMB sole MY JLM on US$1.5bn global sukuk. Rakuten: 1,700-1,730 range this week. Negeri Sembilan polls Sat 1 Aug.

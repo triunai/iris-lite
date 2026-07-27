@@ -3,7 +3,7 @@ theme: geopolitics
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: heating
 status_change_reason: "First two-sided evidence: US-Iran mutual strike pause + Oman talks (de-escalating) vs Jizan refinery ablaze (escalating)"
 sensitive_assets: ["Brent/WTI", "gold", "defense equities", "shipping/freight"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §1, §5, §6.
 ## Observation 2026-07-27
 
 Weekend 25-26 Jul: US paused strikes on Iran two straight days, Iran matched, Oman-mediated talks 'made progress' (Confirmed fact — AP via NPR 26 Jul). Counterpoint: Houthi attack set Jizan Aramco refinery (400k b/d) ablaze, Yanbu targeted (TechTimes/Reuters-sourced 25 Jul); Saudi coalition struck back then declared response 'over' (ToI). US Navy enforcing Iran blockade (2 tankers disabled). Russia-Ukraine: grinding attrition, mutual energy-infrastructure strikes, no negotiation progress (ISW/Kyiv Post, Kyiv Independent). US-China: Rubio-Wang met 22 Jul, stable-tense (AEI). India-China, India-Pakistan: no material development found. Next: does the pause survive the week; Netanyahu-Trump meeting Tue 28 Jul.
+
+## Observation 2026-07-28
+
+De-escalation side strengthened materially: US-Iran mutual strike pause held a SECOND night (after 13 nights of bombardment); Oman-mediated talks on reopening Hormuz "making progress" but "sensitive" (NPR/Gulf News); Trump: pause is to give talks "space," strikes resume if they fail. Counterevidence: Jizan fires expanding per OSINT satellite imagery, no official Aramco damage assessment; Houthi maritime embargo still halts Saudi west-coast loadings; Netanyahu departed SECRETLY from Nevatim Air Base citing "a potential threat from Iran" ahead of White House meeting Tue 28 Jul 11:00 ET (ToI). Russia-Ukraine: Ukraine struck Rostov export terminal + Yaroslavl/Udmurtia oil infra; Russia launched 147 drones, 9+ civilians killed (Euronews 27 Jul); CPC terminal resumed loading (bearish oil input). US-China: no Monday development verified. Status stays mixed.

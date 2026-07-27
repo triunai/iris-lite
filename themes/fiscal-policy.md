@@ -3,7 +3,7 @@ theme: fiscal-policy
 status: stable
 confidence: low
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["MYR", "MGS", "sovereign spreads"]

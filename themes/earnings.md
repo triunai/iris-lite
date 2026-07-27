@@ -3,7 +3,7 @@ theme: earnings
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §1, §3, §6.
 ## Observation 2026-07-27
 
 SAP +10% (cloud backlog/AI demand beat) is the first major counterexample to the AI-capex-fear narrative; Asia semis (Samsung -7.6%, SK Hynix -8.3%, TSMC -2.3%, Tokyo Electron) took the brunt of it instead. Verdict week: MSFT/META Wed, AAPL/AMZN Thu (cons: MSFT EPS ~$4.21-4.24; META ~$7.13-7.23; AAPL $1.88; AMZN ~$1.81), XOM/CVX Fri, BA/KO Tue. ~1/3 of S&P 500 reports.
+
+## Observation 2026-07-28
+
+Nucor beat (EPS $4.84 vs $4.38e, record steel-mill shipments 2nd straight qtr; stock flat AH) — a tariff-era industrial data point. Week setup confirmed (Kiplinger): Tue BA/KO/PYPL/UPS + V/F/STX; Wed night MSFT (EPS e $4.24, rev e $87.67bn) + META (e $7.19); Thu night AAPL (e $1.89) + AMZN (e $1.81); Fri XOM ($3.61e)/CVX ($5.52e). Framing (Fortune): market punishing AI capex — Alphabet -7% on $205bn 2026 capex guide, FCF negative first time since 2004; big-4 2026 capex ~$724bn. MSFT -21% YTD vs AAPL +23% YTD (rewarded for LOW AI capex). Whirlpool postponed to 3 Aug.

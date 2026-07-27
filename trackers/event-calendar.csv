@@ -1,7 +1,11 @@
 date_myt,time_myt,original_date,original_time,original_tz,country,event,ref_period,previous,consensus,importance,expected_vol,why_it_matters,sensitive_assets,sensitive_sectors,source,status
-2026-07-27,16:30,2026-07-27,10:30,CEST,Germany,ifo Business Climate,Jul 2026,,not sourced,M,M,Confirms/denies flash PMI beat,"Bund, DAX, EUR",industrials,ifo Institute official,scheduled
-2026-07-27,20:30,2026-07-27,08:30,ET,US,Durable goods orders,Jun 2026,,+1.6% (TradingEconomics),M,L,Capex read amid AI-capex scare,"UST, USD",industrials,IG/TradingEconomics,scheduled
+2026-07-27,16:30,2026-07-27,10:30,CEST,Germany,ifo Business Climate,Jul 2026,,not sourced,M,M,Confirms/denies flash PMI beat,"Bund, DAX, EUR",industrials,ifo Institute official,released
+2026-07-27,20:30,2026-07-27,08:30,ET,US,Durable goods orders,Jun 2026,,+1.6% (TradingEconomics),M,L,Capex read amid AI-capex scare,"UST, USD",industrials,IG/TradingEconomics,released
+2026-07-28,20:30,2026-07-28,08:30,ET,US,Wholesale inventories prelim,Jun 2026,,not sourced,L,L,Inventory cycle read,UST,,Scotiabank calendar,scheduled
+2026-07-28,21:00,2026-07-28,09:00,ET,US,Case-Shiller home prices,May 2026,,not sourced,L,L,Housing prices trend,homebuilders,housing,Scotiabank calendar,scheduled
 2026-07-28,22:00,2026-07-28,10:00,ET,US,Conference Board consumer confidence,Jul 2026,,92.1 (TE),M,L,Consumer health into tariffs/oil,"UST, USD",consumer,IG/TradingEconomics,scheduled
+2026-07-28,22:00,2026-07-28,10:00,ET,US,Richmond Fed manufacturing,Jul 2026,,not sourced,L,L,Regional mfg read,UST,,Scotiabank calendar,scheduled
+2026-07-28,23:00,2026-07-28,11:00,ET,US/Israel,"Netanyahu-Trump White House meeting (""first and foremost Iran"")",,,,H,H,Pause stress test; oil binary,Brent/WTI; everything,energy,Times of Israel 27 Jul,scheduled
 2026-07-29,09:30,2026-07-29,11:30,AEST,Australia,Q2 CPI,Q2 2026,,headline ~4.0-4.1% y/y; trimmed 3.7-3.8%,H,M,Global hawkish-CB data input,"AUD, global rates",,Newsquawk/IG,scheduled
 2026-07-30,02:00,2026-07-29,14:00,ET,US,"FOMC decision (presser 02:30 MYT, Chair Warsh)",Jul 2026,3.50-3.75%,hold; ~30-35% hike odds priced,H,H,Live-ish meeting; dissent count key,everything,rate-sensitives,Fed calendar (official); TradingKey/IG/Newsquawk odds,scheduled
 2026-07-30,17:00,2026-07-30,11:00,CEST,Eurozone,Q2 flash GDP (time inferred),Q2 2026,,+0.2% q/q (TE),M,M,Stagnation vs PMI beat tension,"EUR, Bund",,Newsquawk/TE,scheduled
@@ -14,3 +18,4 @@ date_myt,time_myt,original_date,original_time,original_tz,country,event,ref_peri
 2026-07-31,20:30,2026-07-31,08:30,ET,US,Employment Cost Index Q2,Q2 2026,,+0.8% q/q (TE),H,M,Fed's preferred wage gauge day after FOMC,UST,,BLS schedule (official),scheduled
 2026-08-01,all day,2026-08-01,,MYT,Malaysia,Negeri Sembilan state election polling,,,,M,L,Domestic political sentiment / MYR,"MYR, KLCI",,Bernama via Malay Mail/Star,scheduled
 2026-08-02,all day,2026-08-02,,,OPEC+,OPEC+ meeting,Aug 2026,Jul: +180k b/d agreed,,H,M,Supply response to $97-100 Brent,Brent/WTI,energy,Gate News/Rigzone,scheduled
+2026-08-04,22:00,2026-08-04,10:00,ET,US,JOLTS job openings,Jun 2026,7.6m (May),,M,L,Labour demand; resolves prior calendar gap,UST,,BLS official,scheduled

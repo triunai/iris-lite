@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-07-27T07:50:00+08:00",
+  "as_of": "2026-07-28T07:50:00+08:00",
   "initialized_fresh": false,
-  "note": "First normal (non-degraded) run; prior state restored from repo. Overall label held \u2014 a regime flip requires corroboration across >=2 asset classes, and the de-escalation evidence is one weekend old.",
-  "growth": "resilient and strengthening (flash PMI beats US services/EZ/UK; new home sales beat; claims 187k)",
-  "inflation": "energy-led upside risk, partially defused Fri (Brent -3.3% to ~$97.4; still +~9-12% w/w)",
-  "liquidity": "diverging: PBoC largest MT injection in 5 months vs G10 hawkish repricing",
-  "monetary_policy": "hawkish-hold week: FOMC ~30-35% hike odds for 29 Jul; BOJ/BoE holds expected; ~2 ECB hikes priced by YE",
-  "fiscal_impulse": "insufficient data (Malaysia subsidy-cost datapoint logged: RM40-50bn/yr fuel)",
-  "risk_appetite": "stabilizing but fragile (VIX 18.58 from >19; Asia -2% to -5.7% Friday catch-up; Europe rallied)",
+  "note": "Overall label HELD one more day: the stated downgrade gate (US-Iran pause holding THROUGH the FOMC + Brent retracing) is nearly met but the FOMC decision is Thu 02:00 MYT and Netanyahu-Trump meets Tue 23:00 MYT. Cross-asset de-escalation corroboration now spans Fri+Mon across oil, rates, FX and equities; if the pause survives both events, downgrade to neutral.",
+  "growth": "resilient (ifo 86.6 beat 3rd straight rise; SG electronics IP +21.3%) with first US soft spot (durable goods +0.3% vs +1.7%)",
+  "inflation": "energy-led upside risk deflating fast (Brent -8.7% to $88.36, below $90) but Brent still +~18-25% m/m",
+  "liquidity": "diverging: PBoC MLF + 2.1tn yuan overnight-repo plan vs G10 hawkish-hold week; pressure easing at the margin",
+  "monetary_policy": "hawkish-hold week in progress: FOMC hike odds eased 38% -> ~33-34% Mon; BOJ/BoE holds expected; ~2 ECB hikes priced by Feb 2027",
+  "fiscal_impulse": "insufficient data (Malaysia subsidy-cost + super-El-Nino spending risk logged)",
+  "risk_appetite": "recovering but fragile (global equity rebound Mon on negative Korea foreign flows and negative Bursa breadth; VIX close unavailable)",
   "credit": "insufficient data - no reliable spread source yet (recurring gap)",
-  "overall": "risk-off / stagflationary-stress (unchanged; watch for downgrade to neutral if US-Iran pause holds through FOMC and Brent keeps retracing)",
+  "overall": "risk-off / stagflationary-stress (held; downgrade to neutral conditional on pause surviving Netanyahu-Trump 28 Jul + FOMC 29 Jul)",
   "confidence": "medium",
-  "evidence": "Fri 24 Jul: S&P +0.05% w/ Nasdaq -0.64%, Kospi -5.72%, STOXX +0.6%; Brent $97.39 -3.3%; 10Y ~4.68-4.69%; VIX 18.58; weekend US-Iran mutual pause + Jizan refinery ablaze"
+  "evidence": "Mon 27 Jul: Brent $88.36 -8.7% (largest 1-day drop in 3+ mo); WTI $82.61 -7.5%; 10Y 4.647% -3bp; hike odds ~33-34%; Dow +0.51%, DAX +1.04%, Kospi +0.97%, SSE +1.15%, KLCI +0.71%; JPY fresh 40-yr low 163.99 intraday; gold firm ~$4,074-4,098 (hedges retained)"
 }

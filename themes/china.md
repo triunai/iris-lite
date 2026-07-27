@@ -3,7 +3,7 @@ theme: china
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: stable
 status_change_reason: "Largest PBoC medium-term injection in 5 months vs equities down ~7.4% in 4 weeks and no broad stimulus"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §3.
 ## Observation 2026-07-27
 
 PBoC net CNY 500bn 1-yr MLF (plus CNY 700bn earlier in July via outright reverse repos) — largest since Feb (Bloomberg 24 Jul). CSI 300 4,649 -1.67% Fri, 4-week loss ~7.4% (TE); HSI -0.98%. Reuters: Beijing avoiding broad stimulus; July Politburo meeting is the near catalyst (SCMP). USDCNY 6.7716; CGB 10Y 1.72% (-3bp) — bond market pricing weak growth while equities await stimulus. US put China at the 12.5% tariff band with intent to rebuild to 20%.
+
+## Observation 2026-07-28
+
+Equities rallied hard Mon (SSE +1.15%, SZ +2.72%, ChiNext +3.16%, turnover 2.08tn yuan; CSI 300 close unavailable) on Politburo-stimulus positioning + de-escalation; yuan strongest since mid-June (6.7670). June industrial profits +15.1% y/y, slowing from +21.1% (H1 +18.7%; autos H1 -19.5%) — Xinhua/Reuters. PBoC layering 2.1tn yuan of overnight reverse repos (600bn/day 29-31 Jul + 300bn 3 Aug) on the MLF injection. Previews (Yuan Talks, Morgan Stanley via SCMP): targeted support, broad stimulus limited, tech/innovation prioritized. NEW: CXMT Shanghai IPO debuted +466%; reports China building competing litho machines hit ASML -8.4%/NVDA -5% — industrial-policy success signal with global semi implications (Probable, single-source litho detail).

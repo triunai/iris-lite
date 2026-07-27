@@ -3,7 +3,7 @@ theme: foreign-exchange
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §3, §4.
 ## Observation 2026-07-27
 
 USDJPY ~163.8 (40-yr yen lows); FinMin Katayama verbal intervention only ('will respond appropriately at any time'); record actual interventions occurred Apr-May 2026 after 160 broke; HSBC expects renewed intervention soon (Reuters/KFGO). INR near record lows ~96.4-96.6. MYR the regional exception: 4.0885/0935, firmer on the week; seen 4.08-4.10 (Bernama). DXY flat ~101.5 — dollar calm, stress idiosyncratic.
+
+## Observation 2026-07-28
+
+JPY: fresh 40-YEAR intraday low 163.99 Mon (TechTimes), closed ~163.5; no Monday-dated MOF rhetoric found; CFTC yen net shorts -152,125 (-29k w/w, ref 21 Jul) — crowded short into Friday's BOJ, intervention-sensitive. KRW weakened to 1,468.6 (+6.1) DESPITE Kospi +0.97% — foreign equity outflows (W2.885tn) dominating. INR 95.90, best day in 6+ weeks. CNY 6.7670, strongest since mid-June. MYR 4.0835/0875 firm. DXY ~101.1-101.3 softer (no official close). Dollar calm; stress remains idiosyncratic (JPY).

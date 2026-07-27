@@ -3,7 +3,7 @@ theme: manufacturing
 status: stable
 confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: dormant
 status_change_reason: "First real dataset: global flash mfg PMIs expansionary"
 sensitive_assets: ["industrial equities", "copper"]

@@ -3,7 +3,7 @@ theme: consumer
 status: dormant
 confidence: low
 first_opened: 2026-07-26
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["consumer discretionary equities", "retail credit spreads"]

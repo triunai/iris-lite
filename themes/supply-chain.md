@@ -3,7 +3,7 @@ theme: supply-chain
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-27
+last_reviewed: 2026-07-28
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §5.
 ## Observation 2026-07-27
 
 Jizan refinery (400k b/d) ablaze, Yanbu (handled ~92% of Saudi seaborne crude exports in June) targeted 25 Jul; Saudi Red Sea crude exports -41% since March peak (OilPrice); Hormuz transits ~3/day, Bab el-Mandeb 32/day (23 Jul). Freight rates/rerouting data still unsourced — recurring gap. De-escalation branch (US-Iran talks) would unwind the risk-premium link first (inference). Secondary thread: Ukraine strikes on Russian energy/logistics; Russia's biggest Black Sea oil port reported quiet.
+
+## Observation 2026-07-28
+
+Mostly de-escalatory: CPC terminal (Kazakh crude) RESUMED loading as Ukrainian drone disruption ceased (Confirmed, Bloomberg wire via Rigzone). Persisting damage: Houthi maritime embargo still halts ALL Saudi west-coast/Bab el-Mandeb crude loadings since ~20 Jul; Suez-routed Saudi crude to Asian buyers more than doubled to ~1.06m b/d (Medium confidence, aggregator-sourced); Jizan (400k b/d) fires expanding per OSINT, no official Aramco assessment. OPEC+ Sunday expected +188k b/d for Sept while actual June output 36.28m b/d runs far below quota (OilPrice) — quota hikes increasingly symbolic. Inference: market pricing intent, not capacity. Freight/insurance rates unsourced 3rd consecutive run.
