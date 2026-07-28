@@ -7,3 +7,7 @@ date,indicator,value,unit,source,notes
 2026-07-24,SOFR,3.64,%,"NY Fed Reference Rates, Secured Overnight Financing Rate",Volume ~2979bn; 1st/25th/75th/99th percentiles 3.59/3.62/3.69/3.72 - no funding-stress signal
 2026-07-24,EFFR,3.63,%,NY Fed Reference Rates - Effective Federal Funds Rate,Flat 20-24 Jul; within the 3.50-3.75% target range
 2026-07-24,SOFR-EFFR spread,1,bp,Desk-computed from the two NY Fed series above,No acute repo/funding stress visible in the latest published data
+2026-07-27,HYG (iShares High Yield Corp Bond ETF) close,79.27,USD,"Google Finance + stockanalysis.com, 27 Jul",+0.05% vs Friday $79.23; same-day proxy for lagged HY OAS series
+2026-07-27,LQD (iShares Investment Grade Corp Bond ETF) close,106.51,USD,"Google Finance + stockanalysis.com, 27 Jul","+0.26% vs Friday $106.23; same-day proxy for lagged IG OAS series; outperformed HYG by ~0.21pt - a mild same-day signal, see relationship-dashboard.csv hyg-lqd-same-day row"
+2026-07-27,US 2Y Treasury yield,4.33,%,"Trading Economics + Fed H.15, 27 Jul",Primary near-term carry-trade reference per v2.1.0 correction (see ratio-pairs.yaml usdjpy pair)
+2026-07-24,Japan 2Y JGB yield,1.52,%,"Trading Economics, dated 24 Jul (Friday) - Monday print not sourced, explicit gap",Used as latest-available context for the USD/JPY short-end differential; closing this gap is a named next-run priority

@@ -18,7 +18,7 @@ categories:
       signals: "Industrial-growth optimism (copper) vs. fear/defensiveness (gold). Rising ratio = growth-favoring; falling = defensive."
       plain_english: "When copper is expensive relative to gold, markets are betting on growth; when gold is expensive relative to copper, markets are getting nervous."
       sensitive_assets: ["cyclical equities", "EM FX", "long-end yields"]
-      caveats: "Copper trades on both LME (per tonne) and COMEX (per lb) — never mix venues without flagging the unit conversion and noting it as a comparability caveat."
+      caveats: "Copper trades on both LME (per tonne) and COMEX (per lb). Per the v2.1.0 comparability-strictness rule (OPERATING-INSTRUCTIONS.md §13.1): if one day's reading used LME and the next day's used COMEX, do NOT publish a directional chg_1d — mark it `not comparable — venue mismatch` instead. A day-over-day change is only valid when both readings use the same venue."
     - pair: cyclicals-defensives
       legs: ["Cyclical sector equities (industrials/materials/financials, by region)", "Defensive sector equities (staples/utilities/healthcare)"]
       signals: "Relative-performance growth read at the equity-sector level."
@@ -30,10 +30,11 @@ categories:
       plain_english: "Small companies tend to do better when investors feel confident about the economy and financing conditions."
       sensitive_assets: ["Russell 2000", "regional financing conditions"]
     - pair: high-yield-treasuries
-      legs: ["US HY corporate bond total return or spread", "US Treasury total return or yield"]
+      legs: ["US HY corporate bond total return or spread (or HYG ETF as a same-day proxy)", "US Treasury total return or yield"]
       signals: "Credit-market risk appetite vs. the risk-free rate."
       plain_english: "Are investors demanding much more compensation to lend to riskier companies, or are they relaxed about it?"
-      sensitive_assets: ["HY OAS (trackers/liquidity-plumbing.csv)", "equities"]
+      sensitive_assets: ["HY OAS", "equities"]
+      display_note: "Added 2026-07-28 (v2.1.0): the official OAS series lags — when a same-day read matters, use HYG (high-yield) and LQD (investment-grade) ETF closes, which trade daily, and compare THEM against each other same-day rather than diffing a stale OAS print against fresh equity-vol data."
     - pair: korea-exports-semis
       legs: ["Korea trade data / chip-export growth (MOTIE)", "Global semiconductor equity index or SOX-equivalent"]
       signals: "Whether hard trade data confirms or contradicts the semiconductor equity narrative."
@@ -46,6 +47,7 @@ categories:
       signals: "Physical/inflation-shock pressure (oil) vs. monetary/geopolitical fear (gold). A falling ratio with oil down and gold firm signals the market is unwinding a supply-shock premium while still holding broader hedges."
       plain_english: "Oil going up usually means inflation pressure; gold going up usually means fear. Watching them together shows which force is dominating."
       sensitive_assets: ["breakevens", "central-bank pricing", "energy equities"]
+      display_note: "Added 2026-07-28 (v2.1.0): barrels and ounces are different physical units, so the raw ratio level is not itself economically meaningful — track it for internal consistency, but LEAD with each leg's own % return (e.g., 'Brent -8.7%, gold roughly flat, so oil underperformed gold by ~9 points') rather than emphasizing the raw ratio number. Also note explicitly that gold's move has multiple plausible drivers beyond the oil story (real yields, DXY, positioning, central-bank buying) — this pair narrows to 'the oil-specific premium probably eased' as a supported inference, not 'gold confirms the oil story' as a fact."
     - pair: brent-wti
       legs: ["Brent front-month settlement", "WTI front-month settlement"]
       signals: "Global/seaborne oil stress (Brent, more exposed to Hormuz/Red Sea/OPEC+ dynamics) vs. US-specific supply/storage conditions (WTI). The spread widening or narrowing says whether the risk premium is global or US-domestic."
@@ -113,6 +115,11 @@ categories:
       sensitive_assets: ["BTC ETF flows", "DXY"]
 
   risk-stress:
+    - pair: hyg-lqd-same-day
+      legs: ["HYG (iShares High Yield Corp Bond ETF, daily close)", "LQD (iShares Investment Grade Corp Bond ETF, daily close)"]
+      signals: "A same-day, liquid proxy for HY-vs-IG credit risk appetite, filling the gap left by FRED's OAS series (which lags by one-plus trading days). Compare same-day, not against a stale OAS print."
+      plain_english: "These two funds trade every day and give a live read on whether investors are more or less worried about riskier company debt than safer company debt, without waiting for the official spread data to catch up."
+      sensitive_assets: ["HY OAS (context)", "IG OAS (context)", "equity vol"]
     - pair: vix-realized-vol
       legs: ["VIX (implied vol)", "Realized volatility of the underlying index over a trailing window"]
       signals: "Whether options markets are pricing more fear than recent price action justifies (rich vol) or less (cheap vol, potential complacency)."
@@ -124,10 +131,10 @@ categories:
       plain_english: "Bond and stock markets usually panic together — when they don't, it's worth asking why."
       sensitive_assets: ["credit markets", "equity vol"]
     - pair: usdjpy-us-japan-yield-differential
-      legs: ["USD/JPY", "US 10Y minus Japan 10Y (JGB) yield differential"]
-      signals: "The core carry-trade driver for the yen — does USD/JPY track the yield gap, or is it moving on intervention risk / positioning instead?"
-      plain_english: "The yen usually weakens when US interest rates are much higher than Japan's; when USD/JPY moves without the yield gap moving, positioning or intervention fears are probably the reason."
-      sensitive_assets: ["JGB", "UST", "BOJ/MOF policy"]
+      legs: ["USD/JPY", "US 2Y minus Japan 2Y (JGB) yield differential (PRIMARY)", "1Y OIS-implied policy-path differential (SECONDARY, when sourceable)", "US 10Y minus Japan 10Y (JGB) yield differential (SECONDARY — longer-duration/fiscal signal, not the near-term carry driver)"]
+      signals: "The core near-term carry-trade driver for the yen is the SHORT end (2Y and the expected overnight-rate path), not the 10Y gap — corrected 2026-07-28 (v2.1.0) after an external review noted the 10Y-only framing understates how much of the carry trade is priced off near-term policy expectations. Track the 2Y differential as primary; the 10Y gap remains useful as a separate, longer-duration/term-premium signal, not a substitute for the 2Y."
+      plain_english: "The yen usually weakens when short-term US interest rates (and rate expectations) are much higher than Japan's; when USD/JPY moves without the short-end gap moving, positioning or intervention fears are probably the reason. Also worth checking: risk-reversals (options pricing for yen upside vs. downside protection) and CFTC positioning, which often move before the yield gap does."
+      sensitive_assets: ["JGB 2Y", "UST 2Y", "BOJ/MOF policy", "risk reversals", "CFTC yen positioning"]
     - pair: sovereign-cds-local-currency
       legs: ["A country's sovereign CDS spread", "Its local-currency bond yield or FX rate"]
       signals: "Whether default-risk pricing (CDS, usually USD-denominated risk) agrees with local-currency-market stress — they can diverge when currency risk and default risk are priced differently."

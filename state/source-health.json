@@ -57,6 +57,13 @@
         "freight/insurance rates (supply-chain, 3rd consecutive run)"
       ],
       "notes": "CNBC/WaPo/treasury.gov/Cboe/FRED fetches blocked (403). CoinMarketCap ETH print ~5% below all other sources - judged stale cache, discarded. HNGN Brent -4%/$92.74 judged stale vs Rigzone-Bloomberg settlement $88.36. Nikkei +0.50% vs +0.66% conflict resolved by internal consistency with Friday close. TE continuous commodity quotes flagged as possibly including early-Asia trade."
+    },
+    {
+      "date": "2026-07-28-refinement",
+      "mode": "system-upgrade (v2.1.0, interactive, not a scheduled run)",
+      "reason": null,
+      "run_started_myt": "interactive session, post 07:11:34 run",
+      "notes": "External review of the v2.0.0 digest (score 8.3/10) identified real methodological gaps, all addressed same-day: cross-venue ratio comparisons (LME vs COMEX copper) withdrawn per new \u00a713.1 comparability-strictness rule; USD/JPY driver corrected from 10Y to 2Y/short-end per config/ratio-pairs.yaml; credit-vs-vol comparison fixed with a same-day HYG/LQD proxy (both fetched and confirmed, 27 Jul closes); country exposure map gained sensitivity/transmission/buffers fields (29 countries); political reaction-function board moved from free-form narrative to a fixed 9-category rubric; reader-facing content split from operator methodology detail into new docs/methodology-appendix.md. One new named gap surfaced and left honest rather than papered over: Monday 27 Jul JGB 2Y print not sourced (Friday's 1.52% used as latest-available context)."
     }
   ]
 }

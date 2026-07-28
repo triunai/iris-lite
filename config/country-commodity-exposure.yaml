@@ -1,5 +1,8 @@
 # Commodity-Country Exposure Map
-# Added 2026-07-28. See OPERATING-INSTRUCTIONS.md §7.8.
+# Added 2026-07-28 (v2.0.0). Sensitivity/transmission/buffers fields added 2026-07-28
+# (v2.1.0), per an external review noting that a categorical exporter/importer label
+# overstates how directly a commodity move actually hits a given country.
+# See OPERATING-INSTRUCTIONS.md §7.8.
 #
 # STATIC structural reference (like instruments.yaml / ratio-pairs.yaml) — describes
 # what each country is exposed to and what to check when that commodity moves.
@@ -7,109 +10,219 @@
 # come from independently sourced FX/equity/data for that day (§7.8's "Agreement"
 # vs "Divergence" framing). Do not rewrite this file daily; extend it when a new
 # country becomes relevant enough to track routinely.
+#
+# Fields per country:
+#   exposure     - what commodity(ies) this country is exposed to and how (exporter/importer)
+#   sensitivity  - low/medium/high: how much of trade balance, fiscal revenue, or CPI basket
+#                  the commodity actually represents (NOT just direction)
+#   transmission - the specific channel the move travels through (current-account deficit,
+#                  fiscal-revenue/breakeven-oil-price, subsidy-bill offset, sovereign-wealth-
+#                  fund buffering, FX-peg insulation, import-hedging, etc.)
+#   buffers      - what would delay, absorb, or mute the shock rather than transmitting it
+#                  immediately (FX reserves, a sovereign wealth fund, hedging contracts, a peg)
+#   watch        - the specific instruments/data to check
 
 countries:
   australia:
     region: apac-expanded
     exposure: "Iron ore, coal (thermal & metallurgical), LNG exporter; China is the dominant marginal buyer."
+    sensitivity: high
+    transmission: "Export revenue and terms of trade; iron ore alone is Australia's single largest export earner, so a sustained China-demand-driven iron-ore move shows up in the trade balance and, with a lag, in AUD."
+    buffers: "Floating exchange rate lets AUD absorb much of the shock quickly (unlike a pegged currency); federal budget has some iron-ore-price sensitivity built into revenue forecasts, cushioning fiscal surprise."
     watch: ["iron ore price", "Chinese steel/property demand", "AUD", "Australian Commonwealth bond yields", "RBA policy", "mining equities (BHP/Rio/Fortescue-type names)"]
   new_zealand:
     region: apac-expanded
     exposure: "Dairy exporter; China demand-sensitive; smaller commodity base than Australia."
+    sensitivity: medium
+    transmission: "Export revenue via dairy; less concentrated than Australia's iron-ore exposure, so a single commodity swing matters less to the aggregate economy."
+    buffers: "Floating currency; diversified export base relative to a single-commodity economy."
     watch: ["Global Dairy Trade auction results", "NZD", "RBNZ policy", "China demand"]
   brazil:
     region: americas-expanded
     exposure: "Iron ore, soybeans, oil (offshore pre-salt), sugar, coffee; large agri-commodity exporter."
+    sensitivity: high
+    transmission: "Export revenue and BRL; commodity terms-of-trade swings show up quickly in the currency, but domestic fiscal/political risk can override or swamp a favorable commodity move (a documented recurring pattern for Brazil)."
+    buffers: "Floating currency; large, liquid local bond market; commodity exposure is diversified across several different commodities rather than concentrated in one."
     watch: ["iron ore", "soybean prices", "Brent/WTI", "BRL", "Vale/Petrobras-type equities", "China demand", "fiscal/political risk (can override commodity tailwinds)"]
   mexico:
     region: americas-expanded
     exposure: "Deeply integrated into US manufacturing supply chains (autos, electronics); moderate oil exporter (Pemex)."
+    sensitivity: medium
+    transmission: "US industrial-cycle and trade-policy exposure dominates over the oil-exporter channel; Pemex's own finances matter more to sovereign fiscal risk than the oil move does to the broader economy."
+    buffers: "Government oil-price hedging program (a multi-year practice) partially insulates the federal budget from spot oil swings; USMCA framework provides some trade-policy stability."
     watch: ["US industrial production/ISM", "US auto sector", "USMCA/tariff status", "MXN", "remittance flows", "Brent/WTI (Pemex fiscal impact)"]
   chile:
     region: americas-expanded
     exposure: "World's largest copper exporter; lithium exporter."
+    sensitivity: high
+    transmission: "Copper is Chile's dominant export and a meaningful direct contributor to fiscal revenue via a sovereign copper-mining royalty/tax structure."
+    buffers: "A structural fiscal rule and a sovereign wealth fund (built partly from copper windfalls) are designed specifically to smooth copper-price volatility for the budget, even though CLP itself still moves with the spot price."
     watch: ["copper price", "CLP", "China construction/EV demand", "mine-specific disruption news (strikes, water/permitting issues)"]
   peru:
     region: americas-expanded
     exposure: "Major copper exporter; also gold, silver, zinc."
+    sensitivity: high
+    transmission: "Export revenue and fiscal-royalty income from mining; less institutionalized fiscal smoothing than Chile's."
+    buffers: "Fewer formal buffers than Chile; domestic political/social instability around mining projects is itself a recurring risk that can amplify rather than absorb a commodity shock."
     watch: ["copper price", "PEN", "China demand", "mine disruptions/social unrest"]
   argentina:
     region: americas-expanded
     exposure: "Soy, corn, wheat exporter; energy self-sufficiency ambitions (Vaca Muerta shale)."
+    sensitivity: high
+    transmission: "Agricultural export taxes are a direct fiscal-revenue line, so a grain-price move affects the budget almost immediately, not just the trade balance."
+    buffers: "Historically thin FX reserves and a fragile IMF-programme relationship mean Argentina has LESS buffering capacity than most peer commodity exporters — shocks tend to transmit fast and hard rather than being absorbed."
     watch: ["soybean/corn/wheat prices", "weather (harvest conditions)", "export-tax policy", "FX reserves", "ARS", "IMF programme status"]
   colombia:
     region: americas-expanded
     exposure: "Oil and coal exporter; smaller agri (coffee) exposure."
+    sensitivity: medium
+    transmission: "Oil/coal export revenue and a fiscal-rule linkage to commodity revenue; less concentrated than a single-commodity Gulf economy."
+    buffers: "Floating currency; a fiscal rule intended to smooth commodity-revenue volatility, though with less financial firepower than Chile's or Norway's."
     watch: ["Brent/WTI", "COP", "fiscal accounts", "coal demand (Europe/Asia utility buying)"]
   canada:
     region: americas
     exposure: "Oil (WCS heavy crude, Alberta oil sands), natural gas, base/precious metals, potash."
+    sensitivity: medium
+    transmission: "Energy-sector export revenue and CAD; WTI/WCS spread specifically affects Alberta producer economics more than the price level alone."
+    buffers: "Diversified, large advanced economy — energy is significant but not dominant in aggregate GDP; deep, liquid currency and bond markets absorb shocks smoothly."
     watch: ["WTI/WCS spread", "CAD", "US energy demand", "pipeline capacity constraints", "BoC policy"]
   norway:
     region: europe-expanded
     exposure: "Brent-linked oil and European natural gas (major pipeline gas exporter to Europe)."
+    sensitivity: high
+    transmission: "Direct fiscal-revenue exposure via petroleum tax and licensing income, but the mechanism is DELIBERATELY decoupled from the annual budget."
+    buffers: "The Government Pension Fund Global (sovereign wealth fund) is explicitly designed to absorb oil-revenue volatility — a large share of any oil move's fiscal impact is saved/smoothed rather than spent or felt immediately. This is one of the strongest buffering examples in this map; NOK itself can still move with oil even when the fiscal impact is muted."
     watch: ["Brent", "European gas benchmarks (TTF)", "NOK", "sovereign wealth fund flows", "Norges Bank policy"]
   russia:
     region: geopolitics-linked
     exposure: "Oil (Urals, sanctioned/discounted), natural gas, wheat, fertilizer, nickel, palladium."
+    sensitivity: high
+    transmission: "Oil/gas export revenue is a dominant fiscal and current-account input, though sanctions and the Urals discount to Brent mean the price Russia actually realizes is structurally below the headline benchmark."
+    buffers: "Reduced access to some international reserves/institutions under sanctions limits conventional buffering tools; a domestic wealth fund exists but its usable capacity under sanctions is not reliably observable from open sources."
     watch: ["Urals discount to Brent", "shadow-fleet tanker activity", "Black Sea grain-corridor status", "sanctions regime changes", "RUB (thin/unreliable data — flag data-quality limits explicitly)"]
   ukraine:
     region: geopolitics-linked
     exposure: "Wheat, corn, sunflower oil, and (pre-war) steel/iron ore; Black Sea export corridor is the critical chokepoint."
+    sensitivity: high
+    transmission: "Export capacity, not just price, is the binding constraint — war-driven port/corridor access matters more day-to-day than the grain price itself."
+    buffers: "Wartime economy with heavy external financial support (allied aid/loans) substitutes for normal fiscal buffers; not a market-based buffering mechanism."
     watch: ["Black Sea shipping/corridor status", "wheat/corn/sunflower-oil prices", "war-related infrastructure strikes on ports/grain terminals", "European/African food-import cost knock-ons (esp. Egypt)"]
   south_africa:
     region: africa
     exposure: "Gold, platinum-group metals (PGMs), coal, iron ore."
+    sensitivity: high
+    transmission: "Mining export revenue and equity-market weighting (mining is a large share of the JSE); PGM demand is itself linked to global auto-catalyst demand, a secondary transmission layer."
+    buffers: "Floating currency; but chronic electricity-supply constraints (load-shedding) act as a DOMESTIC bottleneck that can prevent the country from fully capturing a favorable price move even when demand is there."
     watch: ["gold price", "PGM prices (autocatalyst demand)", "ZAR", "load-shedding/electricity availability (constrains mining output)", "China demand"]
   nigeria:
     region: africa
     exposure: "Oil exporter (Bonny Light and other grades); heavily oil-revenue-dependent fiscal position."
+    sensitivity: high
+    transmission: "Oil revenue is a dominant share of federal government revenue and FX earnings — among the most fiscally concentrated exposures in this map."
+    buffers: "Limited fiscal buffers relative to Gulf peers; a domestic subsidy/pricing-policy history adds a second transmission layer (subsidy-cost changes can offset or amplify the pure export-revenue effect, similar to Malaysia's dynamic but historically less well-buffered)."
     watch: ["Brent (Nigerian grades trade close to Brent)", "NGN", "OPEC+ quota compliance", "pipeline vandalism/theft disruptions", "fiscal/subsidy policy"]
   egypt:
     region: africa
     exposure: "Net food (wheat) and energy importer; Suez Canal transit-fee revenue is a major, shipping-route-sensitive income source."
+    sensitivity: high
+    transmission: "Two DISTINCT channels that can move in opposite directions: (1) import-bill pain from wheat/energy price increases, and (2) Suez transit-fee revenue, which is hit hard by Red Sea/Bab el-Mandeb shipping disruption REGARDLESS of the commodity price direction — a rerouting event can hurt Egypt even if oil itself is falling."
+    buffers: "FX reserves and IMF-programme support are the primary buffers; historically thin relative to the size of the import bill, so shocks can transmit quickly to FX and inflation."
     watch: ["wheat price", "Brent/WTI", "Suez Canal transit volumes (Red Sea/Bab el-Mandeb disruption risk directly hits this revenue line)", "EGP", "FX reserves/IMF programme status"]
   drc_zambia_copperbelt:
     region: africa
     exposure: "Major copper and cobalt exporters (DRC dominant in cobalt, both major in copper)."
+    sensitivity: high
+    transmission: "Export revenue and mining-royalty fiscal income; cobalt's EV-battery demand linkage is a secondary, longer-cycle transmission channel distinct from copper's more industrial/construction-cycle linkage."
+    buffers: "Limited formal fiscal buffers; local currency and fiscal stability are both more exposed to a sustained commodity downturn than in more diversified economies."
     watch: ["copper price", "cobalt price (EV battery demand)", "China demand", "local currency/fiscal stress", "mine-specific disruption news"]
   morocco:
     region: africa
     exposure: "World's largest phosphate/fertilizer reserves and a major exporter (OCP Group)."
+    sensitivity: medium
+    transmission: "Export revenue via a largely state-linked entity (OCP Group), giving the government more direct visibility into and influence over how a price move flows through than a purely private-sector export base would."
+    buffers: "State ownership stake provides some fiscal-planning buffer; MAD is managed within a band rather than freely floating, muting day-to-day FX transmission."
     watch: ["fertilizer prices (phosphate, urea)", "global agri-input demand", "MAD"]
   gulf_exporters_bloc:
     region: middle-east
     exposure: "Saudi Arabia, UAE, Kuwait, Qatar, Iraq — oil and gas exporters; several run currency pegs to USD; fiscal breakeven oil prices vary widely by country."
+    sensitivity: high
+    transmission: "Direct fiscal-revenue and current-account exposure; each country's specific fiscal breakeven oil price (published periodically by the IMF/IIF) determines how painful a given price level actually is — a uniform 'oil fell, Gulf loses' framing hides large variation across this bloc."
+    buffers: "USD currency pegs mechanically insulate the EXCHANGE RATE from the shock (it won't move to confirm or deny a commodity-driven read), even though the underlying fiscal position is very much affected; several members (notably UAE, Kuwait, Qatar) also run large sovereign wealth funds that smooth fiscal spending relative to the current oil price."
     watch: ["Brent", "OPEC+ quota/compliance decisions", "fiscal breakeven oil price estimates (IMF/IIF)", "sovereign spreads", "USD-peg stability", "shipping-route risk (Hormuz/Red Sea) — see geopolitics theme"]
   india:
     region: asia-core
     exposure: "Large net oil and gold importer; a crude-price move is a direct terms-of-trade and current-account-deficit lever."
+    sensitivity: high
+    transmission: "Current-account deficit and imported inflation; oil alone is one of India's largest import-bill line items, so the transmission to CPI and the rupee is fast and well-documented (as seen Monday 27 Jul — see the digest)."
+    buffers: "Sizeable FX reserves give the RBI room to smooth rupee volatility around a shock, though this manages the pace of transmission rather than eliminating the underlying terms-of-trade effect."
     watch: ["Brent/WTI", "gold price (large consumer-demand and import-bill component)", "INR", "current-account deficit", "refining-margin equities"]
   japan:
     region: asia-core
-    exposure: "Large net energy importer (oil and LNG, minimal domestic production); a crude/gas price fall is a terms-of-trade tailwind that does not always show up in JPY (rate-differential and carry dynamics can dominate — a documented divergence, see the 2026-07-28 digest)."
-    watch: ["Brent/WTI", "JKM (Asian LNG benchmark)", "JPY", "BOJ/MOF policy stance", "utility-sector equities"]
+    exposure: "Large net energy importer (oil and LNG, minimal domestic production); a crude/gas price fall is a terms-of-trade tailwind that does not always show up in JPY (rate-differential and positioning dynamics frequently dominate — a documented divergence, see the 2026-07-28 digest)."
+    sensitivity: medium
+    transmission: "Import-bill relief flows through utility-sector costs and the trade balance, but Japan's currency is ALSO one of the world's most heavily traded carry-funding currencies — short-end rate expectations and speculative positioning (see the usdjpy-us-japan-yield-differential ratio pair) frequently swamp the terms-of-trade signal in the FX rate itself, even when the terms-of-trade effect is real and positive."
+    buffers: "No fiscal-revenue exposure to speak of (Japan isn't a commodity exporter), so the main 'buffer' question is really about whether the FX market lets the terms-of-trade improvement show up at all — historically inconsistent."
+    watch: ["Brent/WTI", "JKM (Asian LNG benchmark)", "JPY", "US-Japan 2Y yield differential (primary carry driver)", "BOJ/MOF policy stance", "utility-sector equities"]
   south_korea:
     region: asia-core
     exposure: "Net energy importer; major semiconductor and shipbuilding exporter — the semis side often dominates market narrative over the energy-import benefit."
+    sensitivity: medium
+    transmission: "Energy-import relief is real but modest next to the much larger semiconductor-export channel, which is driven by an entirely separate global capex/demand cycle, not by oil."
+    buffers: "Floating currency; foreign-portfolio-flow sensitivity (large foreign ownership share of Korean equities) can dominate short-term FX moves over either the energy or semiconductor channel on any given day — as seen Monday 27 Jul, when Kospi rose on an energy-relief/rebound trade while KRW weakened on foreign equity outflows."
     watch: ["Brent/WTI", "global semiconductor demand/exports data (MOTIE)", "KRW", "foreign equity flows (often the more powerful same-day driver than the commodity move)"]
   taiwan:
     region: asia-core
     exposure: "Net energy importer; dominant global semiconductor foundry exporter (TSMC-centric supply chain)."
+    sensitivity: medium
+    transmission: "Similar structure to Korea — energy-import relief is secondary to the semiconductor-export cycle, which moves on global chip-capex news rather than oil."
+    buffers: "Floating currency; large current-account surplus (driven by chip exports) gives Taiwan more external buffering capacity than most peer economies, independent of the commodity-price channel."
     watch: ["Brent/WTI", "global chip demand/capex cycle", "TWD", "foreign equity flows"]
   china:
     region: asia-core
     exposure: "Largest marginal buyer across industrial metals, iron ore, coal, soybeans, and a large net oil importer; also a major exporter of finished manufactured goods and (increasingly) high-end tech/EVs/solar."
+    sensitivity: medium
+    transmission: "Cheaper commodity inputs flow through industrial-firm margins (visible with a lag in data like industrial-profit releases) rather than through the currency in any mechanical way; the yuan is a managed float, so its day-to-day move reflects policy and capital-flow considerations at least as much as the terms-of-trade effect."
+    buffers: "Large FX reserves and a managed exchange-rate regime give policymakers substantial control over how fast (or whether) a terms-of-trade improvement shows up in CNY — this is a POLICY buffer, not a market one."
     watch: ["iron ore", "copper", "coal", "soybeans", "Brent/WTI", "CNY/CNH", "credit impulse", "property-sector construction/land-sales data", "Politburo/stimulus signalling"]
   singapore:
     region: asia-core
     exposure: "Major oil-refining and trading hub; re-export/entrepot economy; not a primary producer of any single commodity."
+    sensitivity: low
+    transmission: "Refining-margin sensitivity (the spread between crude input cost and refined-product prices) matters more than the crude price level itself; as a trading/logistics hub, Singapore's exposure is to VOLUME and margin, not direction."
+    buffers: "Very large FX reserves relative to economy size and a managed-float currency regime (MAS operates a trade-weighted band, not a simple peg) give substantial policy buffering capacity."
     watch: ["refining margins", "regional trade/shipping volumes", "SGD", "electronics/semiconductor trade data"]
   malaysia:
     region: asia-core-home-market
     exposure: "LNG and oil exporter (Petronas) alongside heavy fuel subsidies that partially insulate consumers; world's #2 palm-oil (CPO) producer/exporter; also a significant electronics/semiconductor exporter."
+    sensitivity: medium
+    transmission: "TWO DISTINCT AND OPPOSING channels that must always be stated together: (1) Petronas export-revenue and government petroleum income rises with oil, a fiscal and current-account POSITIVE; (2) the RON95/diesel fuel-subsidy bill (cited at RM40-50bn/year) rises with oil, a fiscal NEGATIVE. The net effect depends on the relative size of each channel and is not a simple 'Malaysia wins' or 'Malaysia loses' call."
+    buffers: "The subsidy system itself acts as a buffer for CONSUMERS (insulating retail fuel prices from the world price, at a fiscal cost) even as it transmits the shock directly onto the government's own balance sheet instead."
     watch: ["Brent/WTI (export-revenue and subsidy-bill effects run in OPPOSITE directions — always state both)", "CPO price (vs. soybean-oil competitiveness)", "MYR", "Bursa plantation and energy indices", "global chip-demand cycle (E&E exports)"]
   indonesia:
     region: asia-expanded
     exposure: "World's #1 palm-oil producer/exporter; coal and nickel exporter (nickel increasingly tied to EV/battery demand)."
+    sensitivity: high
+    transmission: "Export revenue across three distinct commodities (palm oil, coal, nickel) with different demand drivers (edible-oil/biodiesel demand, Asian utility coal demand, and global EV/battery demand respectively) — a single 'commodity exporter' framing understates how diversified but also how policy-sensitive (export levies, downstream-processing mandates) this exposure is."
+    buffers: "Floating currency; export-levy policy gives the government a direct lever to capture or release windfalls, functioning as a quasi-fiscal buffer distinct from a sovereign wealth fund."
     watch: ["CPO price", "coal price", "nickel price (China/EV demand)", "IDR", "export-policy changes (e.g. palm-oil export levies, nickel downstreaming rules)"]
+  poland:
+    region: europe-expanded
+    exposure: "Not a major commodity exporter; relevant here primarily as a Ukraine-transmission node (grain-corridor logistics, refugee/fiscal spillover, front-line-adjacent energy security) and as a NATO/EU eastern-flank economy."
+    sensitivity: low
+    transmission: "Commodity exposure itself is low; the country matters to this map mainly as a transit/logistics and geopolitical-risk transmission point for the Russia-Ukraine hotspot, not as a direct commodity-price play."
+    buffers: "EU membership provides fiscal/financial backstops not available to Ukraine itself."
+    watch: ["PLN", "Polish equities", "Ukraine grain-corridor and refugee-flow developments", "NATO eastern-flank security commentary"]
+  turkey:
+    region: middle-east
+    exposure: "Large net energy importer with a history of acute currency and inflation volatility; not a commodity exporter of note."
+    sensitivity: high
+    transmission: "Energy-import bill is a major current-account and inflation driver, but Turkey's currency/inflation dynamics have repeatedly been dominated by domestic monetary-policy credibility issues rather than by the commodity-price channel itself — treat TRY moves cautiously and check domestic policy news before attributing a move to a commodity swing."
+    buffers: "Historically thin and volatile FX reserves; buffering capacity has varied sharply across different policy regimes — do not assume a stable buffer level year to year."
+    watch: ["Brent/WTI", "TRY", "Turkish inflation prints", "CBRT policy stance", "domestic political/credibility news"]
+  israel:
+    region: middle-east
+    exposure: "Not a major commodity exporter/importer story on its own; relevant here as a direct party to the Middle East geopolitical hotspot with its own equity market and currency."
+    sensitivity: low
+    transmission: "Market moves in ILS/Israeli equities on hotspot days are driven by security/conflict-risk premia rather than a commodity-exposure channel — track separately from the commodity-country logic used elsewhere in this map."
+    buffers: "Advanced, diversified economy with a floating currency and independent central bank; not the relevant lens for this map's commodity-transmission purpose."
+    watch: ["ILS", "TA-125 or similar Israeli equity benchmark", "direct conflict/security headlines (see geopolitics theme, not this map)"]
