@@ -1,11 +1,11 @@
 ---
 theme: credit
-status: dormant
-confidence: low
+status: stable
+confidence: medium
 first_opened: 2026-07-26
 last_reviewed: 2026-07-28
-previous_status: null
-status_change_reason: null
+previous_status: dormant
+status_change_reason: "First sourced credit-spread data via FRED (IG/HY OAS) - gap closed after 3 runs of insufficient data"
 sensitive_assets: ["IG spreads", "HY spreads", "sovereign spreads"]
 sensitive_sectors: ["banks", "highly-levered issuers"]
 next_catalysts: ["any material spread-widening event", "next credit-market commentary from a Tier 1/2 source"]
@@ -29,3 +29,7 @@ None logged yet.
 ## Sources
 
 See briefs/2026/07/2026-07-24-morning-brief.md §4 (Cross-Asset Signal Matrix — Credit row: 'Unavailable from a sufficiently reliable source').
+
+## Observation 2026-07-28
+
+Gap closed: FRED publishes free, fetchable US IG OAS (BAMLC0A0CM) and HY OAS (BAMLH0A0HYM2) series. Latest available (24 Jul, reporting lag to this run): IG 0.80% (80bp), HY 2.79% (279bp) - both in a historically tight/calm range, showing NO credit-market stress through the entire oil/geopolitical shock episode (Brent >$100 to $88.36 and back), even as equity vol ticked up intraday Monday (VIX 17.7-19.4 range). This is itself a signal: credit investors read the shock as transitory/event-driven rather than a fundamental risk re-rating (Analyst inference) - see trackers/relationship-dashboard.csv hy-spread-vix row. EM sovereign spread proxy (EMBI GD) only available quarter-end (235bp, 30 Jun) - no July update sourced; CDX IG/HY remain paywalled/unsourced. Status: dormant -> stable, confidence low -> medium. See trackers/liquidity-plumbing.csv (new tracker, OPERATING-INSTRUCTIONS.md §14) for the full plumbing read (TGA, SOFR/EFFR also now tracked - no funding stress visible).

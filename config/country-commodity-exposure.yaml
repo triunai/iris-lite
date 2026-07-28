@@ -1,0 +1,115 @@
+# Commodity-Country Exposure Map
+# Added 2026-07-28. See OPERATING-INSTRUCTIONS.md §7.8.
+#
+# STATIC structural reference (like instruments.yaml / ratio-pairs.yaml) — describes
+# what each country is exposed to and what to check when that commodity moves.
+# It does NOT assert that a reaction happened on any given day — that must always
+# come from independently sourced FX/equity/data for that day (§7.8's "Agreement"
+# vs "Divergence" framing). Do not rewrite this file daily; extend it when a new
+# country becomes relevant enough to track routinely.
+
+countries:
+  australia:
+    region: apac-expanded
+    exposure: "Iron ore, coal (thermal & metallurgical), LNG exporter; China is the dominant marginal buyer."
+    watch: ["iron ore price", "Chinese steel/property demand", "AUD", "Australian Commonwealth bond yields", "RBA policy", "mining equities (BHP/Rio/Fortescue-type names)"]
+  new_zealand:
+    region: apac-expanded
+    exposure: "Dairy exporter; China demand-sensitive; smaller commodity base than Australia."
+    watch: ["Global Dairy Trade auction results", "NZD", "RBNZ policy", "China demand"]
+  brazil:
+    region: americas-expanded
+    exposure: "Iron ore, soybeans, oil (offshore pre-salt), sugar, coffee; large agri-commodity exporter."
+    watch: ["iron ore", "soybean prices", "Brent/WTI", "BRL", "Vale/Petrobras-type equities", "China demand", "fiscal/political risk (can override commodity tailwinds)"]
+  mexico:
+    region: americas-expanded
+    exposure: "Deeply integrated into US manufacturing supply chains (autos, electronics); moderate oil exporter (Pemex)."
+    watch: ["US industrial production/ISM", "US auto sector", "USMCA/tariff status", "MXN", "remittance flows", "Brent/WTI (Pemex fiscal impact)"]
+  chile:
+    region: americas-expanded
+    exposure: "World's largest copper exporter; lithium exporter."
+    watch: ["copper price", "CLP", "China construction/EV demand", "mine-specific disruption news (strikes, water/permitting issues)"]
+  peru:
+    region: americas-expanded
+    exposure: "Major copper exporter; also gold, silver, zinc."
+    watch: ["copper price", "PEN", "China demand", "mine disruptions/social unrest"]
+  argentina:
+    region: americas-expanded
+    exposure: "Soy, corn, wheat exporter; energy self-sufficiency ambitions (Vaca Muerta shale)."
+    watch: ["soybean/corn/wheat prices", "weather (harvest conditions)", "export-tax policy", "FX reserves", "ARS", "IMF programme status"]
+  colombia:
+    region: americas-expanded
+    exposure: "Oil and coal exporter; smaller agri (coffee) exposure."
+    watch: ["Brent/WTI", "COP", "fiscal accounts", "coal demand (Europe/Asia utility buying)"]
+  canada:
+    region: americas
+    exposure: "Oil (WCS heavy crude, Alberta oil sands), natural gas, base/precious metals, potash."
+    watch: ["WTI/WCS spread", "CAD", "US energy demand", "pipeline capacity constraints", "BoC policy"]
+  norway:
+    region: europe-expanded
+    exposure: "Brent-linked oil and European natural gas (major pipeline gas exporter to Europe)."
+    watch: ["Brent", "European gas benchmarks (TTF)", "NOK", "sovereign wealth fund flows", "Norges Bank policy"]
+  russia:
+    region: geopolitics-linked
+    exposure: "Oil (Urals, sanctioned/discounted), natural gas, wheat, fertilizer, nickel, palladium."
+    watch: ["Urals discount to Brent", "shadow-fleet tanker activity", "Black Sea grain-corridor status", "sanctions regime changes", "RUB (thin/unreliable data — flag data-quality limits explicitly)"]
+  ukraine:
+    region: geopolitics-linked
+    exposure: "Wheat, corn, sunflower oil, and (pre-war) steel/iron ore; Black Sea export corridor is the critical chokepoint."
+    watch: ["Black Sea shipping/corridor status", "wheat/corn/sunflower-oil prices", "war-related infrastructure strikes on ports/grain terminals", "European/African food-import cost knock-ons (esp. Egypt)"]
+  south_africa:
+    region: africa
+    exposure: "Gold, platinum-group metals (PGMs), coal, iron ore."
+    watch: ["gold price", "PGM prices (autocatalyst demand)", "ZAR", "load-shedding/electricity availability (constrains mining output)", "China demand"]
+  nigeria:
+    region: africa
+    exposure: "Oil exporter (Bonny Light and other grades); heavily oil-revenue-dependent fiscal position."
+    watch: ["Brent (Nigerian grades trade close to Brent)", "NGN", "OPEC+ quota compliance", "pipeline vandalism/theft disruptions", "fiscal/subsidy policy"]
+  egypt:
+    region: africa
+    exposure: "Net food (wheat) and energy importer; Suez Canal transit-fee revenue is a major, shipping-route-sensitive income source."
+    watch: ["wheat price", "Brent/WTI", "Suez Canal transit volumes (Red Sea/Bab el-Mandeb disruption risk directly hits this revenue line)", "EGP", "FX reserves/IMF programme status"]
+  drc_zambia_copperbelt:
+    region: africa
+    exposure: "Major copper and cobalt exporters (DRC dominant in cobalt, both major in copper)."
+    watch: ["copper price", "cobalt price (EV battery demand)", "China demand", "local currency/fiscal stress", "mine-specific disruption news"]
+  morocco:
+    region: africa
+    exposure: "World's largest phosphate/fertilizer reserves and a major exporter (OCP Group)."
+    watch: ["fertilizer prices (phosphate, urea)", "global agri-input demand", "MAD"]
+  gulf_exporters_bloc:
+    region: middle-east
+    exposure: "Saudi Arabia, UAE, Kuwait, Qatar, Iraq — oil and gas exporters; several run currency pegs to USD; fiscal breakeven oil prices vary widely by country."
+    watch: ["Brent", "OPEC+ quota/compliance decisions", "fiscal breakeven oil price estimates (IMF/IIF)", "sovereign spreads", "USD-peg stability", "shipping-route risk (Hormuz/Red Sea) — see geopolitics theme"]
+  india:
+    region: asia-core
+    exposure: "Large net oil and gold importer; a crude-price move is a direct terms-of-trade and current-account-deficit lever."
+    watch: ["Brent/WTI", "gold price (large consumer-demand and import-bill component)", "INR", "current-account deficit", "refining-margin equities"]
+  japan:
+    region: asia-core
+    exposure: "Large net energy importer (oil and LNG, minimal domestic production); a crude/gas price fall is a terms-of-trade tailwind that does not always show up in JPY (rate-differential and carry dynamics can dominate — a documented divergence, see the 2026-07-28 digest)."
+    watch: ["Brent/WTI", "JKM (Asian LNG benchmark)", "JPY", "BOJ/MOF policy stance", "utility-sector equities"]
+  south_korea:
+    region: asia-core
+    exposure: "Net energy importer; major semiconductor and shipbuilding exporter — the semis side often dominates market narrative over the energy-import benefit."
+    watch: ["Brent/WTI", "global semiconductor demand/exports data (MOTIE)", "KRW", "foreign equity flows (often the more powerful same-day driver than the commodity move)"]
+  taiwan:
+    region: asia-core
+    exposure: "Net energy importer; dominant global semiconductor foundry exporter (TSMC-centric supply chain)."
+    watch: ["Brent/WTI", "global chip demand/capex cycle", "TWD", "foreign equity flows"]
+  china:
+    region: asia-core
+    exposure: "Largest marginal buyer across industrial metals, iron ore, coal, soybeans, and a large net oil importer; also a major exporter of finished manufactured goods and (increasingly) high-end tech/EVs/solar."
+    watch: ["iron ore", "copper", "coal", "soybeans", "Brent/WTI", "CNY/CNH", "credit impulse", "property-sector construction/land-sales data", "Politburo/stimulus signalling"]
+  singapore:
+    region: asia-core
+    exposure: "Major oil-refining and trading hub; re-export/entrepot economy; not a primary producer of any single commodity."
+    watch: ["refining margins", "regional trade/shipping volumes", "SGD", "electronics/semiconductor trade data"]
+  malaysia:
+    region: asia-core-home-market
+    exposure: "LNG and oil exporter (Petronas) alongside heavy fuel subsidies that partially insulate consumers; world's #2 palm-oil (CPO) producer/exporter; also a significant electronics/semiconductor exporter."
+    watch: ["Brent/WTI (export-revenue and subsidy-bill effects run in OPPOSITE directions — always state both)", "CPO price (vs. soybean-oil competitiveness)", "MYR", "Bursa plantation and energy indices", "global chip-demand cycle (E&E exports)"]
+  indonesia:
+    region: asia-expanded
+    exposure: "World's #1 palm-oil producer/exporter; coal and nickel exporter (nickel increasingly tied to EV/battery demand)."
+    watch: ["CPO price", "coal price", "nickel price (China/EV demand)", "IDR", "export-policy changes (e.g. palm-oil export levies, nickel downstreaming rules)"]

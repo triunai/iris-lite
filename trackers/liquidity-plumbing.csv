@@ -1,0 +1,9 @@
+date,indicator,value,unit,source,notes
+2026-07-24,US IG corporate OAS,0.80,% (80bp),"FRED series BAMLC0A0CM, ICE BofA US Corporate Index Option-Adjusted Spread, page updated 27 Jul 2026 10:23 CDT",Latest available at 28 Jul run; series updates with a reporting lag - Friday 24 Jul is the newest print
+2026-07-24,US HY corporate OAS,2.79,% (279bp),"FRED series BAMLH0A0HYM2, ICE BofA US High Yield Index OAS, page updated 27 Jul 2026 10:19 CDT",Same lag as IG above; IG/HY still tight historically despite the oil-shock week - no credit-market stress signal yet
+2026-06-30,EM sovereign spread (EMBI Global Diversified proxy),235,bp,"State Street Global Advisors, Emerging Market Debt Market Commentary Q2 2026",Quarter-end print only - no July update located from a free source; tightened 53bp in Q2; treat as context/directional only
+2026-07-24,"US Treasury General Account (Daily Treasury Statement, operating cash balance)",886300,USD millions,US Treasury Fiscal Data API - Daily Treasury Statement,Monday 27 Jul statement not yet published at cutoff
+2026-07-22,US Treasury General Account (Fed H.4.1 weekly average),829623,USD millions,"FRED series WTREGEN, week ending 22 Jul 2026, published 23 Jul 15:31 CDT",Different methodology from the DTS daily figure above (weekly Wed average vs daily close) - do not blend the two conventions in one time series
+2026-07-24,SOFR,3.64,%,"NY Fed Reference Rates, Secured Overnight Financing Rate",Volume ~2979bn; 1st/25th/75th/99th percentiles 3.59/3.62/3.69/3.72 - no funding-stress signal
+2026-07-24,EFFR,3.63,%,NY Fed Reference Rates - Effective Federal Funds Rate,Flat 20-24 Jul; within the 3.50-3.75% target range
+2026-07-24,SOFR-EFFR spread,1,bp,Desk-computed from the two NY Fed series above,No acute repo/funding stress visible in the latest published data

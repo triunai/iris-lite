@@ -1,0 +1,135 @@
+# Relationship & Ratio Engine — pair definitions
+# Added 2026-07-28. See OPERATING-INSTRUCTIONS.md §13 and §8.3.
+#
+# This file is a STATIC structural reference (like instruments.yaml) — it defines
+# which pairs the desk watches and what each one is meant to signal. It does not
+# get rewritten daily. Daily levels/changes/flags live in
+# trackers/relationship-dashboard.csv, which accumulates its own history over time.
+#
+# Statistical honesty rule (non-negotiable): percentile / z_score / rolling
+# correlation require a real historical series. Until this desk's own tracked
+# history is long enough, or a named provider publishes the statistic, the
+# tracker logs "insufficient history" — never a guessed number.
+
+categories:
+  growth-fear:
+    - pair: copper-gold
+      legs: ["Copper (COMEX or LME, state venue)", "Gold (spot or COMEX front-month, state which)"]
+      signals: "Industrial-growth optimism (copper) vs. fear/defensiveness (gold). Rising ratio = growth-favoring; falling = defensive."
+      plain_english: "When copper is expensive relative to gold, markets are betting on growth; when gold is expensive relative to copper, markets are getting nervous."
+      sensitive_assets: ["cyclical equities", "EM FX", "long-end yields"]
+      caveats: "Copper trades on both LME (per tonne) and COMEX (per lb) — never mix venues without flagging the unit conversion and noting it as a comparability caveat."
+    - pair: cyclicals-defensives
+      legs: ["Cyclical sector equities (industrials/materials/financials, by region)", "Defensive sector equities (staples/utilities/healthcare)"]
+      signals: "Relative-performance growth read at the equity-sector level."
+      plain_english: "Are investors buying the stocks that do well in a boom, or the stocks that hold up in a downturn?"
+      sensitive_assets: ["sector indices", "small-caps"]
+    - pair: small-caps-large-caps
+      legs: ["Russell 2000 (US) or regional small-cap index", "S&P 500 (US) or regional large-cap benchmark"]
+      signals: "Risk appetite and domestic-growth sensitivity (small caps skew more domestic, more rate-sensitive)."
+      plain_english: "Small companies tend to do better when investors feel confident about the economy and financing conditions."
+      sensitive_assets: ["Russell 2000", "regional financing conditions"]
+    - pair: high-yield-treasuries
+      legs: ["US HY corporate bond total return or spread", "US Treasury total return or yield"]
+      signals: "Credit-market risk appetite vs. the risk-free rate."
+      plain_english: "Are investors demanding much more compensation to lend to riskier companies, or are they relaxed about it?"
+      sensitive_assets: ["HY OAS (trackers/liquidity-plumbing.csv)", "equities"]
+    - pair: korea-exports-semis
+      legs: ["Korea trade data / chip-export growth (MOTIE)", "Global semiconductor equity index or SOX-equivalent"]
+      signals: "Whether hard trade data confirms or contradicts the semiconductor equity narrative."
+      plain_english: "Korea's chip exports are a real-time read on global semiconductor demand — useful to check against how chip stocks are trading."
+      sensitive_assets: ["Kospi", "TAIEX", "USDKRW"]
+
+  inflation-commodities:
+    - pair: oil-gold
+      legs: ["Brent (front-month settlement)", "Gold (spot or COMEX front-month, state which)"]
+      signals: "Physical/inflation-shock pressure (oil) vs. monetary/geopolitical fear (gold). A falling ratio with oil down and gold firm signals the market is unwinding a supply-shock premium while still holding broader hedges."
+      plain_english: "Oil going up usually means inflation pressure; gold going up usually means fear. Watching them together shows which force is dominating."
+      sensitive_assets: ["breakevens", "central-bank pricing", "energy equities"]
+    - pair: brent-wti
+      legs: ["Brent front-month settlement", "WTI front-month settlement"]
+      signals: "Global/seaborne oil stress (Brent, more exposed to Hormuz/Red Sea/OPEC+ dynamics) vs. US-specific supply/storage conditions (WTI). The spread widening or narrowing says whether the risk premium is global or US-domestic."
+      plain_english: "Brent is the global oil price; WTI is the US oil price. When Brent jumps more than WTI, the stress is international, not domestic."
+      sensitive_assets: ["shipping/chokepoint risk", "US refiners", "global refiners"]
+    - pair: gold-silver
+      legs: ["Gold (spot or COMEX front-month, state which)", "Silver (spot or COMEX front-month, state which)"]
+      signals: "Whether precious-metals demand is purely defensive (gold favored, ratio rises) or spreading into industrial/speculative demand (silver favored, ratio falls)."
+      plain_english: "Silver is both a precious metal and an industrial metal, so it behaves differently from gold depending on whether the economy looks strong or weak."
+      sensitive_assets: ["real yields", "industrial-metals complex"]
+    - pair: copper-aluminium
+      legs: ["Copper (state venue/unit)", "Aluminium (LME or Trading Economics reference)"]
+      signals: "Relative tightness between the two major industrial metals — copper skews more to electrification/China-construction demand, aluminium to broader industrial/packaging demand and energy-cost sensitivity (smelting is power-intensive)."
+      plain_english: "Comparing two industrial metals shows whether it's a broad industrial boom or something specific to copper (like EVs and grids)."
+      sensitive_assets: ["China property/construction", "power prices (smelting cost)"]
+    - pair: iron-ore-steel-margin
+      legs: ["Iron ore (Dalian or 62% Fe seaborne index)", "Steel price (Chinese rebar/HRC benchmark)"]
+      signals: "Chinese steelmaker margin proxy — are steel prices keeping pace with the input-cost (iron ore) move?"
+      plain_english: "If iron ore rises faster than steel, Chinese steel mills are getting squeezed; if steel rises faster, their margins are improving."
+      sensitive_assets: ["Chinese steel equities", "iron-ore exporters (Australia, Brazil)"]
+    - pair: cpo-soybean-oil
+      legs: ["CPO (Bursa Malaysia Derivatives front-month)", "Soybean oil (CBOT front-month)"]
+      signals: "Relative competitiveness of the two major edible/biodiesel-feedstock oils — a widening CPO discount/premium affects Malaysian/Indonesian export demand."
+      plain_english: "Palm oil and soybean oil compete for the same cooking-oil and biodiesel demand, so their relative price matters for Malaysia's exports."
+      sensitive_assets: ["MYR", "Bursa plantation index", "Indonesian rupiah"]
+    - pair: wheat-corn
+      legs: ["Wheat (CBOT front-month)", "Corn (CBOT front-month)"]
+      signals: "Food-substitution pressure and livestock-feed economics — wheat and corn substitute for each other in some feed rations."
+      plain_english: "When wheat gets expensive relative to corn (or vice versa), farmers and food processors start switching between them, which ripples into food and meat prices."
+      sensitive_assets: ["food CPI components", "agricultural exporters (Ukraine, Argentina, Brazil)"]
+    - pair: gas-benchmarks-ttf-henryhub-jkm
+      legs: ["Dutch TTF (EUR/MWh, European benchmark)", "Henry Hub (USD/MMBtu, US benchmark)", "JKM (USD/MMBtu, Asian spot LNG benchmark)"]
+      signals: "Regional gas-price stress comparison — Europe, US, and Asia can diverge sharply depending on LNG cargo flows and regional weather/storage."
+      plain_english: "Natural gas doesn't have one global price the way oil roughly does — comparing the three regional benchmarks shows where the energy squeeze is worst right now."
+      sensitive_assets: ["European industrials", "Asian utilities", "US LNG exporters"]
+      caveats: "JKM is often only available on a stale/weekly-lagged basis from free sources — never blend a stale JKM print into a same-day ratio without flagging the lag."
+    - pair: commodity-index-dxy
+      legs: ["A broad commodity index (e.g. Bloomberg Commodity Index, or a proxy basket if unavailable)", "DXY (US Dollar Index)"]
+      signals: "Whether commodity moves are being driven by physical supply/demand or simply by a stronger/weaker dollar (commodities are dollar-priced globally)."
+      plain_english: "If commodities fall while the dollar is flat, something real changed in supply or demand. If commodities fall alongside a stronger dollar, it may just be a currency effect."
+      sensitive_assets: ["EM FX", "commodity exporters' terms of trade"]
+
+  china:
+    - pair: copper-usdcnh
+      legs: ["Copper (state venue/unit)", "USD/CNH"]
+      signals: "China-demand read on copper crossed against yuan direction — do they agree (both pointing to stronger/weaker China demand) or diverge?"
+      plain_english: "Copper is sensitive to Chinese construction/manufacturing demand; the yuan reflects broader capital-flow and growth expectations. When they disagree, something else is driving one of them."
+      sensitive_assets: ["CNH", "Chinese industrial equities"]
+
+  dollar-liquidity:
+    - pair: dxy-em-fx
+      legs: ["DXY", "A basket or representative EM FX rate (e.g. USD/INR, USD/KRW, USD/MYR)"]
+      signals: "Broad dollar strength vs. idiosyncratic EM stress — do EM currencies move in line with DXY, or is one diverging for local reasons?"
+      plain_english: "Sometimes emerging-market currencies just follow the dollar; sometimes they move for their own reasons (local politics, rate differentials, capital flight)."
+      sensitive_assets: ["EM central banks", "EM sovereign spreads"]
+    - pair: gold-real-yields
+      legs: ["Gold (spot or COMEX front-month, state which)", "US 10Y real yield (TIPS-implied, if sourceable)"]
+      signals: "The textbook inverse relationship — gold (no yield) becomes less attractive as real yields rise, and vice versa. A breakdown in this relationship is itself a signal (e.g., central-bank gold buying, de-dollarization narratives)."
+      plain_english: "Gold pays no interest, so it usually struggles when safe bonds start paying a good real return — when gold rises even as real yields rise, something else (like central banks buying gold) is likely at work."
+      sensitive_assets: ["TIPS", "central-bank reserve-diversification flows"]
+    - pair: btc-global-liquidity
+      legs: ["BTC spot", "A global-liquidity proxy (e.g. major central-bank balance-sheet direction, or DXY as an inverse proxy)"]
+      signals: "Whether digital assets are trading as a liquidity/risk-appetite proxy (this desk's existing framing, §7.5) or decoupling."
+      plain_english: "Bitcoin often rises and falls with how much easy money is sloshing around the system, rather than for its own news."
+      sensitive_assets: ["BTC ETF flows", "DXY"]
+
+  risk-stress:
+    - pair: vix-realized-vol
+      legs: ["VIX (implied vol)", "Realized volatility of the underlying index over a trailing window"]
+      signals: "Whether options markets are pricing more fear than recent price action justifies (rich vol) or less (cheap vol, potential complacency)."
+      plain_english: "VIX measures how much volatility traders expect; comparing it to how volatile the market has actually been shows whether options are expensive or cheap right now."
+      sensitive_assets: ["options markets", "vol-selling strategies"]
+    - pair: hy-spread-vix
+      legs: ["US HY OAS (trackers/liquidity-plumbing.csv)", "VIX"]
+      signals: "Credit and equity-vol stress usually move together; a divergence (credit calm while VIX spikes, or vice versa) flags which market is mispricing the other, or that the driver is asset-class-specific."
+      plain_english: "Bond and stock markets usually panic together — when they don't, it's worth asking why."
+      sensitive_assets: ["credit markets", "equity vol"]
+    - pair: usdjpy-us-japan-yield-differential
+      legs: ["USD/JPY", "US 10Y minus Japan 10Y (JGB) yield differential"]
+      signals: "The core carry-trade driver for the yen — does USD/JPY track the yield gap, or is it moving on intervention risk / positioning instead?"
+      plain_english: "The yen usually weakens when US interest rates are much higher than Japan's; when USD/JPY moves without the yield gap moving, positioning or intervention fears are probably the reason."
+      sensitive_assets: ["JGB", "UST", "BOJ/MOF policy"]
+    - pair: sovereign-cds-local-currency
+      legs: ["A country's sovereign CDS spread", "Its local-currency bond yield or FX rate"]
+      signals: "Whether default-risk pricing (CDS, usually USD-denominated risk) agrees with local-currency-market stress — they can diverge when currency risk and default risk are priced differently."
+      plain_english: "One market prices the risk a country won't pay foreign-currency debt; another prices how nervous local investors are. They don't always agree."
+      sensitive_assets: ["EM sovereign debt", "local-currency bond funds"]
