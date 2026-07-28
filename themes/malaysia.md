@@ -3,7 +3,7 @@ theme: malaysia
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["FBM KLCI", "USDMYR", "MGS"]
@@ -37,3 +37,7 @@ KLCI 1,701.02 -0.79% Fri, week -1.76%; breadth 723D/339G; support 1,695-1,700 (I
 ## Observation 2026-07-28
 
 KLCI 1,713.09 +0.71% Mon — bank-led bargain-hunting (Maybank/CIMB/PBB; Financial Services +0.9%) but breadth NEGATIVE (531 up / 547 down): big-cap rally, not broad. Plantation index fell 16.5 despite "plantation bargain hunting" headline (discrepancy flagged; Batu Kawan up, mid-cap planters down). Ringgit 4.0835/0875 (+~50 pips), strong end of RM4.08-4.10 survey range. CPO early trade RM4,683 -0.8%; Interband sees RM4,400-4,500 on profit-taking. NEW RISK: Economy Minister warns super El Nino (Oct 2026-Jan 2027, >40C possible) could lift electricity demand (peak already +~2.5GW) and threaten food supply (The Edge 27 Jul). Corporate: Khazanah placed 100m TNB @RM13.90 (RM1.4bn), TNB still closed +10 sen — absorbed; CIMB sole MY JLM on US$1.5bn global sukuk. Rakuten: 1,700-1,730 range this week. Negeri Sembilan polls Sat 1 Aug.
+
+
+### Observation 2026-07-29
+KLCI 1,712.48 (-0.04%) but breadth 348/717 (2:1 negative) - Nestle/TNB/KLCC defended the index while tech-adjacent mid-caps sold with the region (MPI -RM2.06); TNB +20 sen to RM14.66, Khazanah block fully absorbed. MYR 4.0885/0930 (eased ~50pips vs 1-month-high USD; firmer vs JPY/EUR/GBP/SGD). CPO Oct RM4,646 early/-0.58% (settlement unavailable). NEW quantified risk: MPOB 97% probability strong El Nino Oct-Dec, est. 2-4% y/y output decline from 4Q26; RHB overweight plantations (CPO RM4,400 assumption). Negeri Sembilan early voting done (~89-91% turnout, conflict flagged); polls Sat. Sovereign sukuk tightest-ever Malaysian spreads (T+15/T+25, 4.7x). Sources: The Star/Bernama 28 Jul 18:18-18:52 MYT; The Star MPOB/RHB 28 Jul; MOF 24 Jul.

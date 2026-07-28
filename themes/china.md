@@ -1,11 +1,11 @@
 ---
 theme: china
-status: mixed
+status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
-previous_status: stable
-status_change_reason: "Largest PBoC medium-term injection in 5 months vs equities down ~7.4% in 4 weeks and no broad stimulus"
+last_reviewed: 2026-07-29
+previous_status: mixed
+status_change_reason: "2026-07-29: DUV-lithography mass-production reports + CXMT capacity fears escalated the chip-competition thread from single-stock story to regional systemic repricing (Kospi -10.84%, TAIEX -4.65%); China now a supply-side disruptor of the global tech order even as its own high-multiple tech fell (ChiNext -7.35%)"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
 sensitive_sectors: ["Chinese property", "Chinese tech/ADRs", "commodity exporters to China"]
 next_catalysts: ["any PBoC policy move", "Chinese activity/trade data", "US-China trade or export-control headlines"]
@@ -37,3 +37,7 @@ PBoC net CNY 500bn 1-yr MLF (plus CNY 700bn earlier in July via outright reverse
 ## Observation 2026-07-28
 
 Equities rallied hard Mon (SSE +1.15%, SZ +2.72%, ChiNext +3.16%, turnover 2.08tn yuan; CSI 300 close unavailable) on Politburo-stimulus positioning + de-escalation; yuan strongest since mid-June (6.7670). June industrial profits +15.1% y/y, slowing from +21.1% (H1 +18.7%; autos H1 -19.5%) — Xinhua/Reuters. PBoC layering 2.1tn yuan of overnight reverse repos (600bn/day 29-31 Jul + 300bn 3 Aug) on the MLF injection. Previews (Yuan Talks, Morgan Stanley via SCMP): targeted support, broad stimulus limited, tech/innovation prioritized. NEW: CXMT Shanghai IPO debuted +466%; reports China building competing litho machines hit ASML -8.4%/NVDA -5% — industrial-policy success signal with global semi implications (Probable, single-source litho detail).
+
+
+### Observation 2026-07-29 (Tue 28 Jul session)
+Status mixed -> heating. Reports that a state-backed Chinese firm has begun mass-producing domestic DUV lithography tools (the underlying technical claim remains thinly-sourced reporting, not a verified fact - but markets repriced regardless) plus CXMT supply fears crashed the Asian semi complex. Domestically: Shanghai -1.16%, Shenzhen -4.52%, ChiNext -7.35%, STAR -5.93%, turnover 2.03tn yuan; CXMT itself -1.6% after the ~+470% debut; Hang Seng flat (-0.1%) with HS Tech +0.2% - H-share investors read the story as neutral-to-positive for China tech while A-share high-multiple names were crushed. No Politburo readout yet (due this week); PBoC 800bn-yuan overnight-repo tranche executes 29 Jul. Tuesday USDCNY unavailable. Sources: China Daily HK/Xinhua 28 Jul 17:18; Reuters via Business Recorder 28 Jul.

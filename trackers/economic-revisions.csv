@@ -1,3 +1,4 @@
 region,country,indicator,ref_period,original_release_date,original_value,revised_release_date,revised_value,revision_direction,magnitude,source,notes
 Americas,US,Durable goods orders (m/m),May 2026,2026-06 (orig release),-4.5%,2026-07-27,-4.0%,upward,0.5pp,RTTNews 27 Jul,revision published with Jun release
 Europe,Germany,ifo Business Climate,Jun 2026,2026-06-24 approx,85.6,2026-07-27,85.7,upward,0.1pt,FXStreet/TE 27 Jul,revision published with Jul release
+Americas,US,Conference Board consumer confidence,Jun 2026,2026-06-30 approx,91.2,2026-07-28,92.2,up,+1.0 index pt,Conference Board via PR Newswire 28 Jul,June revised up at the July release; July miss (90.8 vs 92.1) therefore lands on a raised base

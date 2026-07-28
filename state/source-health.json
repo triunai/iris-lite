@@ -1,69 +1,99 @@
 {
-  "runs": [
-    {
-      "date": "2026-07-24",
-      "mode": "degraded-no-history",
-      "reason": "REPO_URL not configured; no prior state available",
-      "run_started_myt": "2026-07-24T07:10:06+08:00"
-    },
-    {
-      "date": "2026-07-27",
-      "mode": "normal",
-      "reason": null,
-      "run_started_myt": "2026-07-27T07:10:51+08:00",
-      "unavailable_this_run": [
-        "UST 30Y Friday close",
-        "Bund 10Y and Gilt 10Y Friday closes (Bund 3.20% Thu is last verified)",
-        "institutional-grade EURUSD/GBPUSD closes (only low-tier source)",
-        "USDKRW",
-        "USDCNH (onshore CNY used)",
-        "Tier-1 MGS 10Y print (Investing.com 3.600% caveated)",
-        "Reuters/Bloomberg-grade commodity settlements (paywalled)",
-        "gold Friday settlement (internally conflicting sources)",
-        "early-Monday Asia oil/BTC quotes",
-        "CFTC S&P 500 e-mini / 10Y Treasury / JPY legs",
-        "3m/6m regional sector relative-performance dataset (strategic rotation map, 2nd consecutive run)",
-        "freight rates / rerouting data (supply-chain, 2nd consecutive run)",
-        "PMI price sub-indices",
-        "JOLTS date for this week (BLS schedule page fetch failed)"
-      ],
-      "notes": "CNBC/US News/Bloomberg fetches blocked or paywalled; FXLeaders BTC >$150k figure judged irreconcilable with multi-source $64k series and discarded; TipRanks weekly-vs-daily mislabel detected and corrected against AP."
-    },
-    {
-      "date": "2026-07-28",
-      "mode": "normal",
-      "reason": null,
-      "run_started_myt": "2026-07-28T07:11:34+08:00",
-      "unavailable_this_run": [
-        "VIX Monday close (intraday conflict 17.74 vs 19.42)",
-        "Nasdaq 100 close",
-        "UST 30Y close",
-        "official DXY/EURUSD/GBPUSD NY closes",
-        "Bund/Gilt official Monday closing prints (late levels used; Bund Friday close 3.1845% recovered)",
-        "CSI 300 Monday close",
-        "STI Monday close",
-        "USDSGD",
-        "CGB 10Y",
-        "CPO Bursa Monday settlement (early-trade RM4,683 only)",
-        "MGS 10Y (2nd consecutive run)",
-        "COMEX gold official settlement",
-        "LME copper official close",
-        "OVX",
-        "durable goods internals (ex-transport/core capex; Census PDF returned stale April cache)",
-        "PBoC Monday daily OMO amount",
-        "BTC ETF Monday flows (Farside row pending at cutoff)",
-        "CFTC 10Y Treasury leg ref 21 Jul (Tradingster still on 14 Jul)",
-        "3m/6m regional sector relative-performance dataset (strategic rotation map, 3rd consecutive run)",
-        "freight/insurance rates (supply-chain, 3rd consecutive run)"
-      ],
-      "notes": "CNBC/WaPo/treasury.gov/Cboe/FRED fetches blocked (403). CoinMarketCap ETH print ~5% below all other sources - judged stale cache, discarded. HNGN Brent -4%/$92.74 judged stale vs Rigzone-Bloomberg settlement $88.36. Nikkei +0.50% vs +0.66% conflict resolved by internal consistency with Friday close. TE continuous commodity quotes flagged as possibly including early-Asia trade."
-    },
-    {
-      "date": "2026-07-28-refinement",
-      "mode": "system-upgrade (v2.1.0, interactive, not a scheduled run)",
-      "reason": null,
-      "run_started_myt": "interactive session, post 07:11:34 run",
-      "notes": "External review of the v2.0.0 digest (score 8.3/10) identified real methodological gaps, all addressed same-day: cross-venue ratio comparisons (LME vs COMEX copper) withdrawn per new \u00a713.1 comparability-strictness rule; USD/JPY driver corrected from 10Y to 2Y/short-end per config/ratio-pairs.yaml; credit-vs-vol comparison fixed with a same-day HYG/LQD proxy (both fetched and confirmed, 27 Jul closes); country exposure map gained sensitivity/transmission/buffers fields (29 countries); political reaction-function board moved from free-form narrative to a fixed 9-category rubric; reader-facing content split from operator methodology detail into new docs/methodology-appendix.md. One new named gap surfaced and left honest rather than papered over: Monday 27 Jul JGB 2Y print not sourced (Friday's 1.52% used as latest-available context)."
-    }
-  ]
+ "runs": [
+  {
+   "date": "2026-07-24",
+   "mode": "degraded-no-history",
+   "reason": "REPO_URL not configured; no prior state available",
+   "run_started_myt": "2026-07-24T07:10:06+08:00"
+  },
+  {
+   "date": "2026-07-27",
+   "mode": "normal",
+   "reason": null,
+   "run_started_myt": "2026-07-27T07:10:51+08:00",
+   "unavailable_this_run": [
+    "UST 30Y Friday close",
+    "Bund 10Y and Gilt 10Y Friday closes (Bund 3.20% Thu is last verified)",
+    "institutional-grade EURUSD/GBPUSD closes (only low-tier source)",
+    "USDKRW",
+    "USDCNH (onshore CNY used)",
+    "Tier-1 MGS 10Y print (Investing.com 3.600% caveated)",
+    "Reuters/Bloomberg-grade commodity settlements (paywalled)",
+    "gold Friday settlement (internally conflicting sources)",
+    "early-Monday Asia oil/BTC quotes",
+    "CFTC S&P 500 e-mini / 10Y Treasury / JPY legs",
+    "3m/6m regional sector relative-performance dataset (strategic rotation map, 2nd consecutive run)",
+    "freight rates / rerouting data (supply-chain, 2nd consecutive run)",
+    "PMI price sub-indices",
+    "JOLTS date for this week (BLS schedule page fetch failed)"
+   ],
+   "notes": "CNBC/US News/Bloomberg fetches blocked or paywalled; FXLeaders BTC >$150k figure judged irreconcilable with multi-source $64k series and discarded; TipRanks weekly-vs-daily mislabel detected and corrected against AP."
+  },
+  {
+   "date": "2026-07-28",
+   "mode": "normal",
+   "reason": null,
+   "run_started_myt": "2026-07-28T07:11:34+08:00",
+   "unavailable_this_run": [
+    "VIX Monday close (intraday conflict 17.74 vs 19.42)",
+    "Nasdaq 100 close",
+    "UST 30Y close",
+    "official DXY/EURUSD/GBPUSD NY closes",
+    "Bund/Gilt official Monday closing prints (late levels used; Bund Friday close 3.1845% recovered)",
+    "CSI 300 Monday close",
+    "STI Monday close",
+    "USDSGD",
+    "CGB 10Y",
+    "CPO Bursa Monday settlement (early-trade RM4,683 only)",
+    "MGS 10Y (2nd consecutive run)",
+    "COMEX gold official settlement",
+    "LME copper official close",
+    "OVX",
+    "durable goods internals (ex-transport/core capex; Census PDF returned stale April cache)",
+    "PBoC Monday daily OMO amount",
+    "BTC ETF Monday flows (Farside row pending at cutoff)",
+    "CFTC 10Y Treasury leg ref 21 Jul (Tradingster still on 14 Jul)",
+    "3m/6m regional sector relative-performance dataset (strategic rotation map, 3rd consecutive run)",
+    "freight/insurance rates (supply-chain, 3rd consecutive run)"
+   ],
+   "notes": "CNBC/WaPo/treasury.gov/Cboe/FRED fetches blocked (403). CoinMarketCap ETH print ~5% below all other sources - judged stale cache, discarded. HNGN Brent -4%/$92.74 judged stale vs Rigzone-Bloomberg settlement $88.36. Nikkei +0.50% vs +0.66% conflict resolved by internal consistency with Friday close. TE continuous commodity quotes flagged as possibly including early-Asia trade."
+  },
+  {
+   "date": "2026-07-28-refinement",
+   "mode": "system-upgrade (v2.1.0, interactive, not a scheduled run)",
+   "reason": null,
+   "run_started_myt": "interactive session, post 07:11:34 run",
+   "notes": "External review of the v2.0.0 digest (score 8.3/10) identified real methodological gaps, all addressed same-day: cross-venue ratio comparisons (LME vs COMEX copper) withdrawn per new \u00a713.1 comparability-strictness rule; USD/JPY driver corrected from 10Y to 2Y/short-end per config/ratio-pairs.yaml; credit-vs-vol comparison fixed with a same-day HYG/LQD proxy (both fetched and confirmed, 27 Jul closes); country exposure map gained sensitivity/transmission/buffers fields (29 countries); political reaction-function board moved from free-form narrative to a fixed 9-category rubric; reader-facing content split from operator methodology detail into new docs/methodology-appendix.md. One new named gap surfaced and left honest rather than papered over: Monday 27 Jul JGB 2Y print not sourced (Friday's 1.52% used as latest-available context)."
+  },
+  {
+   "date": "2026-07-29",
+   "mode": "normal",
+   "reason": null,
+   "run_started_myt": "2026-07-29T07:10:00+08:00",
+   "unavailable_this_run": [
+    "STOXX 600 official Tuesday close (intraday 646.75 0845 GMT only)",
+    "CSI 300 close level (3rd consecutive run; -2.3% pct sourced)",
+    "Tuesday USDCNY/CNH + PBoC fix",
+    "CGB 10Y",
+    "Tuesday PBoC OMO amount",
+    "USDSGD",
+    "India VIX close; Tuesday FII provisional flows",
+    "exact JGB closing yields (rounded ING strategist levels used; 2Y ~1.5% first print since gap flagged)",
+    "COMEX gold/silver official settlements (near-settlement prints used)",
+    "LME copper official close (intraday morning print)",
+    "Henry Hub Tuesday settlement (Aug/Sep roll ambiguity)",
+    "Dalian iron ore Tuesday close (741 print may re-report Monday - flagged)",
+    "CPO Bursa official settlement (Bernama close story robots-blocked)",
+    "MGS 10Y (3rd consecutive run)",
+    "OVX (FRED stale since 4 Jun)",
+    "EFFR 27-Jul print (FRED table truncation)",
+    "Tuesday BTC/ETH ETF flow rows (pending at cutoff)",
+    "3m/6m regional sector relative-performance dataset (4th consecutive run)",
+    "ECB Tuesday-dated repricing",
+    "Baltic Dry / Drewry current print (next Thu)",
+    "Aramco official Jizan/Abqaiq damage assessment"
+   ],
+   "notes": "Twin-shock day (China DUV semi crash + 3rd oil collapse day) pushed the brief to ~5,300 words vs the ~3,500 target - overage accepted deliberately rather than cutting mandated sections/honesty lists; flagging for the next operator rather than hiding it. Conflicts resolved and documented: Nikkei/Kospi/Shanghai/HSI official closes vs AP intraday snapshots; S&P AP vs Yahoo module; LQD 106.83 vs 106.85; FedWatch 40% intraday vs 31.5% close (both real, timestamps differ); Australia CPI consensus 4.1% (ActionForex) vs ~4.0% (Newsquawk) unresolved - both shown. Freight/insurance gap (3 runs) CLOSED via AGBI/Marsh + Al Jazeera/S&P prints (21-23 Jul dated). JGB 2Y gap partially closed (rounded level only). FRED/NY Fed/treasury.gov served stale CDN caches - values taken only where data-date verifiable; one CNBC 30Y page served ~2024 content and was discarded. First decision-grade alt-data row logged (Windward AIS)."
+  }
+ ]
 }

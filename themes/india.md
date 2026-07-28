@@ -1,11 +1,11 @@
 ---
 theme: india
-status: cooling
+status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
-previous_status: stable
-status_change_reason: "Fifth straight equity decline, INR near record lows, 10% US tariff (with large exemptions)"
+last_reviewed: 2026-07-29
+previous_status: cooling
+status_change_reason: "2026-07-29: two consecutive days of counterevidence - INR +11p (3rd straight gain), Sensex flat (-0.09%) through the regional semi crash, Nifty IT +3.2%; low chip exposure + oil-importer relief"
 sensitive_assets: ["Nifty 50", "Sensex", "USDINR", "India 10Y G-Sec"]
 sensitive_sectors: ["Indian IT services", "Indian financials", "energy importers (India is a large net oil importer)"]
 next_catalysts: ["RBI policy commentary", "India CPI/growth data", "any India-China border development"]
@@ -37,3 +37,7 @@ Sensex 76,059.77 -0.43% Fri, fifth consecutive decline; Nifty 23,767.45; intrada
 ## Observation 2026-07-28
 
 Counterevidence day: 5-day losing streak SNAPPED (Sensex +1.02% to 76,835.78, Nifty +0.96%); INR best session in 6+ weeks (95.90 close vs 96.53 Fri, intraday best 95.79); India VIX -9.76% to 12.66. Confirmed catalyst: crude -9%. FII outflows continue (5paisa). One day — status stays cooling per QC rule; two more constructive sessions + INR holding sub-96 would justify a move back to stable.
+
+
+### Observation 2026-07-29 (Tue 28 Jul session)
+Status cooling -> stable. India was near-immune to the worst Asian session of the shock era: Sensex 76,765.92 (-0.09%), Nifty 23,985.35 (-0.04%) while Kospi fell 10.84%; Nifty IT +3.2% (TCS +4.47%); INR closed 95.88, +11 paise, third straight gain (Confirmed catalyst: crude -4.8% to $84.09). HUL -7% dragged FMCG. Counterevidence to resilience: FII Tuesday provisional unavailable; Monday still showed FII net selling. Sources: HDFC Sky 28 Jul 16:38-16:43 IST; Rigzone-Bloomberg 28 Jul.

@@ -3,7 +3,7 @@ theme: supply-chain
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
@@ -41,3 +41,7 @@ Mostly de-escalatory: CPC terminal (Kazakh crude) RESUMED loading as Ukrainian d
 ## Observation 2026-07-28 (addendum — named target series, first sourced this run)
 
 Freight gap partially closed (3rd-run gap from §9's named-series list): Baltic Dry Index 2,696 (27 Jul, -1.71%, ending a 3-session win streak; Capesize 4,200 -2%, Panamax 1,999 -1.2%; +8.27% m/m, +21.11% y/y — Trading Economics). Drewry World Container Index (composite) $4,374/40ft, -4% w/w (23 Jul weekly assessment; next due 30 Jul) on softer Asia-Europe/Transpacific demand plus added capacity — Hellenic Shipping News. Freightos FBX: a $3,664.60 figure was found but with no confirmable date attached — not reported per data-quality rules. Read: dry-bulk (BDI) still running well above its own recent range (+21% y/y) even as it eased slightly Monday — a lagging, not yet responsive, indicator relative to the fast-moving oil/geopolitical news; container rates (Drewry) falling on demand/capacity, a separate and more China-trade-cycle-linked signal than the bulk-carrier index. Neither series shows a direct Red Sea/Hormuz disruption signature this run — Suez/Bab-el-Mandeb rerouting costs remain the still-unsourced gap (see supply-chain theme's main body).
+
+
+### Observation 2026-07-29
+Jizan (400k b/d) SHUT since 27 Jul, tentative restart 15 Aug (Reuters/IIR) - first concrete damage timeline; Yanbu -40% loadings, 14 berths AIS-dark 24-26 Jul, Chinese-flag carve-out (Windward, decision-grade alt-data). War-risk insurance FINALLY sourced: Hormuz hull 3-10% vs 0.25% pre-conflict (Marsh/AGBI 21 Jul; S&P via AJ 23 Jul); Gulf-China dirty freight $77.96/t vs $18.91 5-yr avg (22 Jul). Black Sea: grain corridor first FULL STOP since Aug 2023 (Maersk/Hapag suspended; wheat +16% Jul). CPC resumed conditionally. Semi chain: DUV story implies equipment-scarcity -> memory-oversupply -> cheaper compute if verified. Gaps: Baltic Dry, Drewry Thu print, PMI delivery times, refinery utilization - not sourced this run. Sources: Reuters via Dawn; Windward; AGBI; Euromaidan Press; all 21-28 Jul.

@@ -1,5 +1,5 @@
-as_of: 2026-07-28
-last_reviewed: 2026-07-28
+as_of: 2026-07-29
+last_reviewed: 2026-07-29
 initialized_fresh: true
 note: >
   Initialized in the 2026-07-24 first run (degraded no-history mode) from that
@@ -9,7 +9,14 @@ note: >
 
 base:
   name: energy-shock-squeeze-without-recession
-  band: "50-60%"  # trimmed 2026-07-28: probability leaked to upside, not new base-case doubt
+  band: "45-55%"  # trimmed again 2026-07-29: Brent closed BELOW the scenario's $85 range floor ($84.09) - the energy squeeze is dissolving faster than the base case assumed
+  coverage_gap_note: >
+    Flagged 2026-07-29: none of the three scenarios spans the China chip-competition
+    shock (DUV lithography reports + CXMT; Kospi -10.84%, TAIEX -4.65% on 28 Jul),
+    which is a different axis from the energy shock this board was built around.
+    Restructure the scenario set after the FOMC (30 Jul) and BOJ (31 Jul) rather than
+    improvising mid-week - until then this board remains the ENERGY-scenario board
+    and the chip-competition thread is tracked in themes/china.md and themes/earnings.md.
   narrative: >
     Oil trades in a wide $85-105/bbl range on ongoing Red Sea/Middle East risk;
     one hawkish central-bank adjustment (Fed and/or ECB) gets priced without a
@@ -36,7 +43,7 @@ base:
 
 upside:
   name: de-escalation-relief
-  band: "20-30%"  # raised 2026-07-28: BOTH confirmation signals fired (diplomacy + Brent <$90)
+  band: "25-35%"  # raised again 2026-07-29: third consecutive confirmation day - pause held 3+ nights, Netanyahu-Trump passed clean, CONCRETE Hormuz proposals exchanged, Brent <$85
   narrative: >
     Middle East strikes and Red Sea attacks subside; Brent retraces toward the
     low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
@@ -45,8 +52,10 @@ upside:
     - "No confirmed Hormuz closure to date — the shock so far is a risk premium, which can unwind quickly on a diplomatic headline."
     - "2026-07-25/26: US paused strikes on Iran two consecutive days, Iran matched, Oman-mediated direct talks 'made progress' (AP via NPR 26 Jul); Saudi coalition declared its Houthi response 'over' (ToI 25 Jul). Band raised 10-20% -> 15-25% on these confirmation signals firing."
     - "2026-07-27: pause held a SECOND night; Oman-mediated Hormuz-reopening talks 'making progress'; Brent settled $88.36 (-8.7%, below $90) - the 'Brent <$90' confirmation signal fired; Fed hike odds eased 38% -> ~33-34%; CPC terminal resumed loading. Band raised 15-25% -> 20-30%."
+    - "2026-07-28: THIRD confirmation day - Netanyahu-Trump meeting passed without escalation ('ironclad' Iran-nuclear line, no new strikes announced); pause held 3+ nights; Iran-Oman exchanged CONCRETE Hormuz-management proposals (Gulf Malacca-model w/ voluntary fees vs Iran $1m/ship counter); Brent settled $84.09 (-4.8%, worst 3-day run since Apr 2020); hike odds 31.5% at the close. Band raised 20-30% -> 25-35%."
   contradicting_evidence:
     - "2026-07-25: Houthi attack set the Jizan Aramco refinery (400k b/d) ablaze and targeted Yanbu — physical supply damage is now real, not just risk premium."
+    - "2026-07-28: Jizan confirmed SHUT since 27 Jul with tentative restart 15 Aug (Reuters/IIR); Yanbu loadings -40%, 14 berths AIS-dark (Windward); IRGC fired warning shots at 6 vessels; Iran deputy FM: 'any action' to retain strait control - the physical/rhetorical floor under the relief trade."
     - "US Navy blockade enforcement continues (2 tankers disabled)."
   confirmation_signals:
     - "Diplomatic/ceasefire headlines from the Middle East."
@@ -60,7 +69,7 @@ upside:
 
 downside:
   name: stagflationary-policy-shock
-  band: "15-20%"  # trimmed 2026-07-28 on second consecutive de-escalation day
+  band: "10-20%"  # trimmed 2026-07-29: third de-escalation day + hike odds fading (31.5% at Tue close); re-arms fast on a hike tonight, a talks collapse, or a chokepoint incident
   narrative: >
     Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
     rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates

@@ -11,3 +11,11 @@ date,indicator,value,unit,source,notes
 2026-07-27,LQD (iShares Investment Grade Corp Bond ETF) close,106.51,USD,"Google Finance + stockanalysis.com, 27 Jul","+0.26% vs Friday $106.23; same-day proxy for lagged IG OAS series; outperformed HYG by ~0.21pt - a mild same-day signal, see relationship-dashboard.csv hyg-lqd-same-day row"
 2026-07-27,US 2Y Treasury yield,4.33,%,"Trading Economics + Fed H.15, 27 Jul",Primary near-term carry-trade reference per v2.1.0 correction (see ratio-pairs.yaml usdjpy pair)
 2026-07-24,Japan 2Y JGB yield,1.52,%,"Trading Economics, dated 24 Jul (Friday) - Monday print not sourced, explicit gap",Used as latest-available context for the USD/JPY short-end differential; closing this gap is a named next-run priority
+2026-07-27,US IG OAS (FRED BAMLC0A0CM),0.81,%,"FRED data table, data-date 27 Jul, accessed 29 Jul MYT",+3bp since 22 Jul; series lags ~1 day
+2026-07-27,US HY OAS (FRED BAMLH0A0HYM2),2.81,%,"FRED data table, data-date 27 Jul, updated 28 Jul 08:54 CDT",+13bp since 22 Jul (2.68% on 22 Jul) while equities rallied - quiet HY underperformance; matches 2-day HYG-vs-LQD lag
+2026-07-28,HYG close,79.42,USD,"stockanalysis.com, 28 Jul 16:00 ET",+0.19% d/d; same-day HY proxy
+2026-07-28,LQD close,106.83,USD,"stockanalysis.com, 28 Jul 16:00 ET",+0.30% d/d (conflicting +0.32%/$106.85 print flagged); IG outperformed HY 2nd straight session
+2026-07-27,SOFR,3.64,%,"sofrrate.com (NY Fed republished), data-date 27 Jul - NY Fed pages served stale cache (16 Jul); secondary-source caveat",~$3.0tn volume; firmed from 3.53% (9 Jul) into FOMC/month-end
+2026-07-27,TGA closing balance (DTS convention),902.8,USD bn,"Treasury Fiscal Data API operating_cash_balance, record 27 Jul",+~$75bn over one week (828.2 on 20 Jul) - a private-liquidity drain into FOMC week; FRED WTREGEN cross-check $829.6bn wk-avg ending 22 Jul (different convention)
+2026-07-22,Fed H.4.1 total assets,6747378,USD mn,Federal Reserve H.4.1 release 23 Jul,"+$4.35bn w/w, +$89.7bn y/y - balance sheet flat-to-growing, QT over; next print 30 Jul"
+2026-07-28,US 2Y / 10Y / 30Y,4.29 / 4.61 / 5.09,%,Trading Economics 28 Jul (AP wire corroborates 10Y ~4.60 - sub-1bp conflict flagged),30Y above 5% a 14th straight session; 2s10s ~+32bp; EFFR 27-Jul print unavailable (FRED table truncation)

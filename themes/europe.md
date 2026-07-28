@@ -3,7 +3,7 @@ theme: europe
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["STOXX 600", "DAX", "EURUSD", "Bund 10Y"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §3, §8.
 ## Observation 2026-07-27
 
 Europe rallied INTO the energy shock: STOXX 600 644.67 +0.6%, DAX 25,099 +1.36% (SAP +10% on cloud/AI beat), FTSE 10,736 +0.91%. EZ composite PMI 51.9 (beat), UK 52.1, UK retail +1.0% m/m. Bund 3.20% Thu = 15-yr high with ~2 ECB hikes priced. Market treating it as reflation, not stagflation — the gas-inventory winter question remains the tail.
+
+
+### Observation 2026-07-29
+Earnings-led resilience: DAX +0.41%, FTSE +0.83%, CAC +0.63%, STOXX up 3rd day (close unavailable); Unilever +6% best-on-index, Mercedes +3% (op profit +22%), vs Barclays -4.2% and Saipem -7.6%; LVMH faded intraday (close unverified). Bund 3.111% (-1.7bp), Gilt 4.953%. TTF EUR56.37. Energy worst sector again (-1.1%) - the reflation-not-stagflation read holds as the energy tail deflates. BoE Thu. Sources: Armstrong Economics 28 Jul 16:54 ET; Reuters via Business Recorder 28 Jul; TE 28 Jul.

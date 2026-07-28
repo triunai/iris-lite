@@ -3,7 +3,7 @@ theme: yield-curve
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y/10Y/30Y", "2s10s", "mortgage rates"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §4, §6.
 ## Observation 2026-07-27
 
 2Y 4.33%, 10Y ~4.68-4.69% Fri (range 4.67-4.71 across sources) — plateau just below Thursday's high; 30Y unavailable. Bund 3.20% Thu (15-yr high). ECI Fri + FOMC Wed are this week's curve events; Treasury refunding is NEXT week (3/5 Aug, official).
+
+
+### Observation 2026-07-29
+2s10s ~+32bp (2Y 4.29%, 10Y 4.61%); 30Y 5.09% - above 5% a 14th consecutive session (long-end term premium sticky even as the hawkish tail deflates). FOMC tonight. Sources: TE 28 Jul; ts2.tech 28 Jul.

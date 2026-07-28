@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-07-28T07:50:00+08:00",
+  "as_of": "2026-07-29T07:50:00+08:00",
   "initialized_fresh": false,
-  "note": "Overall label HELD one more day: the stated downgrade gate (US-Iran pause holding THROUGH the FOMC + Brent retracing) is nearly met but the FOMC decision is Thu 02:00 MYT and Netanyahu-Trump meets Tue 23:00 MYT. Cross-asset de-escalation corroboration now spans Fri+Mon across oil, rates, FX and equities; if the pause survives both events, downgrade to neutral.",
-  "growth": "resilient (ifo 86.6 beat 3rd straight rise; SG electronics IP +21.3%) with first US soft spot (durable goods +0.3% vs +1.7%)",
-  "inflation": "energy-led upside risk deflating fast (Brent -8.7% to $88.36, below $90) but Brent still +~18-25% m/m",
-  "liquidity": "diverging: PBoC MLF + 2.1tn yuan overnight-repo plan vs G10 hawkish-hold week; pressure easing at the margin",
-  "monetary_policy": "hawkish-hold week in progress: FOMC hike odds eased 38% -> ~33-34% Mon; BOJ/BoE holds expected; ~2 ECB hikes priced by Feb 2027",
-  "fiscal_impulse": "insufficient data (Malaysia subsidy-cost + super-El-Nino spending risk logged)",
-  "risk_appetite": "recovering but fragile (global equity rebound Mon on negative Korea foreign flows and negative Bursa breadth; VIX close unavailable)",
-  "credit": "insufficient data - no reliable spread source yet (recurring gap)",
-  "overall": "risk-off / stagflationary-stress (held; downgrade to neutral conditional on pause surviving Netanyahu-Trump 28 Jul + FOMC 29 Jul)",
+  "note": "Overall label HELD again - one gate left: the FOMC decision lands tonight Thu 02:00 MYT. The Netanyahu-Trump leg of the downgrade condition PASSED (no escalation; pause held 3+ nights; concrete Hormuz proposals exchanged). If the FOMC passes without a hike and without an escalation shock, downgrade to neutral tomorrow. Caveat: the stress composition changed - the energy shock is dissolving (Brent $84.09, below the base scenario floor) but a NEW second shock (China chip-competition, Kospi -10.84%) emerged; it is sector-systemic in Asia but so far non-contagious cross-asset (VIX fell, credit only mildly softer, KRW firmed). Do not treat the label hold as meaning the same stress as last week.",
+  "growth": "resilient with US soft spots accumulating (consumer confidence 90.8 miss after durable-goods miss; vs Richmond Fed +5, Europe earnings/ifo strength, SG electronics +21.3%)",
+  "inflation": "energy-led upside risk deflating fast (Brent -16% in 3 days to $84.09; gold broke toward $4,000); wheat +16% Jul is the counter-current (Black Sea corridor stop)",
+  "liquidity": "US private channel tightening at the margin (TGA +$75bn/wk to $902.8bn, SOFR 3.64%) vs PBoC 2.1tn yuan injection cycle starting 29 Jul",
+  "monetary_policy": "decision cluster: FOMC tonight (~31.5% hike priced at Tue close, ~40% intraday; Citadel Securities expects a hike); BoE Thu ~86% hold; BOJ Fri ~96% hold; ECB Sept+Dec hikes priced",
+  "fiscal_impulse": "insufficient data (Malaysia sukuk at tightest-ever spreads and El Nino spending risk logged; US TGA rebuild noted under liquidity)",
+  "risk_appetite": "violently bifurcated BY SECTOR not region: Asia semi complex crashed (Kospi -10.84%, TAIEX -4.65%) while Dow +1.03%, Europe up on earnings, VIX FELL to 18.21 - US options treating the semi shock as non-systemic",
+  "credit": "measurable at last: IG 81bp / HY 281bp (27 Jul FRED); HY +13bp since 22 Jul and HYG lagged LQD a 2nd straight up-day - mild, persistent caution, not stress",
+  "overall": "risk-off / stagflationary-stress (held; downgrade to neutral conditional on FOMC tonight passing without a hike/escalation)",
   "confidence": "medium",
-  "evidence": "Mon 27 Jul: Brent $88.36 -8.7% (largest 1-day drop in 3+ mo); WTI $82.61 -7.5%; 10Y 4.647% -3bp; hike odds ~33-34%; Dow +0.51%, DAX +1.04%, Kospi +0.97%, SSE +1.15%, KLCI +0.71%; JPY fresh 40-yr low 163.99 intraday; gold firm ~$4,074-4,098 (hedges retained)"
+  "evidence": "Tue 28 Jul: Brent $84.09 -4.8% (worst 3-day since Apr 2020); 10Y 4.61% -4.7bp; hike odds 31.5% at close; VIX 18.21 -2.5%; Kospi -10.84% (circuit breaker, W4.99tn foreign selling), TAIEX -4.65%, Nikkei -3.95% vs Dow +1.03%, DAX +0.41%; gold -1.4% ~$4,021; USDJPY 163.77 stable; KRW firmed to 1,462.50 despite the crash; Jizan shut to ~15 Aug"
 }

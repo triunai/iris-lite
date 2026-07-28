@@ -3,3 +3,7 @@ date,asset,metric,value,unit,venue_source,notes
 2026-07-24,ETH,spot price (09:14 ET snapshot),1860.78,USD,Yahoo Finance,"-2.9% d/d, +0.7% w/w"
 2026-07-24,BTC,"US spot ETF net flow, week ended 24 Jul",+33.79,USD millions,Farside via The Crypto Times,despite -225.1M Thu and -240.08M Fri (IBIT -212.2M Fri); 7-day inflow streak broken Thu
 2026-07-24,ETH,"US spot ETF net flow, week ended 24 Jul",+103,USD millions,Farside via The Crypto Times,Fri -70.7M
+2026-07-27,BTC,US spot ETF net flow (Mon),-11.64,USD millions,Farside + SoSoValue via CoinGabbar/KuCoin,"IBIT -8.82M, FBTC -2.82M; Monday row published Tue"
+2026-07-27,ETH,US spot ETF net flow (Mon),+9.23,USD millions,Farside + SoSoValue,"ETHA +11.75M, QETH -2.52M; ETH flow leadership continues"
+2026-07-28,BTC,spot price (early-Wed Asia ~23:15 UTC Tue),64926,USD,"CoinGecko (24h range internally inconsistent with $63,065 Asian low - caching caveat)","Fed-eve dump to $63,065 Asian low fully bought back; >$670m liquidations (~$533m longs, CoinGlass via CoinGape); CLARITY Act vote punted (CoinDesk 27 Jul)"
+2026-07-28,ETH,spot price (early-Wed Asia ~23:15 UTC Tue),1953.69,USD,CoinGecko,+3.7% 24h; outperforming BTC on the rebound

@@ -3,7 +3,7 @@ theme: growth
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y/10Y", "S&P 500"]
@@ -37,3 +37,7 @@ Flash PMIs beat across the board (24 Jul): EZ composite 51.9 vs 50.5 cons (Germa
 ## Observation 2026-07-28
 
 ifo 86.6 beat (cons 86.0; 3rd straight rise; expectations 86.7 = best since Feb) confirms Friday's PMI beats. Singapore June IP +7.2% y/y, electronics +21.3% — AI demand in hard output data. Counterevidence: US June durable goods +0.3% vs +1.7% cons (May revised -4.5% -> -4.0%) — first soft US print of the run; internals unavailable. Watch US Q2 GDP advance Thu (cons 2.3%; GDPNow 1.7%).
+
+
+### Observation 2026-07-29
+US counterevidence building: consumer confidence 90.8 miss (2nd soft print in 2 days after durable goods) vs Richmond Fed +5 (shipments +8) and Case-Shiller housing disinflation (12th month of real-terms decline). Europe: earnings breadth (Unilever/Mercedes) extends the ifo/PMI resilience read. Not yet a trend - two US misses is a pattern to watch. Sources: Conference Board 28 Jul; Investrade 28 Jul; Calculated Risk 28 Jul.

@@ -3,7 +3,7 @@ theme: monetary-policy
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y", "DXY", "gold", "EURUSD", "USDJPY"]
@@ -37,3 +37,7 @@ The resolution week: FOMC 28-29 Jul (hold 3.50-3.75% base case; ~30-35% hike odd
 ## Observation 2026-07-28
 
 FOMC starts Tue 28 Jul; CME FedWatch hike odds EASED with oil: 38% Fri -> ~33-34% late Mon (Investing.com 33.7%, Axios ~34%, Reuters ~33%); Sept cumulative ~83% (AP midday). Warsh refusing to pre-commit (Axios) — surprise risk two-sided. ECB: "nearly two 25bp hikes priced by Feb 2027" (TE Mon); Lane called the shock "moderate," scored marginally dovish (FXStreet Speechtracker 5.4/10). BOJ Fri: hold ~96%, FY26 GDP upgrade to ~0.8% expected; Reuters poll 86% see 1.25% by Dec; JPY hit fresh 40-yr low 163.99 intraday Mon with CFTC yen net shorts -152,125 (-29k w/w) building into the meeting.
+
+
+### Observation 2026-07-29
+Decision cluster: FOMC tonight 02:00 MYT - hike odds ~40% intraday -> 31.5% at the close (AP) on soft confidence + oil; Citadel Securities publicly expects a hike (Warsh-credibility argument); Sept ~81-95% priced. BoE Thu (~86% hold at 3.75%, ~4 hawkish votes - ING). BOJ Fri (~96% hold at 1.00%; intervention-risk zone flagged 165). ECB: Sept+Dec hikes priced, ~80% third by mid-2027 (Mon pricing, no Tue repricing sourced). Sources: AP 28 Jul; Kiplinger; FXStreet/ING 27-28 Jul; GuruFocus 27 Jul.

@@ -3,7 +3,7 @@ theme: geopolitics
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: heating
 status_change_reason: "First two-sided evidence: US-Iran mutual strike pause + Oman talks (de-escalating) vs Jizan refinery ablaze (escalating)"
 sensitive_assets: ["Brent/WTI", "gold", "defense equities", "shipping/freight"]
@@ -37,3 +37,7 @@ Weekend 25-26 Jul: US paused strikes on Iran two straight days, Iran matched, Om
 ## Observation 2026-07-28
 
 De-escalation side strengthened materially: US-Iran mutual strike pause held a SECOND night (after 13 nights of bombardment); Oman-mediated talks on reopening Hormuz "making progress" but "sensitive" (NPR/Gulf News); Trump: pause is to give talks "space," strikes resume if they fail. Counterevidence: Jizan fires expanding per OSINT satellite imagery, no official Aramco damage assessment; Houthi maritime embargo still halts Saudi west-coast loadings; Netanyahu departed SECRETLY from Nevatim Air Base citing "a potential threat from Iran" ahead of White House meeting Tue 28 Jul 11:00 ET (ToI). Russia-Ukraine: Ukraine struck Rostov export terminal + Yaroslavl/Udmurtia oil infra; Russia launched 147 drones, 9+ civilians killed (Euronews 27 Jul); CPC terminal resumed loading (bearish oil input). US-China: no Monday development verified. Status stays mixed.
+
+
+### Observation 2026-07-29 (Tue 28 Jul)
+De-escalation strengthened again: Netanyahu-Trump passed without escalation (closed-door, "ironclad" Iran-nuclear line, "positive and productive"); pause held 3+ nights; Iran-Oman exchanged CONCRETE Hormuz proposals (Gulf Malacca-model joint management w/ voluntary fees vs Iran counter: $1m/ship fee + control of own lane). Against: Jizan confirmed SHUT to ~15 Aug (Reuters/IIR), IRGC warning shots on 6 vessels, Iran "any action" strait rhetoric, proxy drones ongoing (Abqaiq satellite-visible damage). Russia-Ukraine: ~390-drone Moscow-region barrage (largest of war) vs active US-mediated air-ceasefire track (Witkoff/Kushner trip planned). Sources: UPI/Fox/JPost/Al Jazeera 28 Jul; Reuters via Dawn 28 Jul; Meduza/KI 28 Jul.

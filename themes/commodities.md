@@ -3,7 +3,7 @@ theme: commodities
 status: mixed
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: heating
 status_change_reason: "Two-day ~12% Brent retracement (Fri -3.3%, Mon -8.7% to $88.36 settlement) on US-Iran de-escalation; still +~18-25% m/m and physical Saudi supply damage unresolved"
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]
@@ -37,3 +37,7 @@ Brent settled ~$97.39 Fri (-3.3%; +~9-12% w/w, 3rd weekly gain; snapshots $96.78
 ## Observation 2026-07-28
 
 Brent settled $88.36 Mon (-8.7%, largest 1-day drop in 3+ months; Rigzone/Bloomberg wire) — below $90 for the first time since the shock week; WTI $82.61 (-7.5%); natgas $2.77 (-3.6%); EU natgas -9% intraday. Confirmed catalysts: US-Iran pause held 2nd night + Hormuz-reopening talks progressing + CPC (Kazakh) terminal resumed loading. Gold ROSE toward $4,100 (spot ~$4,074 +0.5% snapshot; Aug fut opened $4,097.50) — hedges retained, a reversal of the 23 Jul gold-fell divergence. Copper COMEX ~$6.35/lb +0.7%; Dalian iron ore 741 yuan -0.27%. CPO early trade RM4,683 -0.8% (settlement unavailable); Interband sees RM4,400-4,500 this week. Status heating -> mixed. Watch: Netanyahu-Trump 28 Jul, OPEC+ 2 Aug (+188k b/d expected vs June actual output 36.28m b/d).
+
+
+### Observation 2026-07-29
+Brent Sep settled $84.09 (-4.8%), WTI $79.26 (-4.1%) - worst 3-day crude stretch since Apr 2020 (~-16%); Brent now BELOW the base scenario's $85 floor. Gold JOINED the sell-off (COMEX Aug ~$4,021 near-settlement, -1.4%, low $4,011; silver -2.7%) - Monday's hedges-retained read partially unwound (Probable: hike risk + 1-month-high DXY). Counter-current: Chicago wheat +16% in July on the Black Sea grain-corridor stop. TTF EUR56.37 (-0.56%). Sources: Rigzone-Bloomberg 28 Jul; Canadian Mining Journal 28 Jul; Euromaidan Press 28 Jul.

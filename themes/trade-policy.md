@@ -3,7 +3,7 @@ theme: trade-policy
 status: heating
 confidence: high
 first_opened: 2026-07-26
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: dormant
 status_change_reason: "US tariffs implemented 24-25 Jul: 10%/12.5% on ~60 partners covering ~99% of US imports"
 sensitive_assets: ["sector-specific equities of directly targeted industries", "affected countries' FX"]
@@ -33,3 +33,7 @@ Methodology only — see OPERATING-INSTRUCTIONS.md §7.4.
 ## Observation 2026-07-27
 
 Section 301 'forced-labor' tariffs took effect Fri: 10% on 17 economies (incl. Malaysia, India, UK, Canada, Mexico) + EU + Taiwan; 12.5% on 41 others; China at 12.5% with stated intent to rebuild toward 20% (Reuters via Mining Weekly, ABC News). Follows SCOTUS striking down prior measures. TACO-pattern note: this is an IMPLEMENTATION, not a threat — the walk-back stage has NOT occurred; do not assume it will. EU gave a 'guarded welcome'. Watch: retaliation; USTR excess-capacity determination (16 economies incl. Malaysia). Malaysia's 10% band tied to ART forced-labor commitments, 2-year legislative window (Malay Mail 25 Jul).
+
+
+### Observation 2026-07-29
+No new government trade action. Corporate transmission datapoint: UPS beat-and-raised yet closed -6.6% with the reversal attributed to tariff commentary (Investrade) - tariff costs now punishing even good prints. The China DUV story is competition/industrial-policy escalation rather than a tariff action; logged under china/geopolitics. Source: Investrade/stockanalysis 28 Jul.

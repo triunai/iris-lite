@@ -3,7 +3,7 @@ theme: earnings
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
@@ -37,3 +37,7 @@ SAP +10% (cloud backlog/AI demand beat) is the first major counterexample to the
 ## Observation 2026-07-28
 
 Nucor beat (EPS $4.84 vs $4.38e, record steel-mill shipments 2nd straight qtr; stock flat AH) — a tariff-era industrial data point. Week setup confirmed (Kiplinger): Tue BA/KO/PYPL/UPS + V/F/STX; Wed night MSFT (EPS e $4.24, rev e $87.67bn) + META (e $7.19); Thu night AAPL (e $1.89) + AMZN (e $1.81); Fri XOM ($3.61e)/CVX ($5.52e). Framing (Fortune): market punishing AI capex — Alphabet -7% on $205bn 2026 capex guide, FCF negative first time since 2004; big-4 2026 capex ~$724bn. MSFT -21% YTD vs AAPL +23% YTD (rewarded for LOW AI capex). Whirlpool postponed to 3 Aug.
+
+
+### Observation 2026-07-29
+Old-economy sweep vs AI anxiety: KO $0.97 vs $0.93e beat-and-raise (+5.0%, best day in years); PYPL $1.38 vs $1.28e (+4.7%); F $0.42 vs $0.35e, FY EBIT guide to $10-11bn (+8% AH); BA -$0.76 vs -$0.31e MISS but +4.8% on FCF/deliveries; UPS beat-and-raise SOLD -6.6% on tariff commentary; V slim beat -2.3% AH; STX blowout ($5.71 vs $5.09e) closed -8.5% pre-print, only +1% AH - the China-DUV fear discount swallowed a blowout. MSFT/META Thu ~04:05 MYT: capex verdict now colliding with the competition narrative. Sources: Alphastreet/Pulse2/Yahoo/Stocktwits/24-7WallSt 28 Jul.

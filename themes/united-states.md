@@ -3,7 +3,7 @@ theme: united-states
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-28
+last_reviewed: 2026-07-29
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["S&P 500", "Nasdaq 100", "UST 2Y/10Y", "DXY"]
@@ -33,3 +33,7 @@ See briefs/2026/07/2026-07-24-morning-brief.md §1, §3, §8.
 ## Observation 2026-07-27
 
 Tape stabilized ex-AI-complex: S&P +0.05%, Dow +0.46%, Nasdaq -0.64% Fri; week S&P -0.6%, Nasdaq -2.1%. Services PMI 53.6 beat, new home sales beat, claims 187k — economy not asking for help. Tariffs now implemented. The FOMC + GDP + PCE + ECI + megacap-earnings week decides whether 'resilient growth + energy shock' resolves hawkish or benign.
+
+
+### Observation 2026-07-29
+"Flip from AI stocks to elsewhere accelerates" (AP): Dow +1.03% vs NDX -0.98%; memory/equipment wreckage (MU -8.9%, AMD -8.1%, AMAT -7.8%) vs KO/BA/PYPL earnings winners; AAPL briefly $5tn intraday (2nd ever). 30Y >5% a 14th session. Consumer confidence miss; hike odds faded to 31.5% by the close. FOMC tonight is the gate on the regime call. Sources: AP; Google Finance; TE; all 28 Jul.
