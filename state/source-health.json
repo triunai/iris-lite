@@ -94,6 +94,13 @@
     "Aramco official Jizan/Abqaiq damage assessment"
    ],
    "notes": "Twin-shock day (China DUV semi crash + 3rd oil collapse day) pushed the brief to ~5,300 words vs the ~3,500 target - overage accepted deliberately rather than cutting mandated sections/honesty lists; flagging for the next operator rather than hiding it. Conflicts resolved and documented: Nikkei/Kospi/Shanghai/HSI official closes vs AP intraday snapshots; S&P AP vs Yahoo module; LQD 106.83 vs 106.85; FedWatch 40% intraday vs 31.5% close (both real, timestamps differ); Australia CPI consensus 4.1% (ActionForex) vs ~4.0% (Newsquawk) unresolved - both shown. Freight/insurance gap (3 runs) CLOSED via AGBI/Marsh + Al Jazeera/S&P prints (21-23 Jul dated). JGB 2Y gap partially closed (rounded level only). FRED/NY Fed/treasury.gov served stale CDN caches - values taken only where data-date verifiable; one CNBC 30Y page served ~2024 content and was discarded. First decision-grade alt-data row logged (Windward AIS). FILE REPAIR: trackers/positioning.csv rows 5-8 (CFTC rows added 2026-07-28) had unquoted commas in the notes field (e.g. 'OI 1,939,493') splitting them into 10-11 columns; original backed up to positioning.csv.bak-2026-07-29, notes field re-merged and quoted, 9-column schema restored, no data altered."
+  },
+  {
+   "date": "2026-07-29-correction",
+   "mode": "in-run methodology fix (interactive, not a scheduled run)",
+   "reason": null,
+   "run_started_myt": "interactive session, post 2026-07-29 07:10 run",
+   "notes": "Desk owner flagged the 2026-07-29 brief Section 4a Korean-won divergence entry for false-precision ranking: three unconfirmed causal hypotheses (exporter dollar conversion, FX-authority smoothing, oil-import relief) were numbered 1/2/3 with confidence labels when no source actually distinguished between them. Corrected the same day: brief and themes/foreign-exchange.md rewritten to \"cause unresolved, unranked hypotheses\"; OPERATING-INSTRUCTIONS.md \u00a713.2 point 3 amended (v2.1.1) to require ranking divergence causes only when evidence can differentiate them, defaulting to an explicit unranked list otherwise. No other 2026-07-29 content affected - the Australia divergence entry in the same brief was already a single hypothesis, not a false ranking, and was left as-is."
   }
  ]
 }
