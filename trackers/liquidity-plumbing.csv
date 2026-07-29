@@ -19,3 +19,8 @@ date,indicator,value,unit,source,notes
 2026-07-27,TGA closing balance (DTS convention),902.8,USD bn,"Treasury Fiscal Data API operating_cash_balance, record 27 Jul",+~$75bn over one week (828.2 on 20 Jul) - a private-liquidity drain into FOMC week; FRED WTREGEN cross-check $829.6bn wk-avg ending 22 Jul (different convention)
 2026-07-22,Fed H.4.1 total assets,6747378,USD mn,Federal Reserve H.4.1 release 23 Jul,"+$4.35bn w/w, +$89.7bn y/y - balance sheet flat-to-growing, QT over; next print 30 Jul"
 2026-07-28,US 2Y / 10Y / 30Y,4.29 / 4.61 / 5.09,%,Trading Economics 28 Jul (AP wire corroborates 10Y ~4.60 - sub-1bp conflict flagged),30Y above 5% a 14th straight session; 2s10s ~+32bp; EFFR 27-Jul print unavailable (FRED table truncation)
+2026-07-29,HYG close,79.24,USD,"stockanalysis.com, 29 Jul 16:00 ET",-0.23% d/d; same-day HY proxy
+2026-07-29,LQD close,106.22,USD,"stockanalysis.com, 29 Jul 16:00 ET",-0.57% d/d; IG underperformed HY on duration (long-end selloff post-FOMC) - 2-session pattern reversed
+2026-07-28,SOFR,3.65,%,"sofrrate.com (NY Fed republished), data-date 28 Jul",+1bp d/d; $3.0tn volume; month-end Friday - watch the usual firming
+2026-07-28,EFFR,3.63,%,"sofrrate.com/policy-rates, data-date 28 Jul",inside 3.50-3.75% target; IORB 3.65%; closes the 27-Jul EFFR gap flagged last run (27-Jul print itself still unretrieved)
+2026-07-29,US 2Y / 10Y / 30Y,4.28-4.33 / 4.68-4.70 / 5.12-5.20,%,"conflicting prints: TE late-Wed vs Kiplinger 14:07 ET vs Motley Fool close wrap - official 3pm closes unavailable","long end SOLD the hawkish hold (3 dissents); 30Y >5% a 15th session; TGA 28-Jul balance unavailable this run (API blocked; last confirmed $902.8bn 27 Jul)"

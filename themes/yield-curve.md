@@ -3,7 +3,7 @@ theme: yield-curve
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y/10Y/30Y", "2s10s", "mortgage rates"]
@@ -37,3 +37,6 @@ See briefs/2026/07/2026-07-24-morning-brief.md §4, §6.
 
 ### Observation 2026-07-29
 2s10s ~+32bp (2Y 4.29%, 10Y 4.61%); 30Y 5.09% - above 5% a 14th consecutive session (long-end term premium sticky even as the hawkish tail deflates). FOMC tonight. Sources: TE 28 Jul; ts2.tech 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Long end sold a HOLD: 10Y ~4.68-4.70% (+7-9bp; 2-source conflict), 30Y 5.12-5.20 (conflict; 15th straight session >5%), while 2Y prints conflict (4.28 TE late vs 4.33 2:07pm) with a plausible post-presser front-end fade — steepener bias consistent with an inflation-credibility premium after 3 dissents (Market interpretation via close wraps: "bond market has doubts"). Bund 3.13% (+2bp, ~2 ECB hikes priced by Mar 2027). Gilt Wednesday close unavailable.

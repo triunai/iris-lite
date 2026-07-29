@@ -3,7 +3,7 @@ theme: supply-chain
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
@@ -45,3 +45,6 @@ Freight gap partially closed (3rd-run gap from §9's named-series list): Baltic 
 
 ### Observation 2026-07-29
 Jizan (400k b/d) SHUT since 27 Jul, tentative restart 15 Aug (Reuters/IIR) - first concrete damage timeline; Yanbu -40% loadings, 14 berths AIS-dark 24-26 Jul, Chinese-flag carve-out (Windward, decision-grade alt-data). War-risk insurance FINALLY sourced: Hormuz hull 3-10% vs 0.25% pre-conflict (Marsh/AGBI 21 Jul; S&P via AJ 23 Jul); Gulf-China dirty freight $77.96/t vs $18.91 5-yr avg (22 Jul). Black Sea: grain corridor first FULL STOP since Aug 2023 (Maersk/Hapag suspended; wheat +16% Jul). CPC resumed conditionally. Semi chain: DUV story implies equipment-scarcity -> memory-oversupply -> cheaper compute if verified. Gaps: Baltic Dry, Drewry Thu print, PMI delivery times, refinery utilization - not sourced this run. Sources: Reuters via Dawn; Windward; AGBI; Euromaidan Press; all 21-28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Physical picture worsened while the price signal reversed upward. New: Houthi missiles at Saudi chemical tanker NCC Ghazal off Jizan (no hit; UKMTO advisory; Seatrade). Windward 26-Jul data read this run: 43 Arabian Gulf tankers AIS-dark 15-22 Jul (4-yr high), Kharg Island 24 dark tankers waiting, Hormuz zero tanker crossings 27 Jul (all 6 transits via IRGC northern corridor); Gulf->China VLCC $77.96/t vs $18.91 5-yr avg; Gulf war-risk hull 7.5-10%. US: EIA crude -7.2m bbl, refinery utilisation 97.2% — war-max throughput. NEW CHAIN — Russian refining: Ukraine FP-1 drones hit Ryazan (Rosneft >17m t/yr); July crude runs 3.91m b/d lowest since 2005, gasoline ~850k b/d; Kyiv claims 43% capacity offline (unverified claim). Transmission: shrinking Russian product exports -> global diesel/crack tightness -> second inflation channel independent of crude (Analyst inference, medium). Black Sea grain corridor full stop CONFIRMED by Ukraine ag ministry (zero entries since 22 Jul; 28 ships damaged/month; Golden Leo sank, 9v10 deaths conflict). Drewry WCI due today; Baltic Dry unsourced (gap).

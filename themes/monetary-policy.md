@@ -3,7 +3,7 @@ theme: monetary-policy
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y", "DXY", "gold", "EURUSD", "USDJPY"]
@@ -41,3 +41,6 @@ FOMC starts Tue 28 Jul; CME FedWatch hike odds EASED with oil: 38% Fri -> ~33-34
 
 ### Observation 2026-07-29
 Decision cluster: FOMC tonight 02:00 MYT - hike odds ~40% intraday -> 31.5% at the close (AP) on soft confidence + oil; Citadel Securities publicly expects a hike (Warsh-credibility argument); Sept ~81-95% priced. BoE Thu (~86% hold at 3.75%, ~4 hawkish votes - ING). BOJ Fri (~96% hold at 1.00%; intervention-risk zone flagged 165). ECB: Sept+Dec hikes priced, ~80% third by mid-2027 (Mon pricing, no Tue repricing sourced). Sources: AP 28 Jul; Kiplinger; FXStreet/ING 27-28 Jul; GuruFocus 27 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+FOMC: HELD 3.50-3.75%, vote 9-3 — THREE dissents for +25bp (Hammack, Kashkari, Logan; Fox Business/AP/Axios). Warsh presser: "I asked for a good family fight and I got one"; "no soft implicit target"; Fed "will not be constrained by market prices"; "watchful thinking, not watchful waiting". No forward guidance (removed under Warsh). September hike repriced ~77-81% -> ~56% (Kiplinger 14:07 ET) — lower but still the base case. Market response: long yields ROSE on the hold (10Y ~4.68-4.70 +7-9bp), dollar FELL (front-end hike tail unwound), equities -1.5-2.2%. Australia: Q2 CPI miss (3.8%/3.6% trimmed) collapsed Aug RBA hike odds 21% -> 4% (Market Index). BoE tonight (~86% hold, June was 7-2); BOJ Friday (~96% hold at 1.00%, Outlook Report the signal); ECB ~2 hikes priced by Mar 2027 (TE). BOK Gov Shin reaffirmed potential hike need despite the crash.

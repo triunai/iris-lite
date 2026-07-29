@@ -1,5 +1,5 @@
-as_of: 2026-07-29
-last_reviewed: 2026-07-29
+as_of: 2026-07-30
+last_reviewed: 2026-07-30
 initialized_fresh: true
 note: >
   Initialized in the 2026-07-24 first run (degraded no-history mode) from that
@@ -9,13 +9,13 @@ note: >
 
 base:
   name: energy-shock-squeeze-without-recession
-  band: "45-55%"  # trimmed again 2026-07-29: Brent closed BELOW the scenario's $85 range floor ($84.09) - the energy squeeze is dissolving faster than the base case assumed
+  band: "50-60%"  # raised 2026-07-30: Brent back INSIDE the $85-105 range ($90.74, +7.9% on the Jordan attack); a hawkish adjustment priced without a delivered hike (9-3 hold, 3 dissents, Sept ~56%); equities chopped lower rather than crashed - Wednesday was near-textbook base case
   coverage_gap_note: >
     Flagged 2026-07-29: none of the three scenarios spans the China chip-competition
     shock (DUV lithography reports + CXMT; Kospi -10.84%, TAIEX -4.65% on 28 Jul),
     which is a different axis from the energy shock this board was built around.
-    Restructure the scenario set after the FOMC (30 Jul) and BOJ (31 Jul) rather than
-    improvising mid-week - until then this board remains the ENERGY-scenario board
+    FOMC has now passed (hold, 3 dissents); restructure after the BOJ (31 Jul) - i.e. the
+    Friday or Monday run - rather than improvising mid-week; until then this board remains the ENERGY-scenario board
     and the chip-competition thread is tracked in themes/china.md and themes/earnings.md.
   narrative: >
     Oil trades in a wide $85-105/bbl range on ongoing Red Sea/Middle East risk;
@@ -43,7 +43,7 @@ base:
 
 upside:
   name: de-escalation-relief
-  band: "25-35%"  # raised again 2026-07-29: third consecutive confirmation day - pause held 3+ nights, Netanyahu-Trump passed clean, CONCRETE Hormuz proposals exchanged, Brent <$85
+  band: "10-20%"  # CUT 2026-07-30: invalidation signal FIRED - the strike pause broke (IRGC ballistic missiles at a US airbase in Jordan; reported US counterattacks on Iranian territory); Brent +7.9% to $90.74; RBC "exceedingly skeptical" of a near-term breakthrough. Kept >0 because the Hormuz process survived (three-route compromise concept; Iran showing "some flexibility" per Al Jazeera)
   narrative: >
     Middle East strikes and Red Sea attacks subside; Brent retraces toward the
     low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
@@ -57,6 +57,7 @@ upside:
     - "2026-07-25: Houthi attack set the Jizan Aramco refinery (400k b/d) ablaze and targeted Yanbu — physical supply damage is now real, not just risk premium."
     - "2026-07-28: Jizan confirmed SHUT since 27 Jul with tentative restart 15 Aug (Reuters/IIR); Yanbu loadings -40%, 14 berths AIS-dark (Windward); IRGC fired warning shots at 6 vessels; Iran deputy FM: 'any action' to retain strait control - the physical/rhetorical floor under the relief trade."
     - "US Navy blockade enforcement continues (2 tankers disabled)."
+    - "2026-07-29: INVALIDATION FIRED - IRGC ballistic missiles at a US airbase in Jordan (intercepted); Trump: Iran 'would be hit hard'; Iranian media reported US counterattacks on Iranian territory; Brent settled $90.74 (+7.9%); Houthi missiles at Saudi tanker NCC Ghazal; US sanctioned two Iranian 'safe passage' companies. Band cut 25-35% -> 10-20%."
   confirmation_signals:
     - "Diplomatic/ceasefire headlines from the Middle East."
     - "OVX (oil volatility) collapsing from its elevated ~65 level."
@@ -69,7 +70,7 @@ upside:
 
 downside:
   name: stagflationary-policy-shock
-  band: "10-20%"  # trimmed 2026-07-29: third de-escalation day + hike odds fading (31.5% at Tue close); re-arms fast on a hike tonight, a talks collapse, or a chokepoint incident
+  band: "20-30%"  # raised 2026-07-30: re-armed on three fronts - the talks-collapse leg partially fired (Jordan attack broke the pause); a Fed dissent bloc (3 votes) one hot data print from a majority with Sept ~56% priced; physical capacity degrading on BOTH sides (Jizan shut, Ryazan hit, corridor stopped) while 30Y holds >5% a 15th session. Still requires Brent >$100 sustained + an actual hike - neither yet
   narrative: >
     Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
     rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates
@@ -79,6 +80,7 @@ downside:
     - "UST 10Y already at ~4.70%, highest since Jan 2025, with a CNBC piece explicitly flagging a test of 5% as plausible (23 Jul)."
     - "USDJPY at ~163, weakest yen since 1986, ahead of the 30-31 Jul BOJ meeting."
     - "Fed 2026 hike odds already ~71% per Polymarket (via Yahoo Finance)."
+    - "2026-07-29: FOMC held 9-3 with THREE dissents for +25bp (Hammack/Kashkari/Logan) and a hawkish Warsh presser; Sept hike ~56% priced. Long yields ROSE on the hold (10Y ~4.68-4.70%). Brent +7.9% to $90.74 on the Jordan attack. Physical supply degrading on two axes: Jizan shut to ~15 Aug + Ryazan refinery hit (Russian runs lowest since 2005) + Black Sea grain corridor full stop. Band raised 10-20% -> 20-30%."
   contradicting_evidence:
     - "No central bank has actually hiked yet — this scenario requires a step beyond the current pricing, not just a continuation of it."
     - "2026-07-25/26: US-Iran mutual strike pause and progressing talks lean against this scenario; band trimmed 20-30% -> 15-25%. It re-arms fast on a July FOMC hike, a talks collapse, or a hot PCE/ECI/Australia-CPI run."

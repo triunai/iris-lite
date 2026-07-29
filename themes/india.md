@@ -3,7 +3,7 @@ theme: india
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: cooling
 status_change_reason: "2026-07-29: two consecutive days of counterevidence - INR +11p (3rd straight gain), Sensex flat (-0.09%) through the regional semi crash, Nifty IT +3.2%; low chip exposure + oil-importer relief"
 sensitive_assets: ["Nifty 50", "Sensex", "USDINR", "India 10Y G-Sec"]
@@ -41,3 +41,6 @@ Counterevidence day: 5-day losing streak SNAPPED (Sensex +1.02% to 76,835.78, Ni
 
 ### Observation 2026-07-29 (Tue 28 Jul session)
 Status cooling -> stable. India was near-immune to the worst Asian session of the shock era: Sensex 76,765.92 (-0.09%), Nifty 23,985.35 (-0.04%) while Kospi fell 10.84%; Nifty IT +3.2% (TCS +4.47%); INR closed 95.88, +11 paise, third straight gain (Confirmed catalyst: crude -4.8% to $84.09). HUL -7% dragged FMCG. Counterevidence to resilience: FII Tuesday provisional unavailable; Monday still showed FII net selling. Sources: HDFC Sky 28 Jul 16:38-16:43 IST; Rigzone-Bloomberg 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Third consecutive session as the regional counter-example: Sensex 77,654.60 (+1.16%), Nifty 24,250.20 (+1.10%), IT led (Infosys +4.37%), breadth 2,460/1,597; INR 95.66 (+16 paise, FOURTH straight gain — equities, softer USD, pre-spike crude); June IIP +7.3% cited as support (Sen Times). Wednesday FII/DII provisionals unavailable (Tue: FII +Rs7.6bn — back to buying). Note: the late-US oil spike (+7.9%) post-dates the Indian close — a high-sensitivity importer will have to digest it today.

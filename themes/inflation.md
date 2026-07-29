@@ -3,7 +3,7 @@ theme: inflation
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 10Y/30Y", "gold", "breakevens"]
@@ -33,3 +33,6 @@ See briefs/2026/07/2026-07-24-morning-brief.md §1, §6, §8.
 ## Observation 2026-07-27
 
 Energy impulse partially defused Fri (Brent -3.3%) but weekly +~9-12% still feeding pipeline. Japan core 1.6% (in line, sub-target). PMI price sub-indices not sourced — the key transmission gauge is missing this run (gap). This week's verdicts: June PCE + ECI (US), EZ flash CPI Jul (cons 2.9%), Tokyo CPI, Australia Q2 CPI ~4%.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Two-sided day: the energy shock re-armed (Brent +7.9% to $90.74; Brent-WTI chokepoint spread re-widening; US refinery utilisation 97.2%) and Malaysia's June PPI hit +9.2% y/y (2026 high) — while Australia's Q2 CPI missed (3.8% headline / 3.6% trimmed vs ~4.0/3.7 expected; source conflict on actual flagged), killing the Aug RBA hike tail. New second channel flagged: Russian refining damage (runs lowest since 2005) -> global product/diesel tightness independent of crude. Watch: Germany flash CPI tonight, Eurozone flash HICP Friday (~3.0% cons.), US June PCE tonight 20:30 MYT.

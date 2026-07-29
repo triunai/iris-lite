@@ -3,7 +3,7 @@ theme: digital-assets
 status: stable
 confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: dormant
 status_change_reason: "First full dataset: BTC ~$64.3k trading as rates/liquidity proxy"
 sensitive_assets: ["BTC", "ETH", "spot BTC/ETH ETFs"]
@@ -37,3 +37,6 @@ BTC ~$64,304 (09:13 ET Fri snapshot, Yahoo), -1.6% d/d, +2% w/w; ETH ~$1,861. US
 
 ### Observation 2026-07-29
 Fed-eve dump and full round-trip: BTC to $63,065 Asian-session low (>$670m liquidations, ~$533m longs) then back to ~$64.9k by early Wed Asia (+0.8% 24h, CoinGecko ~23:15 UTC, caching caveat flagged); ETH $1,954 (+3.7%) outperforming on the rebound. Mon ETF flows near-flat: BTC -$11.6m, ETH +$9.2m (ETH leadership continues). CLARITY Act floor vote PUNTED to next week (Thune; last window before Aug 8 recess) - cited as a Possible contributor to the dip. Sources: CoinGecko; CoinGape/CoinGlass 28 Jul; Farside/SoSoValue; CoinDesk 27 Jul 23:55 ET.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+FOMC kneejerk positive ($64.4k) faded through the evening: BTC ~$63.6-63.9k late Wed (-0.2 to -0.6% 24h), ETH ~$1,882; liquidations $322-401m (source conflict). Flows: Tue BTC spot ETFs -$49.7m, FOURTH consecutive outflow day (IBIT -$54.8m); ETH +$9.4m — BTC/ETH flow divergence now a two-week pattern. CLARITY Act SHELVED before the Senate's August recess — "doubtful it becomes law in 2026" (Yahoo Finance/CoinDesk); ethics dispute among sticking points. Read: BTC trading as a rate/liquidity asset, not a geopolitical hedge — it fell while gold rose on the same headlines.

@@ -3,7 +3,7 @@ theme: foreign-exchange
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
@@ -41,3 +41,6 @@ JPY: fresh 40-YEAR intraday low 163.99 Mon (TechTimes), closed ~163.5; no Monday
 
 ### Observation 2026-07-29
 KRW anomaly: closed 1,462.50, 6 won FIRMER, on a -10.84% Kospi day with W4.99tn foreign selling (opened ~1,470) - divergence logged w/ six-part template in 29 Jul brief 4a; cause unresolved, three unranked leading hypotheses (exporter conversion/AI-deal hedging flows, suspected authority smoothing - unconfirmed, oil relief) - correction 2026-07-29 from an initial confidence-ranked draft, per user review: the evidence does not support ranking. JPY calm 163.77, no 164 break even on -3.95% Nikkei; Katayama "respond as needed" unchanged; BOJ Fri. DXY 101.35 one-month high pre-Fed. INR 95.88 third straight gain. MYR eased 4.0885/0930. Sources: Businesskorea 28 Jul; Reuters via MarketScreener/Euronext 28 Jul; HDFC Sky 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Dollar FELL on a hawkish-hold day (DXY ~100.8-101.2, -0.5-0.7%; EURUSD ~1.1467 late) — the ~1/3-priced hike didn't arrive, front-end repricing beat the safe-haven bid; flagged as unstable if oil keeps rising (Analyst inference). KRW divergence DAY THREE — and the field narrowed: USDKRW 1,446.7-1,446.9 (strongest since Feb; move-size conflict -15.8 vs -8.3 won flagged), with Seoul Economic Daily naming SK Hynix ADR-conversion dollar supply, month-end exporter selling (Samsung), and spec long-dollar unwinding as the session's drivers — first sourced, named mechanisms; upgraded from "cause unresolved" to Probable catalysts (reported, not officially confirmed). Confirms: sub-1,450 holding past month-end. Invalidates: post-month-end snap through ~1,470. USDJPY 163.44 into BOJ Friday with the -152k CFTC yen short unresolved; JGB 2Y 1.48%, US 2Y prints conflict (4.28-4.33) — differential ~2.8pp, aligned. INR 95.66 (+16p, 4th straight gain). AUD 0.6955 11-day low on the CPI miss. Ringgit 4.0875/0915 firmer pre-FOMC.

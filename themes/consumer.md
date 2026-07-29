@@ -3,7 +3,7 @@ theme: consumer
 status: stable
 confidence: low
 first_opened: 2026-07-26
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: dormant
 status_change_reason: "2026-07-29: first hard US consumer datapoints logged - Conference Board confidence 90.8 miss (vs 92.1, on an upwardly-revised 92.2 base); theme now has evidence rather than none"
 sensitive_assets: ["consumer discretionary equities", "retail credit spreads"]

@@ -3,7 +3,7 @@ theme: china
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: mixed
 status_change_reason: "2026-07-29: DUV-lithography mass-production reports + CXMT capacity fears escalated the chip-competition thread from single-stock story to regional systemic repricing (Kospi -10.84%, TAIEX -4.65%); China now a supply-side disruptor of the global tech order even as its own high-multiple tech fell (ChiNext -7.35%)"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
@@ -41,3 +41,6 @@ Equities rallied hard Mon (SSE +1.15%, SZ +2.72%, ChiNext +3.16%, turnover 2.08t
 
 ### Observation 2026-07-29 (Tue 28 Jul session)
 Status mixed -> heating. Reports that a state-backed Chinese firm has begun mass-producing domestic DUV lithography tools (the underlying technical claim remains thinly-sourced reporting, not a verified fact - but markets repriced regardless) plus CXMT supply fears crashed the Asian semi complex. Domestically: Shanghai -1.16%, Shenzhen -4.52%, ChiNext -7.35%, STAR -5.93%, turnover 2.03tn yuan; CXMT itself -1.6% after the ~+470% debut; Hang Seng flat (-0.1%) with HS Tech +0.2% - H-share investors read the story as neutral-to-positive for China tech while A-share high-multiple names were crushed. No Politburo readout yet (due this week); PBoC 800bn-yuan overnight-repo tranche executes 29 Jul. Tuesday USDCNY unavailable. Sources: China Daily HK/Xinhua 28 Jul 17:18; Reuters via Business Recorder 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Decoupling day: A-shares/HK rallied through both the oil spike and the semi rout — Shanghai +0.4% (3,828.47; TE conflict 3,823.07), Shenzhen +1.1%, ChiNext +1.55% (after -7.35%), CSI 300 +0.55-0.7%, Hang Seng +1.96% to 25,807 (near 2-month high; Tencent +4.3%) — rotation from AI-hardware into platforms/consumer (RTHK). PBoC injected 806.5bn yuan (600bn overnight + 206.5bn 7-day @1.40%), tranche 1 of the 2.1tn plan; yuan fix 6.7899, strongest since Feb 2023, but set 264 pips weaker than estimates (leaning against speed; Business Recorder/Reuters). Politburo readout STILL PENDING — the decoupling trade is running on policy anticipation; the readout either validates it or takes it back. CXMT Wednesday move unavailable. HSI Tuesday baseline conflict logged (25,310.85 implied vs 25,178.21 used yesterday).

@@ -3,7 +3,7 @@ theme: earnings
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
@@ -41,3 +41,6 @@ Nucor beat (EPS $4.84 vs $4.38e, record steel-mill shipments 2nd straight qtr; s
 
 ### Observation 2026-07-29
 Old-economy sweep vs AI anxiety: KO $0.97 vs $0.93e beat-and-raise (+5.0%, best day in years); PYPL $1.38 vs $1.28e (+4.7%); F $0.42 vs $0.35e, FY EBIT guide to $10-11bn (+8% AH); BA -$0.76 vs -$0.31e MISS but +4.8% on FCF/deliveries; UPS beat-and-raise SOLD -6.6% on tariff commentary; V slim beat -2.3% AH; STX blowout ($5.71 vs $5.09e) closed -8.5% pre-print, only +1% AH - the China-DUV fear discount swallowed a blowout. MSFT/META Thu ~04:05 MYT: capex verdict now colliding with the competition narrative. Sources: Alphastreet/Pulse2/Yahoo/Stocktwits/24-7WallSt 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+The AI-capex verdict landed split. MSFT beat clean: rev $90.0bn +18% (vs $87.6bn), EPS $4.74 (vs $4.24), capex $41bn in the quarter +70% y/y (~2/3 short-lived assets/GPUs); +2.4% AH. META beat revenue/missed EPS: $60.8bn +28% but EPS $6.18 vs ~$7.13 (-13% y/y), expenses +55%, 2026 capex guide raised at low end to $130-145bn, 8,000 layoffs; -6.2% AH (Il Sole 24 Ore/Axios). SK Hynix: RECORD Q2 (rev W79.3tn, OP W60.5tn, 76% margin) but MISSED consensus; capex "at least $31bn"; -9.61% (Korea Times). Reframe: demand confirmed accelerating, the fight is over who keeps the margin — hardware incumbents repricing on competition (CXMT/DUV) + capex-cost absorption (META). Europe: Kering +16.9% (Gucci) vs Hermes -11% (China read) — luxury now stock-specific; Rheinmetall +6.1%, StanChart +2.8% beat, Glencore/Rio strong output.

@@ -3,7 +3,7 @@ theme: credit
 status: stable
 confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: dormant
 status_change_reason: "First sourced credit-spread data via FRED (IG/HY OAS) - gap closed after 3 runs of insufficient data"
 sensitive_assets: ["IG spreads", "HY spreads", "sovereign spreads"]
@@ -37,3 +37,6 @@ Gap closed: FRED publishes free, fetchable US IG OAS (BAMLC0A0CM) and HY OAS (BA
 
 ### Observation 2026-07-29
 Data restored after the recurring gap: IG OAS 81bp, HY OAS 281bp (FRED, data 27 Jul). HY has widened ~13bp since 22 Jul while IG widened ~3bp and equities rallied - quiet HY underperformance, corroborated same-day by HYG (+0.19%) lagging LQD (+0.30%) a second consecutive up-day. Small, genuine caution signal; not stress (281bp is historically unremarkable). Sources: FRED BAMLC0A0CM/BAMLH0A0HYM2 27 Jul; stockanalysis.com 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Same-day proxies: HYG -0.23% vs LQD -0.57% — the 2-session IG-over-HY pattern REVERSED, but on duration (long yields +7-9bp hitting IG's longer maturity profile), not HY enthusiasm; not read as a risk-appetite signal either way (Analyst inference, medium). Official series lagging: HY OAS 281bp (27 Jul obs, FRED page cached); IG OAS 28-Jul print unavailable (stale FRED cache; last desk-confirmed 81bp 27 Jul).

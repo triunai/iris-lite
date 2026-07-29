@@ -3,7 +3,7 @@ theme: malaysia
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
+last_reviewed: 2026-07-30
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["FBM KLCI", "USDMYR", "MGS"]
@@ -41,3 +41,6 @@ KLCI 1,713.09 +0.71% Mon — bank-led bargain-hunting (Maybank/CIMB/PBB; Financi
 
 ### Observation 2026-07-29
 KLCI 1,712.48 (-0.04%) but breadth 348/717 (2:1 negative) - Nestle/TNB/KLCC defended the index while tech-adjacent mid-caps sold with the region (MPI -RM2.06); TNB +20 sen to RM14.66, Khazanah block fully absorbed. MYR 4.0885/0930 (eased ~50pips vs 1-month-high USD; firmer vs JPY/EUR/GBP/SGD). CPO Oct RM4,646 early/-0.58% (settlement unavailable). NEW quantified risk: MPOB 97% probability strong El Nino Oct-Dec, est. 2-4% y/y output decline from 4Q26; RHB overweight plantations (CPO RM4,400 assumption). Negeri Sembilan early voting done (~89-91% turnout, conflict flagged); polls Sat. Sovereign sukuk tightest-ever Malaysian spreads (T+15/T+25, 4.7x). Sources: The Star/Bernama 28 Jul 18:18-18:52 MYT; The Star MPOB/RHB 28 Jul; MOF 24 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+Breadth repaired for a day: KLCI 1,715.56 (+0.18%), 550 gainers/476 decliners (from 348/717), RM2.48bn turnover; defensives led — Nestle +RM3.12 to RM96.78 on 2Q net +38% (RM155m; dividend 70 vs 80 sen source conflict); plantations +70.3pts. NEW NAMED WATCHPOINT: June PPI +9.2% y/y, highest of 2026 (mining +29.0%, refined petroleum +30.1%, electronics +8.3%; DOSM via KLSE Screener) — pipeline pressure under the 1.9% June CPI; Bank Muamalat's Afzanizam separately flags the CPI dip may prove temporary on crude. Ringgit 4.0875/0915 (firmer pre-FOMC; weaker vs SGD/EUR/JPY); post-FOMC reaction lands today. CPO Oct RM4,663 +21 (Agropost, single-source). BNM Governor (Sasana, Tue): 2026 GDP toward upper end of 4-5%. MGS 10Y: still no Tier-1 print (4th run; 3.60% Investing.com off-the-run vs 3.71% TE 26-Jul). Negeri Sembilan polls Saturday 1 Aug (early turnout 91.06%).

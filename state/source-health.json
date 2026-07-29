@@ -101,6 +101,41 @@
    "reason": null,
    "run_started_myt": "interactive session, post 2026-07-29 07:10 run",
    "notes": "Desk owner flagged the 2026-07-29 brief Section 4a Korean-won divergence entry for false-precision ranking: three unconfirmed causal hypotheses (exporter dollar conversion, FX-authority smoothing, oil-import relief) were numbered 1/2/3 with confidence labels when no source actually distinguished between them. Corrected the same day: brief and themes/foreign-exchange.md rewritten to \"cause unresolved, unranked hypotheses\"; OPERATING-INSTRUCTIONS.md \u00a713.2 point 3 amended (v2.1.1) to require ranking divergence causes only when evidence can differentiate them, defaulting to an explicit unranked list otherwise. No other 2026-07-29 content affected - the Australia divergence entry in the same brief was already a single hypothesis, not a false ranking, and was left as-is."
+  },
+  {
+   "date": "2026-07-30",
+   "mode": "normal",
+   "reason": null,
+   "run_started_myt": "2026-07-30T07:10:30+08:00",
+   "unavailable_this_run": [
+    "Nasdaq 100 exact Wednesday close (correction entry multi-source confirmed)",
+    "official FOMC statement text (federalreserve.gov blocked; wire quotes used)",
+    "official 3pm UST 2Y/30Y closes (conflicting snapshots shown)",
+    "official VIX settle (20.52 vs 20.66 both shown)",
+    "5pm NY FX fixes (DXY/EURUSD/GBPUSD post-Fed exact levels)",
+    "STOXX 600 official close (645.37 delayed quote used; Tue baseline also conflicted)",
+    "Gilt 10Y Wednesday close",
+    "TTF Wednesday settlement (Tue EUR56.37 last verified)",
+    "COMEX gold/silver official settlements (spot prints used)",
+    "LME official closes + aluminium; Dalian/SGX iron ore settlements",
+    "Henry Hub official settlement on contract-roll day",
+    "USDSGD, USDTWD",
+    "Hang Seng Tech Wednesday close; CXMT Wednesday move",
+    "India Wednesday FII/DII provisionals",
+    "Bursa Technology Index Wednesday value",
+    "MGS 10Y Tier-1 print (4th consecutive run; 3.60% Investing.com off-the-run vs 3.71% TE 26-Jul conflict)",
+    "Wednesday CPO settlement single-sourced (Agropost RM4,663)",
+    "IG OAS 28-Jul print (FRED cache stale); HY OAS 28-Jul obs not yet visible",
+    "TGA 28-Jul closing balance (fiscaldata API blocked this run)",
+    "Wednesday BTC/ETH ETF flow rows (Farside pending at cutoff)",
+    "EIA gasoline stock change; Cushing/SPR/production detail",
+    "ADX/DFM/QSE Wednesday closes; JSE closing level; Gulf sovereign CDS prints",
+    "MSFT Azure growth % and FY27 capex guide (call detail)",
+    "NVDA/SOX closing prints",
+    "3m/6m regional sector relative-performance dataset (5th consecutive run)",
+    "Baltic Dry current print (gap; Drewry WCI due today)"
+   ],
+   "notes": "Massive two-shock session researched clean overall. Conflicts resolved and documented: VIX 20.52/20.66; 10Y 4.68/4.70; 2Y 4.28/4.33 (post-presser fade plausible, unresolved); 30Y 5.121/5.20; Australia CPI headline 3.8% three-source cluster vs Investing.com 4.0% 'actual' (judged prior-mislabel, cluster used); USDKRW move -15.8 vs -8.3 won (level agrees ~1,446.7-1,446.9); SHCOMP 3,828.47 vs 3,823.07; Korea foreign selling 419bn intraday vs 1.2157tn full-day (full-day used); crypto liquidations $322m vs $401m; Nestle dividend 70 vs 80 sen. BASELINE CORRECTION LOGGED: Hang Seng Tuesday close used yesterday (25,178.21, Reuters wrap) conflicts with China Daily HK 25,310.85 and RTHK Wednesday arithmetic (+497 to 25,807) - Tuesday's print now judged wrong; Wednesday's close unaffected; not retro-editing the 07-29 brief, flagging here instead. Discarded: Eastern Herald NDX ~19,450 (scale error); Fortune Brent $89.53 'daily change' feed (inconsistent with settlements); Moneta Markets GBPUSD levels (generic S/R note); NGI homepage (stale winter cache); rateprobability.com (model output inconsistent with all press); SalaryWise gilt 5.07% (internally inconsistent, low confidence); Rio Times iron ore $161.91 (unknown venue/spec). growbeansprout FedWatch mirror labels the 55.7% September move a 'cut' - judged template error vs Kiplinger/AP direction. EIA/fed.gov/FRED IG-OAS/fiscaldata served stale caches or blocked - secondary reporters used where they agreed."
   }
  ]
 }

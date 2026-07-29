@@ -1,11 +1,11 @@
 ---
 theme: commodities
-status: mixed
+status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-29
-previous_status: heating
-status_change_reason: "Two-day ~12% Brent retracement (Fri -3.3%, Mon -8.7% to $88.36 settlement) on US-Iran de-escalation; still +~18-25% m/m and physical Saudi supply damage unresolved"
+last_reviewed: 2026-07-30
+previous_status: mixed
+status_change_reason: "2026-07-30: energy shock re-armed - Brent +7.9% to $90.74 on Jordan attack; Brent-WTI spread re-widened to $6.28; gold back above $4,070"
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]
 sensitive_sectors: ["energy", "airlines/transport (cost side)", "chemicals"]
 next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "OPEC+ commentary"]
@@ -41,3 +41,6 @@ Brent settled $88.36 Mon (-8.7%, largest 1-day drop in 3+ months; Rigzone/Bloomb
 
 ### Observation 2026-07-29
 Brent Sep settled $84.09 (-4.8%), WTI $79.26 (-4.1%) - worst 3-day crude stretch since Apr 2020 (~-16%); Brent now BELOW the base scenario's $85 floor. Gold JOINED the sell-off (COMEX Aug ~$4,021 near-settlement, -1.4%, low $4,011; silver -2.7%) - Monday's hedges-retained read partially unwound (Probable: hike risk + 1-month-high DXY). Counter-current: Chicago wheat +16% in July on the Black Sea grain-corridor stop. TTF EUR56.37 (-0.56%). Sources: Rigzone-Bloomberg 28 Jul; Canadian Mining Journal 28 Jul; Euromaidan Press 28 Jul.
+
+### Observation 2026-07-30 (Wed 29 Jul)
+The 3-day collapse reversed in one session: Brent Sep settled $90.74 (+7.9%), WTI $84.46 (+6.6%) after IRGC missiles at a US base in Jordan broke the strike pause (Bloomberg via Rigzone). Brent-WTI spread re-widened $4.83 -> $6.28 (chokepoint premium back). Gold +~1% post-FOMC to ~$4,073 spot (Kitco; settlement unavailable); silver ~$57.6; copper COMEX $6.26/lb -1.1%; iron ore ~$98.3 flat. EIA: crude -7.2m bbl draw, utilisation 97.2% (war-max). US natgas the outlier: HH ~$2.69, 3-month lows on record production - the shock is seaborne-oil/LNG, not BTU-wide. Wheat settled ~flat after intraday Black Sea pop; corn -8.75c on Midwest rain; soyoil -148pts. OPEC+ Sunday: expected +188k b/d for Sept then pause Oct-Dec (OilPrice 28 Jul). Status mixed -> heating.
