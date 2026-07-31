@@ -24,3 +24,8 @@ date,indicator,value,unit,source,notes
 2026-07-28,SOFR,3.65,%,"sofrrate.com (NY Fed republished), data-date 28 Jul",+1bp d/d; $3.0tn volume; month-end Friday - watch the usual firming
 2026-07-28,EFFR,3.63,%,"sofrrate.com/policy-rates, data-date 28 Jul",inside 3.50-3.75% target; IORB 3.65%; closes the 27-Jul EFFR gap flagged last run (27-Jul print itself still unretrieved)
 2026-07-29,US 2Y / 10Y / 30Y,4.28-4.33 / 4.68-4.70 / 5.12-5.20,%,"conflicting prints: TE late-Wed vs Kiplinger 14:07 ET vs Motley Fool close wrap - official 3pm closes unavailable","long end SOLD the hawkish hold (3 dissents); 30Y >5% a 15th session; TGA 28-Jul balance unavailable this run (API blocked; last confirmed $902.8bn 27 Jul)"
+2026-07-30,SOFR,3.65,%,"sofrrate.com (NY Fed republished), data-date 30 Jul","stable into month-end; 30-day avg 3.621"
+2026-07-30,EFFR,3.63,%,"Fed H.15 release dated 30 Jul","3.63% each day 27-30 Jul; inside 3.50-3.75 target"
+2026-07-29,HY OAS (BAMLH0A0HYM2),287,bp,"govspending.org FRED mirror, obs date 29 Jul","widened ~18bp intra-month (269bp on 10 Jul); IG OAS unavailable (FRED blocked; last reliable print stale May)"
+2026-07-22,Fed H.4.1 reserves / TGA / ON RRP,"3062.1 / 829.6 / 352.7",USD bn,"Fed H.4.1 release dated 23 Jul (week to 22 Jul) - the 30 Jul release was blocked this run","reserves -80.6 w/w on TGA rebuild (+73.4) - private-channel drain continuing; re-pull the 30 Jul release next run"
+2026-07-30,US 2Y / 10Y / 30Y closes,"4.23 / 4.66 / 5.21",%,"Investrade close wrap 30 Jul; H.15 CMT 29 Jul corroborates","30Y 5.21% highest since Jul 2007; Fri LIVE at cutoff: 10Y 4.74 +7bp on hot ECI (TE ~17:15 UTC)"

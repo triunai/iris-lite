@@ -1,11 +1,11 @@
 ---
 theme: labour
-status: stable
-confidence: low
+status: heating
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-31
+previous_status: stable
+status_change_reason: "2026-07-31: US ECI +0.9% q/q (vs +0.8%) with real private wages -0.4% y/y - nominal wage pressure without real gains is the stagflationary signature the Fed dissenters cite; claims still tight at 197k"
 sensitive_assets: ["UST 2Y", "USD"]
 sensitive_sectors: ["staffing", "consumer discretionary"]
 next_catalysts: ["next US payrolls report", "next weekly claims print"]

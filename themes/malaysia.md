@@ -1,11 +1,11 @@
 ---
 theme: malaysia
-status: stable
-confidence: medium
+status: heating
+confidence: medium-high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-31
+previous_status: stable
+status_change_reason: "2026-07-31: Q2 advance GDP +5.8% y/y (H1 +5.6%) - ABOVE BNM's upper-end-of-4-5% guidance, E&E-led; KLCI July +3.65% with a tech-led final week (ViTrox profit tripled); credit +6.4%; CPI 1.9% with PPI +9.2% upstream unresolved; NS state polls 1 Aug"
 sensitive_assets: ["FBM KLCI", "USDMYR", "MGS"]
 sensitive_sectors: ["energy (MY)", "banks (MY)", "plantations (MY)"]
 next_catalysts: ["any BNM commentary", "next Malaysia CPI/trade release", "Bursa breadth trend over coming sessions"]

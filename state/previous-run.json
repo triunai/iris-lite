@@ -1,7 +1,7 @@
 {
- "last_attempt_myt": "2026-07-30T07:10:30+08:00",
- "last_success_myt": "2026-07-30T08:20:00+08:00",
+ "last_attempt_myt": "2026-08-01T01:10:00+08:00",
+ "last_success_myt": "2026-08-01T01:45:00+08:00",
  "mode": "normal",
  "push_skipped": false,
- "reason": null
+ "reason": "LATE RECOVERY RUN: the scheduled Friday 2026-07-31 07:00 MYT firing did not occur; this run fired ~01:10 MYT Sat 1 Aug and produced the 2026-07-31 brief covering Thu 30 Jul full session + Fri 31 Jul Asia/Europe closes + live Fri US session (cutoff ~13:15 ET)."
 }

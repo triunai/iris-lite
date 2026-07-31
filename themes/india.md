@@ -3,7 +3,7 @@ theme: india
 status: stable
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
+last_reviewed: 2026-07-31
 previous_status: cooling
 status_change_reason: "2026-07-29: two consecutive days of counterevidence - INR +11p (3rd straight gain), Sensex flat (-0.09%) through the regional semi crash, Nifty IT +3.2%; low chip exposure + oil-importer relief"
 sensitive_assets: ["Nifty 50", "Sensex", "USDINR", "India 10Y G-Sec"]

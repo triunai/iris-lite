@@ -1,11 +1,11 @@
 ---
 theme: growth
-status: stable
+status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-31
+previous_status: stable
+status_change_reason: "2026-07-31: divergence, not a global story - US Q2 GDP +1.5% miss vs Eurozone +0.4% beat (no technical recession), Malaysia +5.8%, Korea June IP best since 2020; China PMI 49.2 back in contraction"
 sensitive_assets: ["UST 2Y/10Y", "S&P 500"]
 sensitive_sectors: ["cyclicals", "industrials"]
 next_catalysts: ["US flash PMIs (24 Jul)", "next payrolls report"]

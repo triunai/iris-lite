@@ -3,7 +3,7 @@ theme: monetary-policy
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
+last_reviewed: 2026-07-31
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y", "DXY", "gold", "EURUSD", "USDJPY"]
@@ -44,3 +44,7 @@ Decision cluster: FOMC tonight 02:00 MYT - hike odds ~40% intraday -> 31.5% at t
 
 ### Observation 2026-07-30 (Wed 29 Jul)
 FOMC: HELD 3.50-3.75%, vote 9-3 — THREE dissents for +25bp (Hammack, Kashkari, Logan; Fox Business/AP/Axios). Warsh presser: "I asked for a good family fight and I got one"; "no soft implicit target"; Fed "will not be constrained by market prices"; "watchful thinking, not watchful waiting". No forward guidance (removed under Warsh). September hike repriced ~77-81% -> ~56% (Kiplinger 14:07 ET) — lower but still the base case. Market response: long yields ROSE on the hold (10Y ~4.68-4.70 +7-9bp), dollar FELL (front-end hike tail unwound), equities -1.5-2.2%. Australia: Q2 CPI miss (3.8%/3.6% trimmed) collapsed Aug RBA hike odds 21% -> 4% (Market Index). BoE tonight (~86% hold, June was 7-2); BOJ Friday (~96% hold at 1.00%, Outlook Report the signal); ECB ~2 hikes priced by Mar 2027 (TE). BOK Gov Shin reaffirmed potential hike need despite the crash.
+
+## Observation 2026-07-31
+
+Three hawkish holds with hike dissents in 26 hours: Fed 9-3 (Wed), BoE 6-3 (Greene/Mann/Pill - bloc grew from 7-2), BOJ 8-1 (Takata for 1.25%). ECI +0.9% re-armed September to ~63% (TE; FedWatch direct unavailable). Ueda: 'could speed up the pace'; Tokyo core CPI 6-month high; Sompo sees October > December for the next BOJ hike. Bailey the outlier dove ('domestic conditions... more benign') even with 3 dissents. Sources: Central Banking; Reuters Instant View via Yahoo; BLS ECI; TE 31 Jul.

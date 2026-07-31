@@ -3,7 +3,7 @@ theme: commodities
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
+last_reviewed: 2026-07-31
 previous_status: mixed
 status_change_reason: "2026-07-30: energy shock re-armed - Brent +7.9% to $90.74 on Jordan attack; Brent-WTI spread re-widened to $6.28; gold back above $4,070"
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]

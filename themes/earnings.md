@@ -1,11 +1,11 @@
 ---
 theme: earnings
-status: mixed
-confidence: medium
+status: heating
+confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-31
+previous_status: mixed
+status_change_reason: "2026-07-31: MSFT (+15%, Azure >$100bn run-rate), AMZN (AWS +37%, fastest in 18 qtrs), AAPL (beat, but ~85% of EPS beat was a tariff refund and FQ4 guided below consensus) - AI-capex demand re-validated for the season; hyperscaler 2026 capex guides cumulate to ~$720-745bn; the margin question (META -8%, AAPL guide) is now the axis"
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
 sensitive_sectors: ["AI/hyperscaler capex chain", "semiconductors"]
 next_catalysts: ["remaining Big Tech earnings this season", "STMicro and other semiconductor guidance updates"]
@@ -44,3 +44,7 @@ Old-economy sweep vs AI anxiety: KO $0.97 vs $0.93e beat-and-raise (+5.0%, best 
 
 ### Observation 2026-07-30 (Wed 29 Jul)
 The AI-capex verdict landed split. MSFT beat clean: rev $90.0bn +18% (vs $87.6bn), EPS $4.74 (vs $4.24), capex $41bn in the quarter +70% y/y (~2/3 short-lived assets/GPUs); +2.4% AH. META beat revenue/missed EPS: $60.8bn +28% but EPS $6.18 vs ~$7.13 (-13% y/y), expenses +55%, 2026 capex guide raised at low end to $130-145bn, 8,000 layoffs; -6.2% AH (Il Sole 24 Ore/Axios). SK Hynix: RECORD Q2 (rev W79.3tn, OP W60.5tn, 76% margin) but MISSED consensus; capex "at least $31bn"; -9.61% (Korea Times). Reframe: demand confirmed accelerating, the fight is over who keeps the margin — hardware incumbents repricing on competition (CXMT/DUV) + capex-cost absorption (META). Europe: Kering +16.9% (Gucci) vs Hermes -11% (China read) — luxury now stock-specific; Rheinmetall +6.1%, StanChart +2.8% beat, Glencore/Rio strong output.
+
+## Observation 2026-07-31
+
+The season's verdict flipped the chip-shock: SK Hynix +29.8% limit-up / Samsung +27% / TSMC +10% limit-up on the MSFT-AMZN read-through (plus mechanical accelerants: Chey purchase, Korean stabilisation measures, reported Situational Awareness->Citadel liquidation). Kioxia guided up on AI demand. Counterevidence: META wore the cost (-8%), AAPL's beat was refund-flattered with China light. Sources: Investrade 30 Jul; tradingkey; ts2.tech; BusinessKorea/Focus Taiwan 31 Jul.

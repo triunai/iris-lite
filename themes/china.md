@@ -1,11 +1,11 @@
 ---
 theme: china
-status: heating
+status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: mixed
-status_change_reason: "2026-07-29: DUV-lithography mass-production reports + CXMT capacity fears escalated the chip-competition thread from single-stock story to regional systemic repricing (Kospi -10.84%, TAIEX -4.65%); China now a supply-side disruptor of the global tech order even as its own high-multiple tech fell (ChiNext -7.35%)"
+last_reviewed: 2026-07-31
+previous_status: heating
+status_change_reason: "2026-07-31: NBS mfg PMI 49.2 (first contraction in 5 months; construction sub-index pandemic-era low) + cautious Politburo readout (Oct Fifth Plenum; 'incremental policies', no bazooka) + CSI 300 -7.9% July (worst since Jul-21) / STAR 50 -25.9% (worst on record) - the policy-liquidity decoupling rally thesis weakened materially; Friday's bounce was regional beta"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
 sensitive_sectors: ["Chinese property", "Chinese tech/ADRs", "commodity exporters to China"]
 next_catalysts: ["any PBoC policy move", "Chinese activity/trade data", "US-China trade or export-control headlines"]
@@ -44,3 +44,7 @@ Status mixed -> heating. Reports that a state-backed Chinese firm has begun mass
 
 ### Observation 2026-07-30 (Wed 29 Jul)
 Decoupling day: A-shares/HK rallied through both the oil spike and the semi rout — Shanghai +0.4% (3,828.47; TE conflict 3,823.07), Shenzhen +1.1%, ChiNext +1.55% (after -7.35%), CSI 300 +0.55-0.7%, Hang Seng +1.96% to 25,807 (near 2-month high; Tencent +4.3%) — rotation from AI-hardware into platforms/consumer (RTHK). PBoC injected 806.5bn yuan (600bn overnight + 206.5bn 7-day @1.40%), tranche 1 of the 2.1tn plan; yuan fix 6.7899, strongest since Feb 2023, but set 264 pips weaker than estimates (leaning against speed; Business Recorder/Reuters). Politburo readout STILL PENDING — the decoupling trade is running on policy anticipation; the readout either validates it or takes it back. CXMT Wednesday move unavailable. HSI Tuesday baseline conflict logged (25,310.85 implied vs 25,178.21 used yesterday).
+
+## Observation 2026-07-31
+
+PMI 49.2 vs ~50 expected, non-mfg 49.0; Politburo (published Thu 16:24 CST, Xinhua) more cautious than April. Yuan fix 6.7894 set 581 pips WEAK of estimates - widest weak-side gap in 5 months: PBoC now leaning against appreciation, reversing the strong-fix signal of 29-30 Jul. Hang Seng still logged its worst week in a year despite Friday +0.1%. Counterevidence: SMIC +8.1%/Cambricon +10.2% Friday; the 2.1tn OMO plan runs through 3 Aug. Sources: NBS via SMM/FXStreet; Xinhua; Reuters via Business Recorder; RTHK 31 Jul.

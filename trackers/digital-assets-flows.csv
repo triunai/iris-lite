@@ -11,3 +11,9 @@ date,asset,metric,value,unit,venue_source,notes
 2026-07-28,ETH,US spot ETF net flow (Tue),+9.4,USD millions,Farside,"ETHA +3.5M, ETHB +5.9M; BTC/ETH flow divergence now a two-week pattern"
 2026-07-29,BTC,spot price (late Wed ~21:15-22:35 UTC),63620-63900,USD,"Crypto Times ~21:16 ET / FXStreet 22:35 GMT (aggregate indices, no single venue)","FOMC kneejerk to $64.4k faded through the evening; liquidations $322-401m (Bitcoin.com vs Crypto Times - conflict flagged); Wed ETF flow rows pending at cutoff"
 2026-07-29,ETH,spot price (late Wed ~21:15 UTC),1882,USD,Crypto Times (aggregate),-1.9% 24h; CLARITY Act shelved to autumn (Yahoo/CoinDesk) - 'doubtful it becomes law in 2026'
+2026-07-30,BTC,spot ETF net flow,+32.1,USD millions,Farside,"Wed 29 Jul flows: breaks 4-day outflow streak; IBIT +89.8, FBTC -43.1"
+2026-07-31,BTC,spot ETF net flow,+233.1,USD millions,Farside,"Thu 30 Jul flows: IBIT +183.4, BITB +20.7 - flow flip matches equity risk rebound"
+2026-07-30,ETH,spot ETF net flow,-32.9,USD millions,Farside,Wed 29 Jul flows
+2026-07-31,ETH,spot ETF net flow,+12.8,USD millions,Farside,"Thu 30 Jul flows: ETHA +16.2"
+2026-07-31,BTC,spot price,63652,USD,Yahoo Finance 31 Jul 13:06 UTC (LIVE),"-1.7% d/d, -0.5% w/w, +7.6% m/m; Thu close ~64724"
+2026-07-31,ETH,spot price,1877.52,USD,Yahoo Finance 31 Jul 13:06 UTC (LIVE),"-2.1% d/d, +2.1% w/w, +19.1% m/m"

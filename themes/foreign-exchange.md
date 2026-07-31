@@ -1,11 +1,11 @@
 ---
 theme: foreign-exchange
-status: mixed
-confidence: medium
+status: heating
+confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-30
-previous_status: null
-status_change_reason: null
+last_reviewed: 2026-07-31
+previous_status: mixed
+status_change_reason: "2026-07-31: ~Y8.2-8.45tn MOF yen intervention (163.65 -> sub-158) + US Treasury signal it MAY join (first since 2011, Bessent 'very undervalued') + hawkish BOJ 8-1 hold - the yen is now a bilateral policy project; PBoC simultaneously leaning AGAINST CNY appreciation (581-pip weak-side fix, widest in 5 months); KRW divergence resolved toward structural strength (1,424, day 4, past month-end)"
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
 sensitive_sectors: ["exporters (JP, MY)", "importers"]
 next_catalysts: ["Japan June CPI (24 Jul)", "BOJ meeting 30-31 Jul"]
@@ -44,3 +44,7 @@ KRW anomaly: closed 1,462.50, 6 won FIRMER, on a -10.84% Kospi day with W4.99tn 
 
 ### Observation 2026-07-30 (Wed 29 Jul)
 Dollar FELL on a hawkish-hold day (DXY ~100.8-101.2, -0.5-0.7%; EURUSD ~1.1467 late) — the ~1/3-priced hike didn't arrive, front-end repricing beat the safe-haven bid; flagged as unstable if oil keeps rising (Analyst inference). KRW divergence DAY THREE — and the field narrowed: USDKRW 1,446.7-1,446.9 (strongest since Feb; move-size conflict -15.8 vs -8.3 won flagged), with Seoul Economic Daily naming SK Hynix ADR-conversion dollar supply, month-end exporter selling (Samsung), and spec long-dollar unwinding as the session's drivers — first sourced, named mechanisms; upgraded from "cause unresolved" to Probable catalysts (reported, not officially confirmed). Confirms: sub-1,450 holding past month-end. Invalidates: post-month-end snap through ~1,470. USDJPY 163.44 into BOJ Friday with the -152k CFTC yen short unresolved; JGB 2Y 1.48%, US 2Y prints conflict (4.28-4.33) — differential ~2.8pp, aligned. INR 95.66 (+16p, 4th straight gain). AUD 0.6955 11-day low on the CPI miss. Ringgit 4.0875/0915 firmer pre-FOMC.
+
+## Observation 2026-07-31 (intervention week)
+
+MOF spent ~Y8.2-8.45tn Thursday (BOJ money-market calc; Bloomberg/Reuters conflict flagged); pair was back above 160 within 24h of the low - the ~2.8pp 2Y differential is unchanged, so flow fought carry and carry is reasserting (Analyst inference, high). Revealed intervention threshold ~163.65 vs the desk's standing ~165 note. US Treasury told banks via NY Fed it may intervene itself. KRW: won firmed a 4th day to 1,424.0 PAST month-end on record foreign equity inflows (~W7.3-7.6tn Friday) - the mechanical month-end hypothesis is calendar-invalidated; structural read strengthens. Sources: Reuters/Investing.com 31 Jul; KFGO/Reuters 08:41 ET; FXStreet; BusinessKorea/Korea Herald.

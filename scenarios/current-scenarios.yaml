@@ -1,5 +1,5 @@
-as_of: 2026-07-30
-last_reviewed: 2026-07-30
+as_of: 2026-07-31
+last_reviewed: 2026-07-31
 initialized_fresh: true
 note: >
   Initialized in the 2026-07-24 first run (degraded no-history mode) from that
@@ -9,7 +9,16 @@ note: >
 
 base:
   name: energy-shock-squeeze-without-recession
-  band: "50-60%"  # raised 2026-07-30: Brent back INSIDE the $85-105 range ($90.74, +7.9% on the Jordan attack); a hawkish adjustment priced without a delivered hike (9-3 hold, 3 dissents, Sept ~56%); equities chopped lower rather than crashed - Wednesday was near-textbook base case
+  band: "50-60%"  # HELD 2026-07-31: two more base-case days (oil back to $88-89 inside range; 3 hawkish holds without a delivered hike - Fed 9-3/BoE 6-3/BOJ 8-1; equities repaired; EZ +0.4%/MY +5.8% growth beats). Composition risk now RATES-led not oil-led: 30Y 5.21% (2007 high) + Sept ~63% is the base case stressing itself internally. Raised 2026-07-30: Brent back INSIDE the $85-105 range ($90.74, +7.9% on the Jordan attack); a hawkish adjustment priced without a delivered hike (9-3 hold, 3 dissents, Sept ~56%); equities chopped lower rather than crashed - Wednesday was near-textbook base case
+  restructure_note_2026_07_31: >
+    The post-BOJ restructure flagged since 07-28 is SCHEDULED FOR THE MONDAY 2026-08-03 RUN,
+    deliberately: the chip axis this board does not span just resolved violently upward
+    (Kospi +17.91% record, TAIEX +7.98% record points), and the weekend carries three
+    binaries (US response to the Kuwait attack, OPEC+ Sunday, COT ref 28 Jul) that land
+    before Monday. Rebuilding architecture at an intraday US cutoff would bake in
+    half-session evidence. The 07-31 oil-vs-war divergence (Brent -7% on the widest
+    escalation week) also argues the ENERGY axis itself needs re-examination, not just
+    a chip axis bolted on.
   coverage_gap_note: >
     Flagged 2026-07-29: none of the three scenarios spans the China chip-competition
     shock (DUV lithography reports + CXMT; Kospi -10.84%, TAIEX -4.65% on 28 Jul),
@@ -43,7 +52,7 @@ base:
 
 upside:
   name: de-escalation-relief
-  band: "10-20%"  # CUT 2026-07-30: invalidation signal FIRED - the strike pause broke (IRGC ballistic missiles at a US airbase in Jordan; reported US counterattacks on Iranian territory); Brent +7.9% to $90.74; RBC "exceedingly skeptical" of a near-term breakthrough. Kept >0 because the Hormuz process survived (three-route compromise concept; Iran showing "some flexibility" per Al Jazeera)
+  band: "10-20%"  # HELD 2026-07-31, composition SWAPPED: diplomatic leg worsened (Iran REJECTED the Omani proposal; open exchange on GCC soil - Kuwait base attack) but the PHYSICAL leg improved (partial Hormuz resumption, Qatar LNG cargo, Brent -7% wk, 14-nation Red Sea coalition) and a Hamas disarmament roadmap appeared (unsigned by Israel). Scenario now rests on de-escalation-by-exhaustion, physics over politics. CUT 2026-07-30: invalidation signal FIRED - the strike pause broke (IRGC ballistic missiles at a US airbase in Jordan; reported US counterattacks on Iranian territory); Brent +7.9% to $90.74; RBC "exceedingly skeptical" of a near-term breakthrough. Kept >0 because the Hormuz process survived (three-route compromise concept; Iran showing "some flexibility" per Al Jazeera)
   narrative: >
     Middle East strikes and Red Sea attacks subside; Brent retraces toward the
     low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
@@ -70,7 +79,7 @@ upside:
 
 downside:
   name: stagflationary-policy-shock
-  band: "20-30%"  # raised 2026-07-30: re-armed on three fronts - the talks-collapse leg partially fired (Jordan attack broke the pause); a Fed dissent bloc (3 votes) one hot data print from a majority with Sept ~56% priced; physical capacity degrading on BOTH sides (Jizan shut, Ryazan hit, corridor stopped) while 30Y holds >5% a 15th session. Still requires Brent >$100 sustained + an actual hike - neither yet
+  band: "20-30%"  # HELD 2026-07-31, teeth sharpened: ECI +0.9% delivered the hot-wage print; Sept ~63% with dissent blocs at Fed/BoE/BOJ; 30Y 5.21%; EZ energy +10% y/y. But missing legs moved AWAY: Brent -7% wk (needs >$100 sustained) and still no delivered hike. If a Sept hike lands on a +1.5% GDP economy with the long end >5.2%, the policy shock arrives via the CURVE not the barrel - Monday restructure to consider renaming the axis. Raised 2026-07-30: re-armed on three fronts - the talks-collapse leg partially fired (Jordan attack broke the pause); a Fed dissent bloc (3 votes) one hot data print from a majority with Sept ~56% priced; physical capacity degrading on BOTH sides (Jizan shut, Ryazan hit, corridor stopped) while 30Y holds >5% a 15th session. Still requires Brent >$100 sustained + an actual hike - neither yet
   narrative: >
     Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
     rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates
