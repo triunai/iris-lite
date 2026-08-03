@@ -1,5 +1,5 @@
-as_of: 2026-08-03
-last_reviewed: 2026-08-03
+as_of: 2026-08-04
+last_reviewed: 2026-08-04
 initialized_fresh: false
 architecture_version: 2
 note: >
@@ -57,6 +57,7 @@ base:
     - "2026-08-03: Iran's Mehr denied Trump's account of the de-escalation ('a new lie') and the Persian Gulf Strait Authority still refuses transit permits — the oil leg of this scenario rests on an unratified arrangement."
     - "2026-08-03: CFTC COT ref 28 Jul shows BOTH crowded trades got MORE crowded (yen net -163,412, -11,287 w/w; WTI net +120,108, +38,419 w/w) — a chop scenario is fragile when positioning is at an extreme on both sides of it."
   confirmation_signals:
+    - "FIRED 2026-08-04 (3 Aug session), all three at once: Brent held the $78-90 range (~$83.7-83.9); ISM manufacturing landed ABOVE consensus (55.6 vs 54.0); and Korea/Taiwan held >50% of the 31 Jul gain (KOSPI retained ~66% after a -5.12% session, TAIEX retained 100%+ at +0.62%). This is the scenario's own script - crude into the range, no hike delivered, the long end sticky-high but not breaking, equities up with violent dispersion beneath. Band HELD, not raised: three signals firing on one session is confirmation of the current state, not new information about the next quarter."
     - "Brent holding a $78-90 range without a breakout in either direction."
     - "ISM manufacturing (3 Aug, prior 53.3 / cons 54.0) and July payrolls (7 Aug, prior 57k / cons 88-100k) landing near consensus."
     - "Korea/Taiwan holding >50% of the 31 Jul record gain — a genuine turn rather than a short-covering spasm."
@@ -96,6 +97,7 @@ upside:
     - "2026-08-03: CENTCOM's cumulative blockade tally rose to 35 vessels redirected / 2 disabled since 14 Jul (from 9/1 on 22 Jul) — enforcement intensity increased, it did not relax."
     - "2026-08-03: the US 30Y closed at a NEW 2007-era high (5.274%) on 31 Jul — the long end has not participated in any relief so far."
   confirmation_signals:
+    - "NOT FIRED 2026-08-04, and this is why the band is HELD rather than raised after an obviously good session: Iran's foreign ministry spokesman Baghaei stated publicly that Tehran is 'not currently negotiating with the United States' and that the talks are with OMAN over a TEMPORARY route. Trump asserts an agreement on the strait with bilateral talks on 4 Aug; the two accounts directly conflict. The strait's middle passage remains MINED. Monday's ~5% crude move and record Dow close were the market pricing the AMERICAN assertion, not an Iranian ratification - the signal that matters has still not appeared."
     - "Iran publicly RATIFYING the Oman-mediated Hormuz arrangement (rather than Trump asserting it)."
     - "Hormuz weekly transit counts recovering toward 60+ (last sourced print: 10 vessels on 23 Jul vs an ~88/day baseline; 82->39 weekly collapse counted mid-July)."
     - "September Fed hike pricing falling below 40% on a soft 7 Aug payroll."
@@ -124,6 +126,8 @@ downside:
     caps, regional banks) break down. A falling oil price does NOT relieve this —
     it removes the excuse for the hike being priced as temporary.
   supporting_evidence:
+    - "2026-08-04: US ISM manufacturing 55.6 vs 54.0 consensus (prior 53.3) - production +6.3pt, employment back to expansion at 52.8, backlog 50.5->55.0, customers' inventories 'too low' at 40.7%, prices paid still 71.1. This is EXACTLY the print this scenario needs: a hot goods economy going into the 6 Aug unit-labour-costs print and the 7 Aug payroll. Falling oil does not relieve it - it removes the argument that any September hike would be a response to a temporary energy shock."
+    - "2026-08-04: the 30Y fell only 5bp to 5.23% on a session with a record Dow close, a ~5% crude collapse AND a de-escalation headline. A long end that barely moves on that combination is not being driven by energy or by growth expectations - which is this scenario's whole premise."
     - "2026-08-03: UST 30Y closed 31 Jul at 5.274% (+6.8bp), a NEW 2007-era high above Thursday's 5.21%; 10Y 4.743% (+8.1bp); 2Y 4.289%; 2s10s ~+45bp and steepening (Investrade; Advisor Perspectives; investingLive — 3.6bp cross-publisher spread on the 10Y flagged)."
     - "2026-07-31: US Q2 ECI +0.9% q/q vs +0.8% expected, with real private wages -0.4% y/y — the hot-wage print this scenario named as its trigger has already been delivered (BLS USDL-26-1270)."
     - "2026-07-29/31: dissent blocs for HIKES exist simultaneously at the Fed (9-3: Hammack, Kashkari, Logan), the BoE (6-3: Greene, Mann, Pill) and the BOJ (8-1: Takata) — three central banks one data print from a majority."
@@ -155,7 +159,7 @@ downside:
 cross_cutting_axes:
   - name: ai-capex-and-chip-cycle
     added: 2026-08-03
-    status: "resolved violently upward on 31 Jul; NOT yet confirmed by the US tape"
+    status: "FRACTURED on its first clean test day (3 Aug) - it did not resolve up or down. Korea -5.12%, Taiwan +0.62%, Nasdaq +2.1% in one session, with MEMORY weak (Samsung's device division posted a first-ever quarterly loss; SK Hynix down; Kioxia guided below) and DESIGN/PACKAGING strong (MediaTek and ASE both limit-up) while TSMC itself FELL. Korea's decline was large-cap only - the small-cap KOSDAQ ROSE +2.4%. Taiwan's gain was domestic money rotating DOWN the cap scale (TPEx +4.32%) absorbing NT$19.19bn of foreign selling. METHODOLOGY CONSEQUENCE: this axis must be tracked BY SEGMENT (memory / foundry / design / equipment), not as a single bloc. Treating it as one position produced a confirmation signal ('Korea/Taiwan hold >50% of the 31 Jul gain') that technically PASSED while the underlying trade was coming apart underneath it."
     why_not_a_fourth_scenario: >
       The board's schema is base/upside/downside and this axis modifies all three
       rather than competing with them: it can accelerate the base case's chop into

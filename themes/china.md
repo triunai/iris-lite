@@ -3,12 +3,12 @@ theme: china
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: heating
 status_change_reason: "2026-07-31: NBS mfg PMI 49.2 (first contraction in 5 months; construction sub-index pandemic-era low) + cautious Politburo readout (Oct Fifth Plenum; 'incremental policies', no bazooka) + CSI 300 -7.9% July (worst since Jul-21) / STAR 50 -25.9% (worst on record) - the policy-liquidity decoupling rally thesis weakened materially; Friday's bounce was regional beta"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]
 sensitive_sectors: ["Chinese property", "Chinese tech/ADRs", "commodity exporters to China"]
-next_catalysts: ["any PBoC policy move", "Chinese activity/trade data", "US-China trade or export-control headlines"]
+next_catalysts: ["RatingDog Services PMI, 5 Aug 09:45 MYT", "China July trade, 7 Aug 11:00 MYT"]
 invalidation_conditions: ["a material PBoC easing or tightening move", "a confirmed US-China export-control escalation", "a sharp CSI 300/Hang Seng move on China-specific news"]
 ---
 
@@ -21,10 +21,12 @@ China coverage is currently thin and flagged for deeper attention going forward 
 ## Supporting Evidence
 
 CSI 300 -0.46% and Hang Seng -0.95% on 23 Jul, in line with broader Asia weakness — no China-specific catalyst confirmed (Cause unclear; most likely a Possible contributor from the same global risk-off/oil-shock backdrop as everywhere else).
+- **2026-08-04 (ref Jul):** RatingDog manufacturing PMI **50.9** (prior 51.7, cons 51.9) - a four-month low, though an 8th month above 50. Output and new orders at four-month lows; input costs at a six-month low. The private survey is converging **down** toward the official NBS 49.2, narrowing the two-survey gap from ~2.5 to ~1.7 points. *(Investing.com, 3 Aug)*
 
 ## Contradicting Evidence
 
 None logged yet — needs deeper, China-specific sourcing next run (PBoC policy, property-sector data, trade data).
+- **2026-08-04 (ref Jul):** Within the same RatingDog release, **new export orders returned to expansion for the first time in three months** and employment rose at its fastest pace since Aug 2023. *(Investing.com, 3 Aug)*
 
 ## Sources
 

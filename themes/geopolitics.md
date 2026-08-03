@@ -1,14 +1,14 @@
 ---
 theme: geopolitics
 status: mixed
-confidence: medium
+confidence: low-medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
-previous_status: heating
-status_change_reason: "2026-08-03: genuinely two-directional for the first time in three weeks. DE-ESCALATION: Trump cancelled the prepared US/Israeli strike package on Iranian energy infrastructure at 23:10 EDT Sat 1 Aug, conditional on Hormuz reopening + denuclearisation; Iran-Oman Hormuz talks in 'final stages' (Araghchi/Baghaei, 2 Aug); allied pressure from MbS/Qatar/UAE/Turkey/Pakistan. COUNTER: Iran's Mehr denies the framing ('a new lie'), the Strait Authority still refuses transit permits, further Iranian drones at Kuwait Sat, LNG carrier Gaslog Shanghai struck 31 Jul. Separately Russia-Ukraine ESCALATED hard (Ufa/Bashneft >23mt/yr, Rosneft Saratov, Nizhnekamsk, Engels bomber base; Yanina sunk; Kyiv 35 missiles/185 drones, 9 killed)"
+last_reviewed: 2026-08-04
+previous_status: escalating
+status_change_reason: "The two sides now publicly contradict each other. Trump asserts an agreement on the Strait with bilateral talks on 4 Aug; Iran foreign-ministry spokesman Baghaei says Tehran is not currently negotiating with the United States and is discussing a temporary route with Oman. De-escalating in US action, contested in Iranian framing."
 sensitive_assets: ["Brent/WTI", "gold", "defense equities", "shipping/freight"]
 sensitive_sectors: ["energy", "defense/aerospace", "shipping/logistics"]
-next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "Russia-Ukraine ceasefire/escalation news", "Taiwan Strait developments", "India-China or India-Pakistan border news"]
+next_catalysts: ["Whether an Iran-US meeting convenes 4 Aug", "Iranian ratification of any Hormuz arrangement", "Hormuz weekly transit counts"]
 invalidation_conditions: ["a confirmed ceasefire or de-escalation at either Middle East chokepoint"]
 ---
 
@@ -25,6 +25,7 @@ Houthi attacks on Saudi tankers in the Red Sea/Bab el-Mandeb; US strikes on Iran
 ## Contradicting Evidence
 
 No confirmed Hormuz closure — OVX (oil vol) elevated (~65) but VIX stayed below 20, suggesting markets are pricing elevated risk, not an active crisis.
+- **2026-08-04 CONFIRMED:** Iranian foreign-ministry spokesman **Esmail Baghaei: "We are not currently negotiating with the United States."** Talks are with **Oman**, over a **temporary** route for vessel safety. The strait's middle passage is **mined**; transits use the northern route with Iranian permission or the southern Omani route. The unresolved core is whether Washington recognises Iranian authority over the strait including transit fees. *(Spokesman-Review, 3 Aug upd. 12:40; Bloomingbit, 3 Aug 05:45)*
 
 ## Sources
 

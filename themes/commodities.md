@@ -1,14 +1,14 @@
 ---
 theme: commodities
-status: mixed
-confidence: medium
+status: cooling
+confidence: medium-high
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: heating
-status_change_reason: "2026-08-03: the energy shock is deflating on TWO independent legs. Diplomatic: Trump cancelled the Iran energy-infrastructure strike; Hormuz talks in final stages -> Brent gapped ~-4.65% to ~$83.84 on the Sunday reopen (TE live). Supply: OPEC+ added +188k b/d for September, COMPLETING the 1.65m b/d voluntary unwind (pause from Q4, next meeting 6 Sep). Brent Oct settled $87.93 Fri (Sep expired $90.12; July +24%). Henry Hub -17% in July, 6th straight weekly decline. CBOT wheat Sep -24.25c Fri. Counterweight: gold $4,049.10 settle, +0.65% July - first monthly gain in five"
+status_change_reason: "Second consecutive ~5% leg down in crude (Brent ~$83.7-83.9 on 3 Aug, from a $100 test on 23 Jul) on the Iran de-escalation, with OPEC+ having completed the 1.65m b/d unwind. Separately and for a different reason, iron ore hit a >1-year low on Chinese demand. The energy leg of the stagflation thesis is now effectively broken."
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]
 sensitive_sectors: ["energy", "airlines/transport (cost side)", "chemicals"]
-next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "OPEC+ commentary"]
+next_catalysts: ["Whether Iran-US talks convene 4 Aug", "OPEC+ 6 Sep", "any diesel-crack print"]
 invalidation_conditions: ["Brent sustaining a retrace below ~$80/bbl", "confirmed de-escalation in the Red Sea/Middle East"]
 ---
 
@@ -21,10 +21,15 @@ The dominant cross-asset driver right now is a genuine supply shock, not a deman
 ## Supporting Evidence
 
 Brent ~$97-100/bbl intraday (23 Jul), vs. ~$71.57 on 1 Jul 2026 (~+30% m/m); WTI toward ~$90/bbl; gold (Aug futures) fell ~1.9% to ~$4,075-4,087 (23 Jul morning ET).
+- **2026-08-04 (3 Aug session):** Brent fell ~4.6-4.8% to ~$83.7-83.9 (four publishers, ~0.8% spread); WTI to ~$79. Second consecutive ~5% down-leg. *(Trading Economics 3 Aug; Investrade 3 Aug)*
+- **2026-08-04 (3 Aug):** Iron ore ~US$94/t, lowest in more than a year; Fortescue -3.3% to A$17.90, an 11-month low, -22% since mid-May. Falling on **Chinese demand**, not on the war-premium unwind - only this leg is a growth signal. *(IBTimes AU, 3 Aug 14:20 AEST)*
+- **2026-08-04:** US ISM prices paid eased 73.0 -> 71.1 - a deceleration from a very high base, not deflation. *(ISM, 3 Aug)*
 
 ## Contradicting Evidence
 
 Gold falling during a geopolitical escalation is itself a contradiction of the simple 'flight to safety' narrative — flagged explicitly as a cross-asset divergence.
+- **2026-08-04:** The Strait of Hormuz middle passage remains **mined** and the strait is not reopened; the entire crude move rests on an arrangement Iran's foreign ministry says it is not negotiating with Washington. *(Spokesman-Review, 3 Aug upd. 12:40)*
+- **2026-08-04:** No diesel-crack print sourced for a **second consecutive run**; Russian refinery outages (Ufa, Saratov, Nizhnekamsk, Ryazan at 2005-low runs) leave the crude->product transmission chain unverified.
 
 ## Sources
 

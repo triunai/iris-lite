@@ -3,12 +3,12 @@ theme: foreign-exchange
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: mixed
-status_change_reason: "2026-08-03: the US Treasury leg moved from SIGNALLED to EXECUTED - the NY Fed sold euros to buy yen through Goldman Sachs and Morgan Stanley on Fri 31 Jul, the first joint US-Japan intervention since 2011; Bessent notepad indicated $5-10bn contemplated; USDJPY ~158.9 -> ~157.6 into the close, settling 157.80 (-1.07%). Bessent: coordinated action 'successfully countered disorderly yen movements', US 'will not hesitate' to repeat; Katayama expected to announce Monday. Separately KRW +8.81% in July, largest monthly gain since March 2009 - the KRW divergence entry resolves fully toward structural strength"
+status_change_reason: "Joint US-Japan yen intervention confirmed on the record by both governments - the first since 2011. FX policy, not the barrel, is now the dominant Japanese variable."
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
 sensitive_sectors: ["exporters (JP, MY)", "importers"]
-next_catalysts: ["Japan June CPI (24 Jul)", "BOJ meeting 30-31 Jul"]
+next_catalysts: ["US July payrolls, 7 Aug 20:30 MYT", "any repeat intervention", "BOJ minutes 5 Aug"]
 invalidation_conditions: ["a sharp USDJPY reversal (intervention or BOJ surprise)", "MYR losing its oil-linked bid on a broader risk-off wave"]
 ---
 
@@ -21,6 +21,8 @@ No single dollar-direction story: USDJPY sits at its weakest since 1986 (a stand
 ## Supporting Evidence
 
 USDJPY ~163.2, weakest yen since 1986 (23 Jul); USDMYR firmed to 4.0850/0890 from 4.0870/0910 on oil-linked support (23 Jul, 6pm close); Bloomberg Dollar Spot Index roughly flat/soft.
+- **2026-08-04 CONFIRMED:** Japan and the US confirmed the joint yen intervention (first since 2011). Yen **+1.4% to 155.20**, a near-three-month high, **+3.8% across two sessions**. Every one of the 33 Tokyo sector groups fell; transport equipment -5%, Toyota -5.3%, Suzuki -8%. *(Al Jazeera 3 Aug; The Japan Times 3 Aug; The Star 3 Aug 13:32 MYT)*
+- **2026-08-04:** Ringgit **weakened to 4.0935/0975** from 4.0835/0875, and fell hard against the yen (2.6062 from 2.5520) - the export-receipts channel of the crude drop showing up in FX while the equity index absorbed the fiscal-relief channel. *(The Star, 3 Aug 19:19 MYT)*
 
 ## Contradicting Evidence
 

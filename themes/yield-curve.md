@@ -3,9 +3,9 @@ theme: yield-curve
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: null
-status_change_reason: null
+status_change_reason: "30Y fell 5bp to 5.23% from a 2007-era high, but remains near a 19-year high. One 5bp session does not change the axis. No 2Y close sourced this run, so no curve figure is published."
 sensitive_assets: ["UST 2Y/10Y/30Y", "2s10s", "mortgage rates"]
 sensitive_sectors: ["banks", "REITs", "long-duration equities"]
 next_catalysts: ["US flash PMIs (24 Jul)", "Fed meeting next week"]
@@ -23,8 +23,7 @@ Bear-steepening / term-premium rebuild is underway: the long end is selling off 
 UST 10Y ~4.70% (highest since Jan 2025); 30Y ~5.19% (highest since May 2026); 20Y auction priced at 5.163% (highest since Oct 2023) — all 23 Jul.
 
 ## Contradicting Evidence
-
-None logged yet.
+- **2026-08-04 (3 Aug):** 30Y **5.23%** (-5bp from ~5.28%) and 10Y **4.68%** (-6bp from ~4.75%) - the long end stopped tightening for one session. Bonds **rallied through** a 55.6 ISM, which says energy relief dominated the inflation channel on the day. Still near a 19-year high; one session is not a trend. **No 2Y close sourced, so 2s10s is not published this run - a gap, not a signal.** *(Trading Economics 30Y, 3 Aug; The Business Journal, 3 Aug 14:59)*
 
 ## Sources
 

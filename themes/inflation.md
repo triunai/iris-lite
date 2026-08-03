@@ -3,7 +3,7 @@ theme: inflation
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: heating
 status_change_reason: "2026-08-03: the ENERGY impulse reversed hard (Brent ~$84 live from a $100 test; OPEC+ completing the 1.65m b/d unwind; Henry Hub -17% in July; CBOT wheat -24.25c Fri) while the CORE impulse did not (US ECI +0.9% q/q with real private wages -0.4% y/y; Eurozone core 2.5% with energy +10.0% y/y already in the July print; Malaysia PPI +9.2% upstream). Headline and core are now pulling in opposite directions - mixed is the honest label"
 sensitive_assets: ["UST 10Y/30Y", "gold", "breakevens"]
@@ -21,6 +21,8 @@ An energy-led inflation impulse is colliding with cores that had been cooling. B
 ## Supporting Evidence
 
 Brent crude ~$97-100/bbl intraday, +~30% m/m (from ~$71.57 on 1 Jul); ECB's Lagarde: 'the full inflationary impact of the energy shock has yet to play out' (23 Jul); Fed 2026 hike odds ~71% per Polymarket (via Yahoo Finance).
+- **2026-08-04 (ref Jul):** US ISM **prices paid 71.1** (from 73.0) - still very high; a majority of purchasing managers were paying more. Negative-comment drivers: pricing volatility 57%, Iran conflict 43%, tariffs 18%. The July print already contains the war; the **August** print is where the crude collapse should first appear. *(ISM, 3 Aug)*
+- **2026-08-04:** Eurozone July HICP cited at **2.9%**, up from 2.8% - headline still rising in Europe while crude falls, because energy enters the European print with a lag. *(secondary source: Yahoo Finance UK, 3 Aug 04:49 ET)*
 
 ## Contradicting Evidence
 

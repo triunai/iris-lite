@@ -1,7 +1,7 @@
 {
- "last_attempt_myt": "2026-08-03T07:10:00+08:00",
- "last_success_myt": "2026-08-03T08:35:00+08:00",
- "mode": "normal",
- "push_skipped": false,
- "reason": "Scheduled Monday run fired on time. Monday deliverables completed: Week Ahead section, weekly/2026-W32-week-ahead.md, newest positioning (CFTC COT ref 28 Jul), and the scenario-board RESTRUCTURE that had been flagged since 2026-07-28 and deliberately deferred from the 07-31 recovery run. Research cutoff 07:55 MYT, before the Asian cash open. Web-search budget exhausted before the Monday Americas rotation slot could be researched - logged as a named gap, not padded."
+  "last_attempt_myt": "2026-08-04T07:13:00+08:00",
+  "last_success_myt": "2026-08-04T08:45:00+08:00",
+  "mode": "normal",
+  "push_skipped": false,
+  "reason": "Scheduled Tuesday run fired on time. Research cutoff 08:20 MYT, before the Tuesday Asian cash open, with the full Monday 3 Aug global session (Asia, Europe, US close) available - the Asian session that was untestable at yesterday's cutoff. HEADLINE DELIVERABLE: the pre-declared three-leg regime gate resolved 3-of-3 and the overall label was DOWNGRADED from risk-off/stagflationary-stress to NEUTRAL, confidence raised low-medium -> medium. Tuesday rotation slot (Asia-Pacific / Australia-NZ) was researched and delivered: iron ore at a >1-year low ~US$94/t with Fortescue at an 11-month low; New Zealand honestly empty. Scenario bands HELD deliberately - the regime label moved on a pre-declared gate, the scenarios did not, because one session is not the 'meaningful new evidence' standard and the two are allowed to move at different speeds. NAMED GAPS, not padded: no credit print for a THIRD session (the largest hole in the downgrade, stated as such in the brief), no VIX close, no 2Y close (so 2s10s is not published at all), no DXY close, no gold/copper closes, no European close (intraday only), no Korea July CPI, no Malaysia July manufacturing PMI, no diesel-crack print for a second run. Research-budget discipline improved on the prior run: the Tuesday rotation slot was sequenced BEFORE the budget ran down, per the note the 08-03 operator left."
 }

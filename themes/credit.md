@@ -1,11 +1,11 @@
 ---
 theme: credit
 status: stable
-confidence: medium
+confidence: low
 first_opened: 2026-07-26
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: dormant
-status_change_reason: "First sourced credit-spread data via FRED (IG/HY OAS) - gap closed after 3 runs of insufficient data"
+status_change_reason: "NO credit print sourced for a THIRD consecutive session. Last reliable read remains HY OAS 287bp (29 Jul obs). Do not infer firmness from silence - this is the largest hole in the 2026-08-04 regime downgrade."
 sensitive_assets: ["IG spreads", "HY spreads", "sovereign spreads"]
 sensitive_sectors: ["banks", "highly-levered issuers"]
 next_catalysts: ["any material spread-widening event", "next credit-market commentary from a Tier 1/2 source"]

@@ -3,7 +3,7 @@ theme: housing
 status: stable
 confidence: low
 first_opened: 2026-07-26
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: dormant
 status_change_reason: "First data point logged: US June new home sales beat"
 sensitive_assets: ["homebuilder equities", "MBS spreads"]

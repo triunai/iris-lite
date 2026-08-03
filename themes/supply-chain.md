@@ -1,9 +1,9 @@
 ---
 theme: supply-chain
 status: heating
-confidence: high
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]
@@ -21,6 +21,8 @@ A textbook energy-shock transmission chain is underway: Red Sea/Bab el-Mandeb ta
 ## Supporting Evidence
 
 Brent ~$97-100/bbl (+~30% m/m); low EU gas inventories heading into winter noted in ECB commentary (23 Jul) as a second energy-transmission channel.
+- **2026-08-04 (ref Jul, ISM):** Supplier deliveries **58.9**, slowing for an eighth consecutive month, but ISM reads this as **demand-driven** rather than disruption-driven - corroborated by production +6.3, backlog 50.5->55.0 and imports 52.9->55.7. Customers' inventories "too low" at 40.7%. This is a factory sector filling orders faster than suppliers can feed it, not one waiting on blocked chokepoints. *(ISM, 3 Aug)*
+- **2026-08-04:** Unresolved link, second consecutive run: **no diesel-crack print sourced**. Russian refinery outages (Ufa, Saratov, Nizhnekamsk, Ryazan at 2005-low runs) are where falling crude and constrained product supply collide; until a crack print is sourced, the "cheaper crude means cheaper fuel" chain has an unverified link.
 
 ## Contradicting Evidence
 

@@ -1,14 +1,14 @@
 ---
 theme: earnings
 status: heating
-confidence: high
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: mixed
 status_change_reason: "2026-07-31: MSFT (+15%, Azure >$100bn run-rate), AMZN (AWS +37%, fastest in 18 qtrs), AAPL (beat, but ~85% of EPS beat was a tariff refund and FQ4 guided below consensus) - AI-capex demand re-validated for the season; hyperscaler 2026 capex guides cumulate to ~$720-745bn; the margin question (META -8%, AAPL guide) is now the axis"
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]
 sensitive_sectors: ["AI/hyperscaler capex chain", "semiconductors"]
-next_catalysts: ["remaining Big Tech earnings this season", "STMicro and other semiconductor guidance updates"]
+next_catalysts: ["Ongoing chip reporting", "hyperscaler capex updates"]
 invalidation_conditions: ["a hyperscaler beating and reassuring on capex ROI", "sustained semiconductor strength outside Korea (broadening the SMCI/Kospi counter-signal)"]
 ---
 
@@ -21,10 +21,12 @@ Earnings season is exposing a split inside 'AI capex' as a theme: fundamentally 
 ## Supporting Evidence
 
 Alphabet raised 2026 capex guidance to $195-205bn (GOOG -6.9%, 23 Jul); Tesla -12.3% on a weak print with negative free cash flow; STMicro guided Q3 revenue below expectations (-15% in Europe, 23 Jul).
+- **2026-08-04 (3 Aug session):** Amazon +4% to a **$3 trillion** market capitalisation; Meta +6%, Alphabet and Microsoft +5% each, Nvidia +3%. *(UPI, 3 Aug 17:12)*
 
 ## Contradicting Evidence
 
 Super Micro Computer +19.8% and Kospi +~3% (semis-led) on the same day — a clear counter-signal to a uniform AI-capex scare.
+- **2026-08-04:** **Samsung's device (DX) division posted a first-ever quarterly loss** (reported at KRW0.8tn for Q2 2026) and Kioxia guided below expectations - the memory/device side of the AI complex is where the earnings damage is showing. *(Seoul Economic Daily, 3 Aug; Bloomberg headline, 2 Aug)*
 
 ## Sources
 

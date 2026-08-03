@@ -3,12 +3,12 @@ theme: malaysia
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 previous_status: heating
 status_change_reason: "2026-08-03: confidence CUT (medium-high -> medium), status held. The PH-led bloc LOST Negeri Sembilan on 1 Aug - BN 18 / PH 11 / PN 7, BN+PN two-thirds, DAP sec-gen and Transport Minister Anthony Loke unseated in Chennah by 533 votes, caretaker MB Aminuddin Harun lost Linggi, Bersatu 0/24 with 23 lost deposits. Third consecutive state setback after Sabah (Nov) and Johor (11 Jul). OFFSETTING: the weekend oil collapse is a direct fiscal positive - BIMB had 2026 fuel subsidies at RM40bn vs RM21.6bn budgeted on a 1H26 Brent average of $92.50 vs a Budget $65 assumption"
 sensitive_assets: ["FBM KLCI", "USDMYR", "MGS"]
 sensitive_sectors: ["energy (MY)", "banks (MY)", "plantations (MY)"]
-next_catalysts: ["any BNM commentary", "next Malaysia CPI/trade release", "Bursa breadth trend over coming sessions"]
+next_catalysts: ["Malaysia July manufacturing PMI (not yet sourced)", "any Negeri Sembilan policy read-through", "US payrolls 7 Aug for the ringgit"]
 invalidation_conditions: ["MYR losing its oil-linked bid on a broader EM/risk-off wave", "KLCI breadth turning more broadly negative beyond a single session", "a reversal in Brent removing the fiscal tailwind"]
 ---
 
@@ -21,6 +21,7 @@ As a net oil/LNG exporter, Malaysia sits on the relative-beneficiary side of the
 ## Supporting Evidence
 
 USDMYR firmed to 4.0850/0890 (from 4.0870/0910) at the 6pm close, 23 Jul, on oil-linked support; Dep. Finance Minister Liew Chin Tong: ~RM300m in extra government revenue per +US$1/bbl; KLCI 1,711.51 at midday (+0.14 pt vs. Wed's 1,711.37 close), Energy Index +1.45 pts, Tenaga +12 sen.
+- **2026-08-04 (3 Aug):** FBM KLCI closed **1,725.73 (+0.83, +0.05%)** - flat on a day Brent fell ~5% and North Asian equities fell 2-5%. Breadth negative (609 losers / 490 gainers) on 2.73bn shares / RM2.33bn, down ~35% by value from Friday. Technology +0.54% and financials +0.23% offset energy. Ringgit weakened to **4.0935/0975**. **The two oil channels separated cleanly for the first time: the fiscal/subsidy-relief channel held the index, the export-receipts channel hit the currency.** No Negeri Sembilan election commentary appeared in any sourced market report - the political discount did not visibly price. *(MCI/Bernama 3 Aug 20:12; The Star 3 Aug 19:19 MYT and 12:53 MYT)*
 
 ## Contradicting Evidence
 
