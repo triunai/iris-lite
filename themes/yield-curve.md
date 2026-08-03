@@ -3,7 +3,7 @@ theme: yield-curve
 status: heating
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["UST 2Y/10Y/30Y", "2s10s", "mortgage rates"]

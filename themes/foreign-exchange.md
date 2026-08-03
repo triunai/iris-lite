@@ -3,9 +3,9 @@ theme: foreign-exchange
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: mixed
-status_change_reason: "2026-07-31: ~Y8.2-8.45tn MOF yen intervention (163.65 -> sub-158) + US Treasury signal it MAY join (first since 2011, Bessent 'very undervalued') + hawkish BOJ 8-1 hold - the yen is now a bilateral policy project; PBoC simultaneously leaning AGAINST CNY appreciation (581-pip weak-side fix, widest in 5 months); KRW divergence resolved toward structural strength (1,424, day 4, past month-end)"
+status_change_reason: "2026-08-03: the US Treasury leg moved from SIGNALLED to EXECUTED - the NY Fed sold euros to buy yen through Goldman Sachs and Morgan Stanley on Fri 31 Jul, the first joint US-Japan intervention since 2011; Bessent notepad indicated $5-10bn contemplated; USDJPY ~158.9 -> ~157.6 into the close, settling 157.80 (-1.07%). Bessent: coordinated action 'successfully countered disorderly yen movements', US 'will not hesitate' to repeat; Katayama expected to announce Monday. Separately KRW +8.81% in July, largest monthly gain since March 2009 - the KRW divergence entry resolves fully toward structural strength"
 sensitive_assets: ["USDJPY", "USDMYR", "DXY", "EURUSD"]
 sensitive_sectors: ["exporters (JP, MY)", "importers"]
 next_catalysts: ["Japan June CPI (24 Jul)", "BOJ meeting 30-31 Jul"]
@@ -48,3 +48,15 @@ Dollar FELL on a hawkish-hold day (DXY ~100.8-101.2, -0.5-0.7%; EURUSD ~1.1467 l
 ## Observation 2026-07-31 (intervention week)
 
 MOF spent ~Y8.2-8.45tn Thursday (BOJ money-market calc; Bloomberg/Reuters conflict flagged); pair was back above 160 within 24h of the low - the ~2.8pp 2Y differential is unchanged, so flow fought carry and carry is reasserting (Analyst inference, high). Revealed intervention threshold ~163.65 vs the desk's standing ~165 note. US Treasury told banks via NY Fed it may intervene itself. KRW: won firmed a 4th day to 1,424.0 PAST month-end on record foreign equity inflows (~W7.3-7.6tn Friday) - the mechanical month-end hypothesis is calendar-invalidated; structural read strengthens. Sources: Reuters/Investing.com 31 Jul; KFGO/Reuters 08:41 ET; FXStreet; BusinessKorea/Korea Herald.
+
+## Observation 2026-08-03 — the joint intervention is now fact, and the yen short got LONGER into it
+
+**Confirmed (Reuters via Yahoo Finance, 31 Jul 21:34 EDT; investingLive 3 Aug):** the **US Treasury intervened in the yen on Friday 31 July**, with the New York Fed **selling euros to buy yen** through **Goldman Sachs and Morgan Stanley**. Treasury Secretary Bessent's notepad indicated contemplated purchases of **US$5–10bn**. This followed Japan's own ~¥8.2–8.45tn operation on Thursday 30 July. It is the **first joint US–Japan intervention since 2011**. USDJPY moved from ~158.9 at 16:14 ET to ~157.6 before 17:00 ET, closing **157.80 (−1.07%)**.
+
+Bessent said the coordinated actions "successfully countered disorderly yen movements" and that the US "will not hesitate to participate in further joint intervention"; Japan's MOF said it "won't hesitate to conduct further joint intervention." **Finance Minister Satsuki Katayama is expected to announce the joint operation on Monday 3 August** — a scheduled headline inside the Tokyo session.
+
+**The positioning counterpoint (CFTC COT ref 28 Jul, published 31 Jul 15:30 ET):** the yen non-commercial net short **extended by 11,287 to −163,412** in the week to 28 July — i.e. specs added to the short *into* a visibly imminent intervention. COT Index 4/100, a bearish extreme. TFF detail at the same reference date: leveraged funds net −101,990; asset managers net −83,057. Because the reference date precedes Friday's joint operation, **next week's COT (ref 4 Aug) is the first read on whether the short capitulated**.
+
+**Mechanism read (Analyst inference, high confidence, unchanged):** the ~2.8pp short-end differential (US 2Y 4.289% vs JGB ~1.5%) is untouched. Intervention fights positioning, not carry. What changed this weekend is that **two G7 balance sheets are now on the same side of the pair**, which raises the cost of testing the level without altering the carry economics. Revealed defence zone: ~158–165.
+
+**Other FX, Friday 31 Jul NY closes (investingLive 21:37 UTC):** EURUSD 1.1534 (−0.06%), GBPUSD 1.3483 (−0.14%), USDCHF 0.8076, USDCAD 1.4018, AUDUSD 0.7038. DXY ~99.91 (+0.05% d/d, **−1.46% in July**, Trading Economics). USDKRW **1,424.0** Seoul close; the won gained **8.81% in July**, its largest monthly gain since **March 2009** — the KRW-divergence entry opened 29 July is now fully resolved toward structural strength (record foreign equity inflows + ADR-conversion dollar supply), with the mechanical month-end hypothesis dead. USDMYR **4.0835/0875** (NST/Bernama), firmer on the week. USD/CNH Friday close unsourced.

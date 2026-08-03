@@ -3,7 +3,7 @@ theme: china
 status: mixed
 confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: heating
 status_change_reason: "2026-07-31: NBS mfg PMI 49.2 (first contraction in 5 months; construction sub-index pandemic-era low) + cautious Politburo readout (Oct Fifth Plenum; 'incremental policies', no bazooka) + CSI 300 -7.9% July (worst since Jul-21) / STAR 50 -25.9% (worst on record) - the policy-liquidity decoupling rally thesis weakened materially; Friday's bounce was regional beta"
 sensitive_assets: ["CSI 300", "Hang Seng", "USDCNH", "copper/iron ore (China-demand proxy)"]

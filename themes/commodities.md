@@ -1,11 +1,11 @@
 ---
 theme: commodities
-status: heating
-confidence: high
+status: mixed
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
-previous_status: mixed
-status_change_reason: "2026-07-30: energy shock re-armed - Brent +7.9% to $90.74 on Jordan attack; Brent-WTI spread re-widened to $6.28; gold back above $4,070"
+last_reviewed: 2026-08-03
+previous_status: heating
+status_change_reason: "2026-08-03: the energy shock is deflating on TWO independent legs. Diplomatic: Trump cancelled the Iran energy-infrastructure strike; Hormuz talks in final stages -> Brent gapped ~-4.65% to ~$83.84 on the Sunday reopen (TE live). Supply: OPEC+ added +188k b/d for September, COMPLETING the 1.65m b/d voluntary unwind (pause from Q4, next meeting 6 Sep). Brent Oct settled $87.93 Fri (Sep expired $90.12; July +24%). Henry Hub -17% in July, 6th straight weekly decline. CBOT wheat Sep -24.25c Fri. Counterweight: gold $4,049.10 settle, +0.65% July - first monthly gain in five"
 sensitive_assets: ["Brent", "WTI", "gold", "energy equities"]
 sensitive_sectors: ["energy", "airlines/transport (cost side)", "chemicals"]
 next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "OPEC+ commentary"]
@@ -44,3 +44,17 @@ Brent Sep settled $84.09 (-4.8%), WTI $79.26 (-4.1%) - worst 3-day crude stretch
 
 ### Observation 2026-07-30 (Wed 29 Jul)
 The 3-day collapse reversed in one session: Brent Sep settled $90.74 (+7.9%), WTI $84.46 (+6.6%) after IRGC missiles at a US base in Jordan broke the strike pause (Bloomberg via Rigzone). Brent-WTI spread re-widened $4.83 -> $6.28 (chokepoint premium back). Gold +~1% post-FOMC to ~$4,073 spot (Kitco; settlement unavailable); silver ~$57.6; copper COMEX $6.26/lb -1.1%; iron ore ~$98.3 flat. EIA: crude -7.2m bbl draw, utilisation 97.2% (war-max). US natgas the outlier: HH ~$2.69, 3-month lows on record production - the shock is seaborne-oil/LNG, not BTU-wide. Wheat settled ~flat after intraday Black Sea pop; corn -8.75c on Midwest rain; soyoil -148pts. OPEC+ Sunday: expected +188k b/d for Sept then pause Oct-Dec (OilPrice 28 Jul). Status mixed -> heating.
+
+## Observation 2026-08-03 — war premium deflating on both a diplomatic and a supply leg
+
+**OPEC+ (2 Aug, Secretariat release):** +188,000 b/d for September — the sixth consecutive monthly increase, **completing the unwind of the 1.65m b/d voluntary tranche agreed in 2023**. Increases paused for the remainder of 2026; ~2m b/d of 2022-vintage cuts remain. Next meeting 6 September; 68th JMMC 4 October. The JMMC stressed "the importance of safeguarding international maritime shipping lanes" but made **no explicit Hormuz reference and published no spare-capacity figure**. Named participants numbered seven (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, Oman) — the UAE was absent from the list and no explanation was sourced (flagged, not interpreted).
+
+**Prices, Friday 31 Jul settlements:** Brent **October $87.93** (+1.2%) — the new front month; Brent **September expired at $90.12**; WTI September **$84.67** (+$1.08, +1.3%). July: Brent +24%, WTI +21% (strongest month since March). COMEX gold settled **$4,049.10, +0.65% for July — the first monthly gain in five**. Henry Hub Sep **$2.747** (−0.4%), −17% across July on a sixth consecutive weekly decline (record 110.7 Bcf/d July output; inventories ~6.6% above the 5-year average). CBOT wheat Sep **639.25c (−24.25c)**, the session's largest grain move. FCPO Oct **RM4,642** (settlement table) vs **RM4,660** (Reuters) — conflict unresolved for a third run; week −1.08%, July +2.46%.
+
+**Live/early, Sunday reopen (secondary sources, labelled):** Brent ~**$83.84, −4.65%** (Trading Economics, read ~23:00 UTC 2 Aug); WTI reported below $80 (FXLeaders 2 Aug 22:33 UTC). Directionally reliable, exact level indicative.
+
+**Positioning refutation:** CFTC COT ref 28 Jul shows the WTI non-commercial net long **grew 38,419 to +120,108** — it did not liquidate. The "spec unwind explains oil's escalation-immunity" hypothesis carried since 31 July is refuted as of the 28 July reference date.
+
+**Gaps:** LME/COMEX copper, iron ore (last 28 Jul: DCE 741 yuan/t, SGX $97.60/t), TTF and silver 31 Jul settlements all unsourced. Saudi Aramco September OSPs not yet published as of 2 Aug.
+
+**Sources:** OPEC Secretariat press release 2 Aug; Al Arabiya 2 Aug 18:19 GST; The National 2 Aug 11:44; Rigzone/Bloomberg wire 31 Jul 17:03 EST; Brownfield Ag News 31 Jul; GoldSeek/Dow Jones Data Talk 31 Jul; Business Recorder/Reuters 31 Jul-2 Aug; agropost 31 Jul; Trading Economics (live); FXLeaders 2 Aug 22:33 UTC; COTData.net (COT ref 28 Jul).

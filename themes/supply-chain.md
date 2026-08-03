@@ -3,7 +3,7 @@ theme: supply-chain
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: null
 status_change_reason: null
 sensitive_assets: ["Brent/WTI", "freight/shipping equities", "energy-intensive manufacturers"]

@@ -1,107 +1,182 @@
-as_of: 2026-07-31
-last_reviewed: 2026-07-31
-initialized_fresh: true
+as_of: 2026-08-03
+last_reviewed: 2026-08-03
+initialized_fresh: false
+architecture_version: 2
 note: >
-  Initialized in the 2026-07-24 first run (degraded no-history mode) from that
-  day's evidence only. Enriched to the full schema on 2026-07-26 during doc-spine
-  setup, using only content already present in briefs/2026/07/2026-07-24-morning-brief.md
-  §11 — no new evidence added. Change bands only on genuinely new evidence.
+  RESTRUCTURED on the 2026-08-03 run — the rebuild flagged since 2026-07-28 and
+  deliberately deferred from the 07-31 recovery run so it would not be built on a
+  half-session of evidence. Rationale for the rebuild, recorded so a future
+  context-free agent can audit it:
+
+  (1) The v1 board was an ENERGY-shock board. Its central variable broke over the
+  weekend of 1-2 Aug: Brent fell from a $100 test on 23 Jul to ~$84 live on the
+  Sunday 2 Aug reopen — through the widest escalation week of the war — and OPEC+
+  has now COMPLETED the 1.65m b/d voluntary unwind. Both the diplomatic leg
+  (Trump cancelled the prepared strike on Iranian energy infrastructure at 23:10
+  EDT 1 Aug; Iran-Oman Hormuz talks in "final stages") and the supply leg moved
+  the same way in 48 hours.
+
+  (2) The axis that has actually been doing the damage was never a named axis:
+  the UST 30Y closed 31 Jul at 5.274%, a NEW 2007-era high above Thursday's 5.21%,
+  on a hot Q2 ECI (+0.9% q/q) — on the same session VIX closed 15.99. The downside
+  scenario is therefore RENAMED from "stagflationary-policy-shock" to
+  "curve-led-policy-shock" and re-specified: its trigger is no longer Brent >$100
+  sustained, it is a delivered September hike onto a +1.5%-GDP economy with the
+  long end above 5.5%. Falling oil does not invalidate the downside — it changes
+  which market transmits it.
+
+  (3) A third axis moved Kospi +17.91% in a single session (31 Jul) and was
+  outside the board entirely. Rather than inventing a fourth scenario (the schema
+  is base/upside/downside and probability bands must sum coherently), the AI-capex
+  / chip cycle is recorded below as a CROSS-CUTTING AXIS that modifies all three.
+  This closes the coverage_gap_note carried since 2026-07-29.
+
+  Nothing in the v1 schema was removed. Bands changed only where new evidence
+  justified it: upside RAISED 10-20% -> 15-25%; base and downside HELD.
 
 base:
-  name: energy-shock-squeeze-without-recession
-  band: "50-60%"  # HELD 2026-07-31: two more base-case days (oil back to $88-89 inside range; 3 hawkish holds without a delivered hike - Fed 9-3/BoE 6-3/BOJ 8-1; equities repaired; EZ +0.4%/MY +5.8% growth beats). Composition risk now RATES-led not oil-led: 30Y 5.21% (2007 high) + Sept ~63% is the base case stressing itself internally. Raised 2026-07-30: Brent back INSIDE the $85-105 range ($90.74, +7.9% on the Jordan attack); a hawkish adjustment priced without a delivered hike (9-3 hold, 3 dissents, Sept ~56%); equities chopped lower rather than crashed - Wednesday was near-textbook base case
-  restructure_note_2026_07_31: >
-    The post-BOJ restructure flagged since 07-28 is SCHEDULED FOR THE MONDAY 2026-08-03 RUN,
-    deliberately: the chip axis this board does not span just resolved violently upward
-    (Kospi +17.91% record, TAIEX +7.98% record points), and the weekend carries three
-    binaries (US response to the Kuwait attack, OPEC+ Sunday, COT ref 28 Jul) that land
-    before Monday. Rebuilding architecture at an intraday US cutoff would bake in
-    half-session evidence. The 07-31 oil-vs-war divergence (Brent -7% on the widest
-    escalation week) also argues the ENERGY axis itself needs re-examination, not just
-    a chip axis bolted on.
-  coverage_gap_note: >
-    Flagged 2026-07-29: none of the three scenarios spans the China chip-competition
-    shock (DUV lithography reports + CXMT; Kospi -10.84%, TAIEX -4.65% on 28 Jul),
-    which is a different axis from the energy shock this board was built around.
-    FOMC has now passed (hold, 3 dissents); restructure after the BOJ (31 Jul) - i.e. the
-    Friday or Monday run - rather than improvising mid-week; until then this board remains the ENERGY-scenario board
-    and the chip-competition thread is tracked in themes/china.md and themes/earnings.md.
+  name: curve-led-squeeze-war-premium-deflating
+  band: "50-60%"  # HELD 2026-08-03. The composition changed, not the probability: the oil leg resolved toward this scenario (range holds, no $100 breakout, no crash) while the rates leg tightened inside it. Renamed from "energy-shock-squeeze-without-recession"
   narrative: >
-    Oil trades in a wide $85-105/bbl range on ongoing Red Sea/Middle East risk;
-    one hawkish central-bank adjustment (Fed and/or ECB) gets priced without a
-    confirmed hike yet; equities chop lower rather than crash; core inflation
-    stays contained even as headline/energy prints run hot.
+    Crude settles into a lower range ($78-90) as the Hormuz process advances and
+    the completed OPEC+ unwind delivers barrels; no major central bank actually
+    delivers a hike this quarter despite dissent blocs at the Fed (9-3), BoE (6-3)
+    and BOJ (8-1); the long end stays sticky-high on term premium rather than on
+    growth or inflation expectations; AI capex keeps compounding and equity
+    indices chop sideways with violent single-name dispersion beneath them.
+    Growth stays divergent — US soft (Q2 +1.5%), Europe and ASEAN firmer
+    (EZ +0.4% q/q, Malaysia +5.8% y/y), China in contraction (NBS PMI 49.2).
   supporting_evidence:
-    - "Brent ~$97-100/bbl intraday on 23 Jul 2026, a confirmed supply-shock catalyst, but no confirmed Hormuz closure."
-    - "Eurozone core CPI 2.4% and Malaysia CPI 1.9% (both pre-shock) show cores were contained going in."
+    - "2026-08-03: Brent Oct settled $87.93 on 31 Jul (Sep expired $90.12; July +24%), then gapped to ~$83.84 on the Sunday reopen (Trading Economics live, ~23:00 UTC 2 Aug) — inside, not through, the lower end of a wide range."
+    - "2026-08-03: OPEC+ +188k b/d for September completes the 1.65m b/d voluntary unwind, then PAUSES for Q4; ~2m b/d of 2022-vintage cuts remain as an unused buffer. Next meeting 6 Sep (OPEC Secretariat, 2 Aug)."
+    - "2026-08-03: three hawkish holds delivered in 26 hours (Fed 9-3 29 Jul, BoE 6-3 30 Jul, BOJ 8-1 31 Jul) with hike dissents at all three — a hawkish adjustment PRICED without a hike DELIVERED is precisely this scenario."
+    - "2026-08-03: US Friday closes were an index up / breadth down tape — S&P +0.7% and Nasdaq +1.0% but Russell 2000 -0.5%, Technology -0.76%, Materials -2.21%, AAPL -7.35% against AMZN +15.32%. Chop with dispersion, not a trend."
+    - "2026-07-31: Eurozone Q2 GDP +0.4% q/q beat (no technical recession) and Malaysia Q2 +5.8% y/y — the growth floor under this scenario is real outside the US."
   contradicting_evidence:
-    - "VIX >19 and a synchronised hawkish repricing across Fed/ECB/BOJ on a single session is a faster move than a calm 'base case' would suggest."
+    - "The 30Y at 5.274% (31 Jul close, a new 2007-era high) is this scenario's own stress building internally — a base case that keeps setting cycle highs in the long end is one repricing away from becoming the downside."
+    - "2026-08-03: Iran's Mehr denied Trump's account of the de-escalation ('a new lie') and the Persian Gulf Strait Authority still refuses transit permits — the oil leg of this scenario rests on an unratified arrangement."
+    - "2026-08-03: CFTC COT ref 28 Jul shows BOTH crowded trades got MORE crowded (yen net -163,412, -11,287 w/w; WTI net +120,108, +38,419 w/w) — a chop scenario is fragile when positioning is at an extreme on both sides of it."
   confirmation_signals:
-    - "Flash PMIs (24 Jul) hold up without falling into contraction."
-    - "Oil stalls below $100/bbl rather than pushing through."
+    - "Brent holding a $78-90 range without a breakout in either direction."
+    - "ISM manufacturing (3 Aug, prior 53.3 / cons 54.0) and July payrolls (7 Aug, prior 57k / cons 88-100k) landing near consensus."
+    - "Korea/Taiwan holding >50% of the 31 Jul record gain — a genuine turn rather than a short-covering spasm."
   invalidation_signals:
-    - "A confirmed ceasefire or de-escalation (pushes toward the upside scenario)."
-    - "A new chokepoint disruption, e.g. a confirmed Hormuz incident (pushes toward the downside scenario)."
+    - "A central bank actually delivering a hike (pushes to downside)."
+    - "Brent reclaiming $95 on an Iranian repudiation of the Oman track (pushes to downside)."
+    - "September hike odds fading below 40% on a soft payroll while crude stays low (pushes to upside)."
   next_catalysts:
-    - "Eurozone and US flash PMIs, 24 Jul"
-    - "Japan CPI, 24 Jul"
-    - "Fed meeting, next week"
-    - "BOJ meeting, 30-31 Jul"
-  sensitive_assets: ["energy equities vs. long-duration tech", "USDJPY", "USDMYR"]
-  sensitive_sectors: ["energy", "long-duration/AI-capex tech"]
+    - "ISM Manufacturing, 3 Aug 22:00 MYT"
+    - "US Q2 unit labour costs, 6 Aug"
+    - "US July non-farm payrolls, 7 Aug 20:30 MYT"
+    - "China July trade, 7 Aug"
+    - "OPEC+ meeting, 6 Sep; FOMC 15-16 Sep"
+  sensitive_assets: ["UST 30Y", "Brent", "USDJPY", "Nasdaq 100", "KRW"]
+  sensitive_sectors: ["semiconductors/AI-capex", "energy", "rate-sensitive financials"]
 
 upside:
-  name: de-escalation-relief
-  band: "10-20%"  # HELD 2026-07-31, composition SWAPPED: diplomatic leg worsened (Iran REJECTED the Omani proposal; open exchange on GCC soil - Kuwait base attack) but the PHYSICAL leg improved (partial Hormuz resumption, Qatar LNG cargo, Brent -7% wk, 14-nation Red Sea coalition) and a Hamas disarmament roadmap appeared (unsigned by Israel). Scenario now rests on de-escalation-by-exhaustion, physics over politics. CUT 2026-07-30: invalidation signal FIRED - the strike pause broke (IRGC ballistic missiles at a US airbase in Jordan; reported US counterattacks on Iranian territory); Brent +7.9% to $90.74; RBC "exceedingly skeptical" of a near-term breakthrough. Kept >0 because the Hormuz process survived (three-route compromise concept; Iran showing "some flexibility" per Al Jazeera)
+  name: de-escalation-and-disinflation-relief
+  band: "15-25%"  # RAISED from 10-20% on 2026-08-03. Four confirmation signals fired inside one weekend, three of them confirmed facts rather than market interpretation: the strike cancellation, the Hormuz talks reaching "final stages", the ~5% crude gap, and the completed OPEC+ unwind. Renamed from "de-escalation-relief" because the disinflation channel is now the substantive leg, not the risk-premium unwind
   narrative: >
-    Middle East strikes and Red Sea attacks subside; Brent retraces toward the
-    low-$80s; the hawkish hike odds built up on 23 Jul unwind; AI-capex spending
-    gets reframed by the market as a growth story again rather than a margin risk.
+    The Iran-Oman Hormuz arrangement is ratified and transits recover; Brent falls
+    into the $70s; the energy component that pushed Eurozone HICP energy to +10.0%
+    y/y in July reverses into the August and September prints; September Fed hike
+    pricing fades below 40% on a soft payroll; the long end finally follows the
+    front end lower; AI capex is re-rated as a growth story rather than a margin
+    risk, and the chip complex extends the 31 July reversal.
   supporting_evidence:
-    - "No confirmed Hormuz closure to date — the shock so far is a risk premium, which can unwind quickly on a diplomatic headline."
-    - "2026-07-25/26: US paused strikes on Iran two consecutive days, Iran matched, Oman-mediated direct talks 'made progress' (AP via NPR 26 Jul); Saudi coalition declared its Houthi response 'over' (ToI 25 Jul). Band raised 10-20% -> 15-25% on these confirmation signals firing."
-    - "2026-07-27: pause held a SECOND night; Oman-mediated Hormuz-reopening talks 'making progress'; Brent settled $88.36 (-8.7%, below $90) - the 'Brent <$90' confirmation signal fired; Fed hike odds eased 38% -> ~33-34%; CPC terminal resumed loading. Band raised 15-25% -> 20-30%."
-    - "2026-07-28: THIRD confirmation day - Netanyahu-Trump meeting passed without escalation ('ironclad' Iran-nuclear line, no new strikes announced); pause held 3+ nights; Iran-Oman exchanged CONCRETE Hormuz-management proposals (Gulf Malacca-model w/ voluntary fees vs Iran $1m/ship counter); Brent settled $84.09 (-4.8%, worst 3-day run since Apr 2020); hike odds 31.5% at the close. Band raised 20-30% -> 25-35%."
+    - "2026-08-03 CONFIRMED: a prepared US/Israeli strike package on Iranian ENERGY infrastructure (CBS, 31 Jul 16:54 EDT; Pentagon 'locked and loaded') was CANCELLED by Trump at 23:10 EDT Sat 1 Aug, conditional on Hormuz reopening and denuclearisation, with Israel said to have joined."
+    - "2026-08-03 CONFIRMED: Iran's Araghchi and Baghaei said Iran-Oman Hormuz negotiations are in 'final stages' (IRNA via The New Arab, 2 Aug; Al Jazeera 2 Aug 19:08 UTC); reported architecture is a new route 'neither northern nor southern', entry via the Iranian side and exit through Oman, with a reported 60-day toll-free period."
+    - "2026-08-03 CONFIRMED: allied pressure was applied and appears to have worked — Saudi Crown Prince MbS phoned Trump on 1 Aug; Qatar, UAE, Turkey and Pakistan also pressed for de-escalation."
+    - "2026-08-03 CONFIRMED: OPEC+ completed the 1.65m b/d unwind (2 Aug) — a supply leg independent of the diplomatic one."
+    - "2026-08-03: Brent gapped ~-4.65% to ~$83.84 on the Sunday reopen; gold settled $4,049.10 with July +0.65%, its first monthly gain in five — the haven held while the commodity broke."
   contradicting_evidence:
-    - "2026-07-25: Houthi attack set the Jizan Aramco refinery (400k b/d) ablaze and targeted Yanbu — physical supply damage is now real, not just risk premium."
-    - "2026-07-28: Jizan confirmed SHUT since 27 Jul with tentative restart 15 Aug (Reuters/IIR); Yanbu loadings -40%, 14 berths AIS-dark (Windward); IRGC fired warning shots at 6 vessels; Iran deputy FM: 'any action' to retain strait control - the physical/rhetorical floor under the relief trade."
-    - "US Navy blockade enforcement continues (2 tankers disabled)."
-    - "2026-07-29: INVALIDATION FIRED - IRGC ballistic missiles at a US airbase in Jordan (intercepted); Trump: Iran 'would be hit hard'; Iranian media reported US counterattacks on Iranian territory; Brent settled $90.74 (+7.9%); Houthi missiles at Saudi tanker NCC Ghazal; US sanctioned two Iranian 'safe passage' companies. Band cut 25-35% -> 10-20%."
+    - "2026-08-03: Iran's Mehr news agency denied Tehran requested a ceasefire and called Trump's account 'a new lie'; Iran's defence minister said forces 'will neither be caught off guard nor remain passive'."
+    - "2026-08-03: the Strait is NOT reopened — the Persian Gulf Strait Authority will not issue transit permits until US operations end; Iran launched further drones at Kuwait on 1 Aug (downed)."
+    - "2026-08-03: the LNG carrier Gaslog Shanghai, carrying a Qatari cargo, was struck by an unclaimed projectile near the strait's western entrance on 31 Jul and went AIS-dark — one day after Qatar's first resumed transit in three weeks."
+    - "2026-08-03: CENTCOM's cumulative blockade tally rose to 35 vessels redirected / 2 disabled since 14 Jul (from 9/1 on 22 Jul) — enforcement intensity increased, it did not relax."
+    - "2026-08-03: the US 30Y closed at a NEW 2007-era high (5.274%) on 31 Jul — the long end has not participated in any relief so far."
   confirmation_signals:
-    - "Diplomatic/ceasefire headlines from the Middle East."
-    - "OVX (oil volatility) collapsing from its elevated ~65 level."
+    - "Iran publicly RATIFYING the Oman-mediated Hormuz arrangement (rather than Trump asserting it)."
+    - "Hormuz weekly transit counts recovering toward 60+ (last sourced print: 10 vessels on 23 Jul vs an ~88/day baseline; 82->39 weekly collapse counted mid-July)."
+    - "September Fed hike pricing falling below 40% on a soft 7 Aug payroll."
+    - "Brent sustaining below $80."
   invalidation_signals:
-    - "Any further chokepoint incident."
+    - "Iran repudiating the Oman track, or a resumption of US strikes on Iranian territory."
+    - "Brent reclaiming $95 with no new physical incident."
+    - "Any further chokepoint incident involving a laden tanker or LNG carrier."
   next_catalysts:
-    - "Any Middle East diplomatic development"
-  sensitive_assets: ["Brent/WTI", "gold", "Nasdaq 100"]
-  sensitive_sectors: ["energy (downside for exporters)", "long-duration tech (upside)"]
+    - "The talks Trump announced for Monday 3 Aug — is there Iranian confirmation?"
+    - "Katayama's expected Monday statement on the joint yen intervention"
+    - "US July non-farm payrolls, 7 Aug"
+  sensitive_assets: ["Brent/WTI", "gold", "Nasdaq 100", "UST 10Y/30Y", "USDMYR", "INR"]
+  sensitive_sectors: ["long-duration tech (upside)", "energy equities (downside)", "airlines/transport (upside)", "energy-importer sovereigns"]
 
 downside:
-  name: stagflationary-policy-shock
-  band: "20-30%"  # HELD 2026-07-31, teeth sharpened: ECI +0.9% delivered the hot-wage print; Sept ~63% with dissent blocs at Fed/BoE/BOJ; 30Y 5.21%; EZ energy +10% y/y. But missing legs moved AWAY: Brent -7% wk (needs >$100 sustained) and still no delivered hike. If a Sept hike lands on a +1.5% GDP economy with the long end >5.2%, the policy shock arrives via the CURVE not the barrel - Monday restructure to consider renaming the axis. Raised 2026-07-30: re-armed on three fronts - the talks-collapse leg partially fired (Jordan attack broke the pause); a Fed dissent bloc (3 votes) one hot data print from a majority with Sept ~56% priced; physical capacity degrading on BOTH sides (Jizan shut, Ryazan hit, corridor stopped) while 30Y holds >5% a 15th session. Still requires Brent >$100 sustained + an actual hike - neither yet
+  name: curve-led-policy-shock
+  band: "20-30%"  # HELD 2026-08-03 but RE-SPECIFIED. Renamed from "stagflationary-policy-shock". The old trigger required Brent >$100 sustained AND a delivered hike; the barrel leg has moved decisively AWAY while the curve leg has intensified. Band held rather than cut because the axis was replaced, not weakened — the 30Y made a NEW 2007-era high (5.274%) on the same weekend oil broke
   narrative: >
-    Brent sustains above $100/bbl; the Fed and/or ECB deliver an actual hike
-    rather than just pricing one; the UST 10Y pushes toward 5%; tech re-rates
-    sharply lower; yen disorder (USDJPY already at 40-year lows) forces a
-    BOJ or MOF response.
+    The Fed delivers a September hike onto an economy already growing at +1.5%,
+    with the UST 30Y pushing through 5.5% and the 10Y toward 5%. The shock arrives
+    through the CURVE and the term premium, not through the oil barrel: long-end
+    yields rise on fiscal supply and inflation-credibility concerns rather than on
+    energy, tech re-rates sharply lower on the discount rate, credit spreads
+    finally widen from a firm base, and rate-sensitive sectors (housing, small
+    caps, regional banks) break down. A falling oil price does NOT relieve this —
+    it removes the excuse for the hike being priced as temporary.
   supporting_evidence:
-    - "UST 10Y already at ~4.70%, highest since Jan 2025, with a CNBC piece explicitly flagging a test of 5% as plausible (23 Jul)."
-    - "USDJPY at ~163, weakest yen since 1986, ahead of the 30-31 Jul BOJ meeting."
-    - "Fed 2026 hike odds already ~71% per Polymarket (via Yahoo Finance)."
-    - "2026-07-29: FOMC held 9-3 with THREE dissents for +25bp (Hammack/Kashkari/Logan) and a hawkish Warsh presser; Sept hike ~56% priced. Long yields ROSE on the hold (10Y ~4.68-4.70%). Brent +7.9% to $90.74 on the Jordan attack. Physical supply degrading on two axes: Jizan shut to ~15 Aug + Ryazan refinery hit (Russian runs lowest since 2005) + Black Sea grain corridor full stop. Band raised 10-20% -> 20-30%."
+    - "2026-08-03: UST 30Y closed 31 Jul at 5.274% (+6.8bp), a NEW 2007-era high above Thursday's 5.21%; 10Y 4.743% (+8.1bp); 2Y 4.289%; 2s10s ~+45bp and steepening (Investrade; Advisor Perspectives; investingLive — 3.6bp cross-publisher spread on the 10Y flagged)."
+    - "2026-07-31: US Q2 ECI +0.9% q/q vs +0.8% expected, with real private wages -0.4% y/y — the hot-wage print this scenario named as its trigger has already been delivered (BLS USDL-26-1270)."
+    - "2026-07-29/31: dissent blocs for HIKES exist simultaneously at the Fed (9-3: Hammack, Kashkari, Logan), the BoE (6-3: Greene, Mann, Pill) and the BOJ (8-1: Takata) — three central banks one data print from a majority."
+    - "2026-08-03: US Friday breadth was negative beneath a positive index (Russell -0.5%, Technology -0.76%, Materials -2.21%) — the classic pre-condition for a discount-rate-driven drawdown."
+    - "2026-08-03: BTC spot ETFs saw a -$265.4m net outflow on 31 Jul, the largest since 13 Jul, on an equity UP day — the liquidity proxy stopped confirming the risk trade."
   contradicting_evidence:
-    - "No central bank has actually hiked yet — this scenario requires a step beyond the current pricing, not just a continuation of it."
-    - "2026-07-25/26: US-Iran mutual strike pause and progressing talks lean against this scenario; band trimmed 20-30% -> 15-25%. It re-arms fast on a July FOMC hike, a talks collapse, or a hot PCE/ECI/Australia-CPI run."
+    - "No central bank has actually hiked. This scenario still requires a step beyond current pricing, not a continuation of it."
+    - "2026-08-03: September hike odds are UNQUOTABLE this run — sourced readings of 72.3%, 55.9%, ~60% (29 Jul), 'roughly two-thirds, down from near 80%' (31 Jul) and 34.4% (2 Aug) are mutually inconsistent measures. The desk cannot currently state whether the hike is being priced in or out."
+    - "2026-08-03: the energy leg moved AWAY — Brent ~$84 live and falling, OPEC+ adding barrels, Henry Hub -17% in July. Headline inflation should decelerate into August/September prints."
+    - "2026-08-03: credit gave no stress signal at the last sourced print (HY OAS 287bp, 29 Jul obs); no Friday credit print was sourced — a gap, not a clean signal."
   confirmation_signals:
-    - "A new chokepoint disruption (e.g. a confirmed Hormuz incident)."
-    - "A hot Japan or US inflation print."
-    - "PMI price sub-indices rising while output/new-orders components fall (a classic stagflation signature)."
+    - "UST 30Y sustaining above 5.5%."
+    - "A hot Q2 unit-labour-costs print (6 Aug) following the ECI."
+    - "July payrolls above 150k with hot average hourly earnings (7 Aug)."
+    - "HY OAS widening through 320bp, or HYG underperforming LQD on consecutive down days."
+    - "A delivered 25bp hike at the 15-16 Sep FOMC."
   invalidation_signals:
-    - "A confirmed de-escalation or a dovish central-bank surprise."
+    - "A sub-50k July payroll dragging September pricing below 30%."
+    - "The 30Y breaking back below 5.0%."
+    - "A dovish shift in Fed communication from the three dissenters."
   next_catalysts:
-    - "Fed meeting, next week"
-    - "BOJ meeting, 30-31 Jul"
-    - "Any further Red Sea/Hormuz incident"
-  sensitive_assets: ["UST 10Y/30Y", "USDJPY", "Nasdaq 100", "gold"]
-  sensitive_sectors: ["long-duration tech", "rate-sensitive financials", "housing"]
+    - "US Q2 productivity & unit labour costs, 6 Aug"
+    - "US July non-farm payrolls, 7 Aug 20:30 MYT"
+    - "Fedspeak: Cook and Daly 5 Aug, Barkin 7 Aug"
+    - "FOMC 15-16 Sep"
+  sensitive_assets: ["UST 10Y/30Y", "Nasdaq 100", "Russell 2000", "gold", "HY credit", "USDJPY"]
+  sensitive_sectors: ["long-duration tech", "housing/homebuilders", "regional banks", "small caps", "REITs"]
+
+cross_cutting_axes:
+  - name: ai-capex-and-chip-cycle
+    added: 2026-08-03
+    status: "resolved violently upward on 31 Jul; NOT yet confirmed by the US tape"
+    why_not_a_fourth_scenario: >
+      The board's schema is base/upside/downside and this axis modifies all three
+      rather than competing with them: it can accelerate the base case's chop into
+      a melt-up, supply the upside's equity leg, or become the downside's
+      transmission channel if a discount-rate shock hits the most duration-heavy
+      part of the market. Recording it here closes the coverage_gap_note carried
+      since 2026-07-29 without manufacturing a false probability band.
+    supporting_evidence:
+      - "2026-07-31: Kospi +17.91% (largest single-day gain in KRX history), TAIEX +7.98% (largest-ever point gain), SK Hynix +29.8% limit-up, Samsung +27.05%, TSMC +10% limit-up; record foreign buying (~W7.25-7.57tn / NT$67.6bn)."
+      - "2026-08-03: Korea July exports US$98.89bn (+62.8% y/y), imports $68.56bn (+26.5%), surplus US$30.32bn — semiconductor-led. This is the FUNDAMENTAL receipt behind the price move, not a squeeze artefact. (Growth rate flatters on base effects; the surplus LEVEL is the signal.)"
+      - "2026-07-30/31: MSFT +15% (Azure >$100bn run-rate), AMZN AWS +37% (fastest in 18 quarters); cumulative 2026 hyperscaler capex guides ~$720-745bn."
+    contradicting_evidence:
+      - "2026-08-03: the US session did NOT confirm Asia's melt-up — SOX closed +0.07% on 31 Jul after +8.19% on 30 Jul, MU -5.90% giving back a third of Thursday's +18.4%, and S&P Technology closed -0.76% on a day the index rose."
+      - "2026-07-31: the record Asian session carried mechanical accelerants — a buy-side sidecar halt at 09:06, limit-up constraints, and a reported fund-liquidation squaring — which argue for a short-covering component of unknown size."
+      - "2026-07-31: China remains the exception — CSI 300 -7.9% in July (worst since Jul 2021), STAR 50 -25.9% (worst on record), NBS manufacturing PMI 49.2."
+    confirmation_signals:
+      - "Korea/Taiwan holding >50% of the 31 Jul gain over the following week."
+      - "SOX confirming in a US cash session rather than only in Asian hours."
+      - "A second month of Korean chip-led export strength (Sep 1 print)."
+    invalidation_signals:
+      - "A >50% give-back of the 31 Jul move in Korea/Taiwan."
+      - "A hyperscaler capex guide-down, or a second AAPL/META-style margin warning."
+    sensitive_assets: ["Kospi", "TAIEX", "SOX", "Nasdaq 100", "KRW", "TWD", "Bursa technology index"]
+    sensitive_sectors: ["semiconductors", "AI hardware", "cloud/hyperscalers", "Malaysian E&E"]

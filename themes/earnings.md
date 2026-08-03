@@ -3,7 +3,7 @@ theme: earnings
 status: heating
 confidence: high
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: mixed
 status_change_reason: "2026-07-31: MSFT (+15%, Azure >$100bn run-rate), AMZN (AWS +37%, fastest in 18 qtrs), AAPL (beat, but ~85% of EPS beat was a tariff refund and FQ4 guided below consensus) - AI-capex demand re-validated for the season; hyperscaler 2026 capex guides cumulate to ~$720-745bn; the margin question (META -8%, AAPL guide) is now the axis"
 sensitive_assets: ["Nasdaq 100", "mega-cap tech", "semiconductor equities"]

@@ -3,7 +3,7 @@ theme: credit
 status: stable
 confidence: medium
 first_opened: 2026-07-26
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: dormant
 status_change_reason: "First sourced credit-spread data via FRED (IG/HY OAS) - gap closed after 3 runs of insufficient data"
 sensitive_assets: ["IG spreads", "HY spreads", "sovereign spreads"]

@@ -17,3 +17,7 @@ date,asset,metric,value,unit,venue_source,notes
 2026-07-31,ETH,spot ETF net flow,+12.8,USD millions,Farside,"Thu 30 Jul flows: ETHA +16.2"
 2026-07-31,BTC,spot price,63652,USD,Yahoo Finance 31 Jul 13:06 UTC (LIVE),"-1.7% d/d, -0.5% w/w, +7.6% m/m; Thu close ~64724"
 2026-07-31,ETH,spot price,1877.52,USD,Yahoo Finance 31 Jul 13:06 UTC (LIVE),"-2.1% d/d, +2.1% w/w, +19.1% m/m"
+2026-07-31,BTC,US spot ETF net flow,-265.4,USD m,"Farside Investors, accessed 2026-08-02","Largest single-day outflow since 13 Jul, on an equity UP day (S&P +0.7%). IBIT -122.7, FBTC -54.8, GBTC -52.6, BITB -17.8, ARKB -17.5. Week to 31 Jul -61.53; July total +172.4 (breaking a two-month outflow streak). Prior days: 30 Jul +233.1, 29 Jul +32.1, 28 Jul -49.7, 27 Jul -11.6"
+2026-07-31,ETH,US spot ETF net flow,+9,USD m,"Crypto Times citing Farside, 2026-08-01",Week +27.42; July +365.2 - ETH flows extended their winning streak while BTC flows reversed
+2026-08-02,ETH,Spot price,1868.96,USD,"MetaMask price page, dated 2026-08-02","+0.09% 24h, -0.60% 7d; 24h range 1,824.83-1,879.37. The only crypto print this run carrying an unambiguous weekend date"
+2026-08-02,BTC,Spot price (indicative),62895.50,USD,"The Block live ticker, no explicit timestamp shown","Indicative only - no BTC quote carried an unambiguous Sat 1 or Sun 2 Aug timestamp. Range held ~62.6-62.9k from Friday through the weekend. CoinDesk 31 Jul 10:15 EDT had 62,635.45 (Friday intraday, not a weekend print)"

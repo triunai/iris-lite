@@ -3,7 +3,7 @@ theme: trade-policy
 status: heating
 confidence: high
 first_opened: 2026-07-26
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: dormant
 status_change_reason: "US tariffs implemented 24-25 Jul: 10%/12.5% on ~60 partners covering ~99% of US imports"
 sensitive_assets: ["sector-specific equities of directly targeted industries", "affected countries' FX"]

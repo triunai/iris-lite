@@ -1,11 +1,11 @@
 ---
 theme: geopolitics
-status: heating
-confidence: high
+status: mixed
+confidence: medium
 first_opened: 2026-07-24
-last_reviewed: 2026-07-31
+last_reviewed: 2026-08-03
 previous_status: heating
-status_change_reason: "2026-07-31: war now open and mutual on GCC soil - US struck dozens of IRGC targets on Iranian territory (Qeshm/Kish/Abadan), Iran hit Ahmad Al-Jaber airbase Kuwait (+ Jordan/Bahrain reports); Iran REJECTED the Omani Hormuz proposal; Russian missile detonated inside Poland; Hamas disarmament roadmap announced but unsigned by Israel"
+status_change_reason: "2026-08-03: genuinely two-directional for the first time in three weeks. DE-ESCALATION: Trump cancelled the prepared US/Israeli strike package on Iranian energy infrastructure at 23:10 EDT Sat 1 Aug, conditional on Hormuz reopening + denuclearisation; Iran-Oman Hormuz talks in 'final stages' (Araghchi/Baghaei, 2 Aug); allied pressure from MbS/Qatar/UAE/Turkey/Pakistan. COUNTER: Iran's Mehr denies the framing ('a new lie'), the Strait Authority still refuses transit permits, further Iranian drones at Kuwait Sat, LNG carrier Gaslog Shanghai struck 31 Jul. Separately Russia-Ukraine ESCALATED hard (Ufa/Bashneft >23mt/yr, Rosneft Saratov, Nizhnekamsk, Engels bomber base; Yanina sunk; Kyiv 35 missiles/185 drones, 9 killed)"
 sensitive_assets: ["Brent/WTI", "gold", "defense equities", "shipping/freight"]
 sensitive_sectors: ["energy", "defense/aerospace", "shipping/logistics"]
 next_catalysts: ["any new Red Sea/Hormuz incident or ceasefire headline", "Russia-Ukraine ceasefire/escalation news", "Taiwan Strait developments", "India-China or India-Pakistan border news"]
@@ -48,3 +48,17 @@ RE-ESCALATION — the three-day de-escalation run ended: IRGC fired ballistic mi
 ## Observation 2026-07-31
 
 Widest escalation week of the cycle, yet Brent fell >7% w/w (see 07-31 brief 4a six-part divergence - cause unresolved: transit resumption / OPEC+ spare / positioning unwind / expiry, unranked). Hormuz weekly transits 82 -> 39 (Lloyd's List via aggregator). Saudi-led Red Sea coalition: 14 national pledges. Russia-Ukraine: Perm + Ryazan refineries down, corridor halted day 9, Poland missile detonation on NATO soil without market print sourced. Sources: Al Jazeera 30-31 Jul; Just Security; Drop Site; Meduza/Reuters; 10things.news.
+
+## Observation 2026-08-03 — the de-escalation is asserted, not agreed
+
+**Confirmed facts:** a US/Israeli strike package on Iranian *energy* infrastructure was prepared Friday 31 Jul (CBS, 16:54 EDT), with explicit internal discussion of concluding operations before markets opened Monday; Pentagon spokesman Parnell said the department was "locked and loaded." Trump cancelled it at 23:10 EDT Sat 1 Aug (Truth Social via ABC liveblog), conditional on "Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT" and an end to the nuclear threat, saying Israel had joined. Saudi Crown Prince MbS phoned Trump Saturday; Qatar, UAE, Turkey and Pakistan also pressed for de-escalation.
+
+**Contradicting, same-weekend, equally sourced:** Iran's Mehr denied Tehran requested a ceasefire and called Trump's account "a new lie"; the Persian Gulf Strait Authority will not issue transit permits until US operations end; Iran launched further drones at Kuwait on Sat 1 Aug (downed); the LNG carrier Gaslog Shanghai, carrying a Qatari cargo, was struck by an unclaimed projectile near the strait's western entrance on 31 Jul. CENTCOM's cumulative blockade tally reached 35 vessels redirected / 2 disabled since 14 Jul (from 9/1 on 22 Jul).
+
+**Reported deal architecture (unsigned):** a new maritime route "neither northern nor southern," ships entering via the Iranian side and exiting through Oman, with a reported 60-day toll-free transit period; Oman seeking IRGC guarantees.
+
+**Read:** the ~5% weekend crude gap is priced off one side's version of events. The invalidation is specific and near-term — Iranian repudiation of the Oman track.
+
+**Russia-Ukraine, escalating in parallel:** Ufa/Bashneft cluster (>23mt/yr), Rosneft's Saratov (~7mt/yr), Nizhnekamsk petrochemicals, Lyudinovo depot and the Engels strategic bomber base all struck 31 Jul-2 Aug; the sanctioned container ship Yanina sunk near Novorossiysk; Russia claims 635 drones downed. Russia hit Kyiv with 35 missiles and 185 drones, 9 killed, Lithuanian Embassy damaged, only 1 of 27 ballistic missiles intercepted (Patriot interceptor shortage). Poland confirmed the Tarnawa-Kolonia object as a Kh-101 built in Q2 2026 and summoned Russia's ambassador; no Article 4 invocation.
+
+**Sources:** CBS News 31 Jul 16:54 EDT and 1 Aug 22:44 EDT; ABC News liveblog 1 Aug 23:10 EDT; Axios 2 Aug; Al Jazeera 1 Aug 12:44 Tehran and 2 Aug 19:08 UTC; The New Arab 2 Aug 09:29 +0100; Iran International liveblog 2 Aug; ISW/Critical Threats Iran Update and Russian Offensive Campaign Assessment, both 1 Aug; Euromaidan Press 2 Aug 11:42 UTC; Kyiv Independent 1 Aug 17:29; France24 1 Aug; HNGN 1 Aug; ROC MND via GlobalSecurity 2 Aug.
